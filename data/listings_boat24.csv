@@ -1,8 +1,8 @@
 source,id,title,category,loa,year,price,currency,location,url
-boat24,688365,Hanse 345,Sailing yacht,10.45,2014,115000,CHF,Walensee » Unterterzen,https://www.boat24.ch/chen/sailingboats/hanse/hanse-345/detail/688365/
+boat24,425936,Trad. Cruiser Racer,Bluewater yacht,11.03,1978,30500,CHF,Lake Constance » Goldach / SG,https://www.boat24.ch/chen/sailingboats/trad-cruiser-racer/detail/425936/
+boat24,749185,Wauquiez Pilot Saloon 48,Bluewater yacht,14.77,2018,480300,CHF,"Croatia » Split-Dalmatia » Marina ""Frapa"" Rogoznica",https://www.boat24.ch/chen/sailingboats/wauquiez/wauquiez-pilot-saloon-48/detail/749185/
 boat24,709087,Katamaran,"Catamaran, Sailing superyacht, Sailing yacht",22.40,2023,499900,CHF,Spain » Costa Barcelona » Torredembarra,https://www.boat24.ch/chen/sailingboats/katamaran/detail/709087/
-boat24,747893,Rommel YBG EINSTEIN,Motorsailer,9.80,1996,64000,CHF,Lake Neuchâtel » Estavayer-le-Lac,https://www.boat24.ch/chen/sailingboats/rommel/rommel-ybg-einstein/detail/747893/
-boat24,699397,Eliminator 32,"Keelboat, Sailing yacht",9.86,1980,20000,CHF,Lake Neuchâtel » 1588 Cudrefin,https://www.boat24.ch/chen/sailingboats/eliminator-32/detail/699397/
+boat24,748081,RS Quest,"Dinghy cruiser, Racing boat, Sailing dinghy",4.29,2019,6000,CHF,Luganersee » Lugano,https://www.boat24.ch/chen/sailingboats/rs/rs-quest/detail/748081/
 boat24,700435,Archambault Surprise 1ères génération,"Keelboat, Racing boat",7.65,1985,2500,CHF,Genève,https://www.boat24.ch/chen/sailingboats/archambault/archambault-surprise-1eres-generation/detail/700435/
 boat24,701060,Beneteau First 24,"Motorsailer, Sailing dinghy, Sailing yacht",7.30,1984,3000,CHF,Switzerland,https://www.boat24.ch/chen/sailingboats/beneteau/beneteau-first-24/detail/701060/
 boat24,665518,Schöchl Sunbeam 25,Sailing yacht,7.62,1992,25000,CHF,Lago Maggiore » Muralto,https://www.boat24.ch/chen/sailingboats/schoechl/schoechl-sunbeam-25/detail/665518/
@@ -23,9 +23,9 @@ boat24,612117,Vindö 40,Sailing yacht,9.60,1975,19000,CHF,Lake Murten » Murten,
 boat24,745509,Paul Gartside Nr.93 Gaffelkutter,Daysailer,5.50,2012,21500,CHF,Niederweningen ZH,https://www.boat24.ch/chen/sailingboats/paul-gartside-nr93-gaffelkutter/detail/745509/
 boat24,448057,Colvic UFO 34 Z 88,Sailing yacht,10.36,1982,1000,CHF,Switzerland » Lake Geneva,https://www.boat24.ch/chen/sailingboats/colvic/colvic-ufo-34-z-88/detail/448057/
 boat24,336842,Toucan Cabine,"Daysailer, Racing boat, Sailing yacht",10.50,1975,25000,CHF,Altnau TG,https://www.boat24.ch/chen/sailingboats/toucan-cabine/detail/336842/
-boat24,607942,J Europe J 105,"Classic sailing yacht, Daysailer, Racing boat",10.50,2006,39000,CHF,Lake Constance » Arbon,https://www.boat24.ch/chen/sailingboats/j-europe/j-europe-j-105/detail/607942/
 boat24,731345,Archambault Sprinto,Keelboat,6.60,2001,6000,CHF,Lake Geneva » Lausanne,https://www.boat24.ch/chen/sailingboats/archambault/archambault-sprinto/detail/731345/
-boat24,745166,Jeanneau Sun Odyssey 389,Motorsailer,12.00,2018,124000,CHF,Lake Neuchâtel » Auvernier,https://www.boat24.ch/chen/sailingboats/jeanneau/jeanneau-sun-odyssey-389/detail/745166/
+boat24,688365,Hanse 345,Sailing yacht,10.45,2014,115000,CHF,Walensee » Unterterzen,https://www.boat24.ch/chen/sailingboats/hanse/hanse-345/detail/688365/
+boat24,747893,Rommel YBG EINSTEIN,Motorsailer,9.80,1996,64000,CHF,Lake Neuchâtel » Estavayer-le-Lac,https://www.boat24.ch/chen/sailingboats/rommel/rommel-ybg-einstein/detail/747893/
 boat24,739468,RS Cat 16 XL,Catamaran,4.70,2015,2995,CHF,Switzerland » Lac de Joux,https://www.boat24.ch/chen/sailingboats/rs/rs-cat-16-xl/detail/739468/
 boat24,217810,Bianca 320,Sailing yacht,9.75,1987,34000,CHF,Lago Maggiore » Locarno,https://www.boat24.ch/chen/sailingboats/bianca/bianca-320/detail/217810/
 boat24,713561,Robertson&Caine Leopard 47,Catamaran,14.27,2001,98200,CHF,Bahamas » Abacos,https://www.boat24.ch/chen/sailingboats/robertsoncaine/robertsoncaine-leopard-47/detail/713561/
@@ -46,10 +46,8 @@ boat24,723691,Archambault Surprise,Racing boat,7.65,1991,18000,CHF,Lake Geneva �
 boat24,673712,Farrier F82R,Trimaran,8.25,2019,79000,CHF,Domizilboot,https://www.boat24.ch/chen/sailingboats/farrier/farrier-f82r/detail/673712/
 boat24,587284,Reinke Super 11,"Bluewater yacht, Motorsailer, Sailing yacht",,2018,91500,CHF,France » Côte d'Azur » Port de Bouc,https://www.boat24.ch/chen/sailingboats/reinke/reinke-super-11/detail/587284/
 boat24,748343,Coronado 25,"Keelboat, Sailing yacht",7.60,1972,2000,CHF,Lake Lucerne » Kehrsiten,https://www.boat24.ch/chen/sailingboats/coronado/coronado-25/detail/748343/
+boat24,750872,Bali Catspace,Catamaran,12.30,2024,341800,CHF,Croatia » Sibenik-Knin » D-Marina,https://www.boat24.ch/chen/sailingboats/bali/bali-catspace/detail/750872/
 boat24,735427,Schuchter Esse850,"Keelboat, Racing boat, Sailing yacht",8.50,2004,25900,CHF,Germany » Lake Constance,https://www.boat24.ch/chen/sailingboats/schuchter/schuchter-esse850/detail/735427/
-boat24,733051,Schuchter ESSE 850,Racing boat,8.50,2008,25000,CHF,Lago Maggiore » Ascona,https://www.boat24.ch/chen/sailingboats/schuchter/schuchter-esse-850/detail/733051/
-boat24,749185,Wauquiez Pilot Saloon 48,Bluewater yacht,14.77,2018,480300,CHF,"Croatia » Split-Dalmatia » Marina ""Frapa"" Rogoznica",https://www.boat24.ch/chen/sailingboats/wauquiez/wauquiez-pilot-saloon-48/detail/749185/
-boat24,731515,Dehler 35CR,Sailing yacht,10.50,1997,80000,CHF,Lake Constance » Arbon,https://www.boat24.ch/chen/sailingboats/dehler/dehler-35cr/detail/731515/
 boat24,623534,Luthi F10,Racing boat,10.00,2014,160000,CHF,Lake Geneva » Chantier naval Luthi,https://www.boat24.ch/chen/sailingboats/luthi/luthi-f10/detail/623534/
 boat24,745020,Portier Yngling,"Keelboat, Racing boat, Sailing yacht",6.35,1974,200,CHF,Pfäffikersee » Pfäffikon,https://www.boat24.ch/chen/sailingboats/portier/portier-yngling/detail/745020/
 boat24,704358,Hanse 375,Sailing yacht,11.35,2011,75000,CHF,Lago Maggiore » Porto Patriziale Ascona,https://www.boat24.ch/chen/sailingboats/hanse/hanse-375/detail/704358/
@@ -69,9 +67,9 @@ boat24,737835,IW-Varvet Sparkman & Stephens IW40,"Bluewater yacht, Classic saili
 boat24,749193,Reinke Super Secura,"Bluewater yacht, Center cockpit, Sailing yacht",11.30,1994,14000,CHF,Mexico » Isla Mujeres,https://www.boat24.ch/chen/sailingboats/reinke/reinke-super-secura/detail/749193/
 boat24,721028,Panther Craft Dart 18,Catamaran,5.50,,1990,CHF,Lake Zurich » Feldbach,https://www.boat24.ch/chen/sailingboats/panther-craft/panther-craft-dart-18/detail/721028/
 boat24,748423,Wilke Finn,Sailing dinghy,4.53,2011,5900,CHF,Switzerland » Lake Thun,https://www.boat24.ch/chen/sailingboats/wilke/wilke-finn/detail/748423/
-boat24,566885,Tore Holm Nordischer Kreuzer 5 1/2,Classic sailing yacht,10.80,1953,4900,CHF,Lake Neuchâtel » St. Aubin,https://www.boat24.ch/chen/sailingboats/tore-holm/tore-holm-nordischer-kreuzer-5-12/detail/566885/
-boat24,744077,Sparkman & Stephens 42 (Westphal),"Bluewater yacht, Center cockpit, Classic sailing yacht",12.57,1964,65000,CHF,"Italy » Capo d'Orlando, Sizilien",https://www.boat24.ch/chen/sailingboats/sparkman-stephens-42-westphal/detail/744077/
-boat24,749688,Beneteau First 26,Sailing yacht,7.70,1987,3500,CHF,Lake Geneva » Genève Port Noir,https://www.boat24.ch/chen/sailingboats/beneteau/beneteau-first-26/detail/749688/
+boat24,731515,Dehler 35CR,Sailing yacht,10.50,1997,80000,CHF,Lake Constance » Arbon,https://www.boat24.ch/chen/sailingboats/dehler/dehler-35cr/detail/731515/
+boat24,607942,J Europe J 105,"Classic sailing yacht, Daysailer, Racing boat",10.50,2006,39000,CHF,Lake Constance » Arbon,https://www.boat24.ch/chen/sailingboats/j-europe/j-europe-j-105/detail/607942/
+boat24,747567,MacGregor 26M,Motorsailer,7.87,2007,22000,CHF,Luganersee » Lugano,https://www.boat24.ch/chen/sailingboats/macgregor/macgregor-26m/detail/747567/
 boat24,654872,Fisher 25 Ketch,"Ketch, Motorsailer",7.62,1999,45000,CHF,NOVILLE - Chantier du vieux Rhône,https://www.boat24.ch/chen/sailingboats/fisher-25-ketch/detail/654872/
 boat24,688345,Moody 42cc,"Bluewater yacht, Center cockpit, Ketch",12.68,1980,46200,CHF,Grenada » Prickly Bay,https://www.boat24.ch/chen/sailingboats/moody/moody-42cc/detail/688345/
 boat24,223957,Luthi Paladin Z2,Classic sailing yacht,10.50,1972,20000,CHF,Lake Geneva » La Tour-de-Peilz,https://www.boat24.ch/chen/sailingboats/luthi/luthi-paladin-z2/detail/223957/
@@ -92,7 +90,6 @@ boat24,717109,Archambault Surprise,Racing boat,7.65,1987,9990,CHF,Lake Geneva »
 boat24,735113,Rydgeway Prelude,Sailing yacht,5.86,1974,100,CHF,Olten,https://www.boat24.ch/chen/sailingboats/rydgeway/rydgeway-prelude/detail/735113/
 boat24,747668,Bavaria 890,Sailing yacht,8.94,1982,20900,CHF,Walensee » Mühlehorn,https://www.boat24.ch/chen/sailingboats/bavaria/bavaria-890/detail/747668/
 boat24,745030,Bavaria Cruiser 32,Sailing yacht,9.99,2010,,,Austria » Lake Constance » Lochau,https://www.boat24.ch/chen/sailingboats/bavaria/bavaria-cruiser-32/detail/745030/
-boat24,701652,Jeanneau Sun Odyssey 47,"Bluewater yacht, Classic sailing yacht, Sailing yacht",14.00,1993,110900,CHF,"Greece » Greece, Nidri",https://www.boat24.ch/chen/sailingboats/jeanneau/jeanneau-sun-odyssey-47/detail/701652/
 boat24,741517,Jeanneau Daysailer Brio Q,Daysailer,6.60,1980,10000,CHF,Lake Neuchâtel » Portalban,https://www.boat24.ch/chen/sailingboats/jeanneau/jeanneau-daysailer-brio-q/detail/741517/
 boat24,694475,Furer Merian,Sailing yacht,10.10,1996,110000,CHF,Kohlenweiher/Thun Bahnhof,https://www.boat24.ch/chen/sailingboats/furer/furer-merian/detail/694475/
 boat24,735138,Wanderer,"Daysailer, Sailing dinghy",4.30,1990,4500,CHF,Lake Geneva » Rolle,https://www.boat24.ch/chen/sailingboats/wanderer/detail/735138/
@@ -110,9 +107,10 @@ boat24,689629,Sirius 35 DS,"Bluewater yacht, Deck saloon, Sailing yacht",10.60,2
 boat24,732185,Lars Olsen L 29,Sailing yacht,8.80,,21900,CHF,Switzerland » Lake Constance,https://www.boat24.ch/chen/sailingboats/lars-olsen/lars-olsen-l-29/detail/732185/
 boat24,746333,Oldtimer Einzelbau,"Daysailer, Sailing dinghy",5.80,1950,1800,CHF,Baden,https://www.boat24.ch/chen/sailingboats/oldtimer-einzelbau/detail/746333/
 boat24,749850,Beneteau Oceanis 473,Sailing yacht,15.20,2004,97000,CHF,France » Provence-Alpes-Côte d’Azur » La Seyne sur Mer,https://www.boat24.ch/chen/sailingboats/beneteau/beneteau-oceanis-473/detail/749850/
+boat24,745166,Jeanneau Sun Odyssey 389,Motorsailer,12.00,2018,124000,CHF,Lake Neuchâtel » Auvernier,https://www.boat24.ch/chen/sailingboats/jeanneau/jeanneau-sun-odyssey-389/detail/745166/
 boat24,445768,Bavaria 32 Cruiser,Sailing yacht,10.30,2005,52000,CHF,Lake Constance » Arbon,https://www.boat24.ch/chen/sailingboats/bavaria/bavaria-32-cruiser/detail/445768/
-boat24,748081,RS Quest,"Dinghy cruiser, Racing boat, Sailing dinghy",4.29,2019,6000,CHF,Luganersee » Lugano,https://www.boat24.ch/chen/sailingboats/rs/rs-quest/detail/748081/
-boat24,425936,Trad. Cruiser Racer,Bluewater yacht,11.03,1978,30500,CHF,Lake Constance » Goldach / SG,https://www.boat24.ch/chen/sailingboats/trad-cruiser-racer/detail/425936/
+boat24,566885,Tore Holm Nordischer Kreuzer 5 1/2,Classic sailing yacht,10.80,1953,4900,CHF,Lake Neuchâtel » St. Aubin,https://www.boat24.ch/chen/sailingboats/tore-holm/tore-holm-nordischer-kreuzer-5-12/detail/566885/
+boat24,733051,Schuchter ESSE 850,Racing boat,8.50,2008,25000,CHF,Lago Maggiore » Ascona,https://www.boat24.ch/chen/sailingboats/schuchter/schuchter-esse-850/detail/733051/
 boat24,745766,Quant Q23 Scow Foiler,"Daysailer, Racing boat, Sailing dinghy",7.08,2016,22000,CHF,"1426,3177",https://www.boat24.ch/chen/sailingboats/quant/quant-q23-scow-foiler/detail/745766/
 boat24,701649,Jantar 21,"Daysailer, Keelboat, Sailing yacht",6.25,1990,4900,CHF,St. Aubin (FR),https://www.boat24.ch/chen/sailingboats/jantar/jantar-21/detail/701649/
 boat24,743969,Olsen 31,Sailing yacht,9.50,2002,32000,CHF,Lake Constance » Rorschach,https://www.boat24.ch/chen/sailingboats/olsen/olsen-31/detail/743969/
@@ -132,7 +130,6 @@ boat24,683657,Luthi 8.70,"Daysailer, Keelboat, Racing boat",8.70,2010,49500,CHF,
 boat24,746881,Marieholm Folkboat International,Sailing yacht,7.85,1973,3500,CHF,Lake Geneva » Corsier Port,https://www.boat24.ch/chen/sailingboats/marieholm/marieholm-folkboat-international/detail/746881/
 boat24,737178,Gazelle des sables,Sailing dinghy,2.70,2020,5100,CHF,Lake Neuchâtel » à terre,https://www.boat24.ch/chen/sailingboats/gazelle-des-sables/detail/737178/
 boat24,665644,Dufour Gib Sea 37,"Bluewater yacht, Sailing yacht",10.98,2002,60000,CHF,Spain » Alicante,https://www.boat24.ch/chen/sailingboats/dufour/dufour-gib-sea-37/detail/665644/
-boat24,750872,Bali Catspace,Catamaran,12.30,2024,341800,CHF,Croatia » Sibenik-Knin » D-Marina,https://www.boat24.ch/chen/sailingboats/bali/bali-catspace/detail/750872/
 boat24,645388,Colin Archer 40,"Bluewater yacht, Center cockpit, Keelboat",11.98,1985,69300,CHF,Sweden,https://www.boat24.ch/chen/sailingboats/colin-archer/colin-archer-40/detail/645388/
 boat24,739322,Bjørn Olsen Olsen 31,Sailing yacht,9.50,1986,27000,CHF,Lake Constance » Romanshorn,https://www.boat24.ch/chen/sailingboats/bjorn-olsen/bjorn-olsen-olsen-31/detail/739322/
 boat24,658898,Philippe Kolly Espadon,Keelboat,9.60,2017,58000,CHF,"Lake Geneva » Tannay, VD, chantier naval Philippe Kolly",https://www.boat24.ch/chen/sailingboats/philippe-kolly-espadon/detail/658898/
@@ -152,9 +149,6 @@ boat24,704975,Mader Korsar,Sailing dinghy,5.00,1962,1500,CHF,Hallwilersee » Bei
 boat24,551353,Albin Vega 27,"Classic sailing yacht, Keelboat, Sailing yacht",8.25,1971,5000,CHF,Bielersee » Biel,https://www.boat24.ch/chen/sailingboats/albin/albin-vega-27/detail/551353/
 boat24,730114,JPK Composites JPK 998,Racing boat,9.98,2015,120000,CHF,Lake Geneva » Société Nautique de Genève,https://www.boat24.ch/chen/sailingboats/jpk-composites/jpk-composites-jpk-998/detail/730114/
 boat24,622846,Dehler Duetta 86 LS,Sailing yacht,8.60,1982,19999,CHF,Lake Constance » Rorschach,https://www.boat24.ch/chen/sailingboats/dehler/dehler-duetta-86-ls/detail/622846/
-boat24,311678,Etap 35i,Sailing yacht,10.60,1992,75000,CHF,"Lake Constance » Marina Rheinhof, Altenrhein SG",https://www.boat24.ch/chen/sailingboats/etap/etap-35i/detail/311678/
-boat24,747567,MacGregor 26M,Motorsailer,7.87,2007,22000,CHF,Luganersee » Lugano,https://www.boat24.ch/chen/sailingboats/macgregor/macgregor-26m/detail/747567/
-boat24,734423,Genzel Phantom 29,Sailing yacht,9.00,1973,9900,CHF,Lake Constance » Steckborn,https://www.boat24.ch/chen/sailingboats/genzel/genzel-phantom-29/detail/734423/
 boat24,689626,Pirat-Jolle,"Classic sailing yacht, Sailing dinghy",5.00,1960,4500,CHF,Lake Constance » Uttwil TG,https://www.boat24.ch/chen/sailingboats/pirat-jolle/detail/689626/
 boat24,737712,A-Cat Scheurer G6,Racing boat,,2013,5000,CHF,Lake Geneva » Société Nautique de Genève,https://www.boat24.ch/chen/sailingboats/a-cat-scheurer-g6/detail/737712/
 boat24,736817,Moser M1,Daysailer,7.03,1983,3900,CHF,Zürichsee,https://www.boat24.ch/chen/sailingboats/moser/moser-m1/detail/736817/
@@ -172,12 +166,14 @@ boat24,737016,Beneteau First Class 8,"Racing boat, Sailing yacht",7.72,1986,7800
 boat24,751064,Colvic Ardleigh Ufo 31,Keelboat,9.40,1979,8700,CHF,Lake Geneva » Genève,https://www.boat24.ch/chen/sailingboats/colvic/colvic-ardleigh-ufo-31/detail/751064/
 boat24,626736,Maxus 24,"Classic sailing yacht, Racing boat, Sailing dinghy",7.60,2014,31900,CHF,St Sulpice,https://www.boat24.ch/chen/sailingboats/maxus/maxus-24/detail/626736/
 boat24,749722,Bavaria 34,Sailing yacht,10.40,1987,34800,CHF,Switzerland » Lake Zurich,https://www.boat24.ch/chen/sailingboats/bavaria/bavaria-34/detail/749722/
+boat24,703762,Meta Defer49,Sailing yacht,14.95,1981,54500,CHF,Italy » Sardegna » Arbatax,https://www.boat24.ch/chen/sailingboats/meta/meta-defer49/detail/703762/
 boat24,745102,Laser Bahia,Sailing dinghy,4.65,2008,3900,CHF,Lake Thun » Thun,https://www.boat24.ch/chen/sailingboats/laser/laser-bahia/detail/745102/
 boat24,651106,Mallard Écume de mer,"Center cockpit, Keelboat, Motorsailer",7.93,1971,5500,CHF,Lake Geneva » Pully,https://www.boat24.ch/chen/sailingboats/mallard/mallard-ecume-de-mer/detail/651106/
 boat24,745673,Archambault Surprise,Keelboat,7.65,1981,9300,CHF,Lake Neuchâtel » Grandson,https://www.boat24.ch/chen/sailingboats/archambault/archambault-surprise/detail/745673/
 boat24,653851,Hallberg-Rassy 310,Sailing yacht,9.42,2015,142000,CHF,Romanshorn,https://www.boat24.ch/chen/sailingboats/hallberg-rassy/hallberg-rassy-310/detail/653851/
 boat24,739611,Jeanneau Sun Way 29,Sailing yacht,8.55,1994,35000,CHF,Lake Zurich » Oberrieden,https://www.boat24.ch/chen/sailingboats/jeanneau/jeanneau-sun-way-29/detail/739611/
 boat24,742732,Scheurer A-Kat,Catamaran,5.49,1993,4000,CHF,Switzerland » Lake Thun,https://www.boat24.ch/chen/sailingboats/scheurer/scheurer-a-kat/detail/742732/
+boat24,749688,Beneteau First 26,Sailing yacht,7.70,1987,3500,CHF,Lake Geneva » Genève Port Noir,https://www.boat24.ch/chen/sailingboats/beneteau/beneteau-first-26/detail/749688/
 boat24,749456,Aira 22,"Daysailer, Keelboat",6.50,2019,22500,CHF,Lake Lucerne » Stansstad,https://www.boat24.ch/chen/sailingboats/aira/aira-22/detail/749456/
 boat24,632536,Tempest,"Classic sailing yacht, Daysailer, Keelboat",6.71,1977,,,Sempachersee » Nottwil,https://www.boat24.ch/chen/sailingboats/tempest/detail/632536/
 boat24,726295,Cornish Crabbers Cornish Coble,"Daysailer, Sailing dinghy",5.75,1996,4000,CHF,Switzerland,https://www.boat24.ch/chen/sailingboats/cornish-crabbers/cornish-crabbers-cornish-coble/detail/726295/
@@ -190,6 +186,7 @@ boat24,731247,Corsier Port Lacustre SUI 97,"Classic sailing yacht, Keelboat, Rac
 boat24,381935,Portier Hocco/Tumlare,Daysailer,8.35,1952,43000,CHF,Lake Constance » Romanshorn,https://www.boat24.ch/chen/sailingboats/portier/portier-hoccotumlare/detail/381935/
 boat24,721689,Cather Sailhorse,"Daysailer, Keelboat, Racing boat",6.10,1975,1500,CHF,Switzerland,https://www.boat24.ch/chen/sailingboats/cather-sailhorse/detail/721689/
 boat24,729979,Drabant D30,"Keelboat, Sailing yacht",8.95,1982,25000,CHF,Lake Neuchâtel » Yvonand,https://www.boat24.ch/chen/sailingboats/drabant/drabant-d30/detail/729979/
+boat24,748903,Dehler 32,Classic sailing yacht,9.60,1995,44000,CHF,Lake Constance » Altenrhein,https://www.boat24.ch/chen/sailingboats/dehler/dehler-32/detail/748903/
 boat24,748090,Dehler Delanta 75,"Daysailer, Keelboat, Sailing yacht",7.50,1976,2000,CHF,Lake Thun » Hilterfingen,https://www.boat24.ch/chen/sailingboats/dehler/dehler-delanta-75/detail/748090/
 boat24,740153,Dehler 18,Daysailer,,,13000,CHF,Lake Neuchâtel » Cudrefin,https://www.boat24.ch/chen/sailingboats/dehler/dehler-18/detail/740153/
 boat24,737251,470 Boutemy,Sailing dinghy,4.70,1999,2500,CHF,Lake Geneva » Corsier GE,https://www.boat24.ch/chen/sailingboats/470-boutemy/detail/737251/
@@ -208,6 +205,7 @@ boat24,722504,Yachting France Yachting France,Sailing yacht,9.30,1973,14000,CHF,
 boat24,693876,Ohlson 29 (Finnland),Classic sailing yacht,8.85,1977,5500,CHF,Bielersee » Nidau Trockenplatz,https://www.boat24.ch/chen/sailingboats/ohlson/ohlson-29-finnland/detail/693876/
 boat24,630550,Hallberg-Rassy Misil II,Sailing yacht,7.35,1976,23000,CHF,Lake Constance » Romanshorn,https://www.boat24.ch/chen/sailingboats/hallberg-rassy/hallberg-rassy-misil-ii/detail/630550/
 boat24,708762,Dehler 29,"Classic sailing yacht, Sailing yacht",9.00,2018,69000,CHF,Lake Constance » Horn,https://www.boat24.ch/chen/sailingboats/dehler/dehler-29/detail/708762/
+boat24,699397,Eliminator 32,"Keelboat, Sailing yacht",9.86,1980,20000,CHF,Lake Neuchâtel » 1588 Cudrefin,https://www.boat24.ch/chen/sailingboats/eliminator-32/detail/699397/
 boat24,750701,Beneteau First 20,Sailing yacht,6.40,2018,45000,CHF,Switzerland » Lake Constance,https://www.boat24.ch/chen/sailingboats/beneteau/beneteau-first-20/detail/750701/
 boat24,730710,Jab Nautic 1010 Wamps,Keelboat,10.10,1985,1,CHF,Lake Geneva » Ouchy,https://www.boat24.ch/chen/sailingboats/jab-nautic-1010-wamps/detail/730710/
 boat24,622252,WalbootFürst Romanshorn CH,Keelboat,8.50,1957,17500,CHF,Romanshorn / Tuttwil,https://www.boat24.ch/chen/sailingboats/walbootfuerst-romanshorn-ch/detail/622252/
@@ -226,7 +224,6 @@ boat24,391259,Wagner Ahab,Sailing yacht,7.00,1974,5000,CHF,Lake Murten » Muntel
 boat24,692811,Bimare F16,"Catamaran, Racing boat",5.00,2017,10000,CHF,Lake Geneva » Morges,https://www.boat24.ch/chen/sailingboats/bimare/bimare-f16/detail/692811/
 boat24,727921,Jeanneau Sun 2000,Sailing yacht,6.64,2007,13500,CHF,Switzerland » Lake Thun,https://www.boat24.ch/chen/sailingboats/jeanneau/jeanneau-sun-2000/detail/727921/
 boat24,694824,Waarschip 750,"Daysailer, Keelboat, Sailing yacht",7.50,1974,,,Arbon,https://www.boat24.ch/chen/sailingboats/waarschip/waarschip-750/detail/694824/
-boat24,624067,Viko 23,Sailing yacht,6.80,2013,12900,CHF,Werft Inwil,https://www.boat24.ch/chen/sailingboats/viko/viko-23/detail/624067/
 boat24,674011,Artekno H35,Sailing yacht,10.50,1986,19000,CHF,Romanshorn,https://www.boat24.ch/chen/sailingboats/artekno/artekno-h35/detail/674011/
 boat24,704561,Panther Craft Dart 20,Catamaran,5.94,,4400,CHF,Switzerland,https://www.boat24.ch/chen/sailingboats/panther-craft/panther-craft-dart-20/detail/704561/
 boat24,664670,Jeanneau Sun Odyssey 30i,"Keelboat, Sailing yacht",8.99,2012,45000,CHF,Lake Constance » SBS Hafen Romanshorn,https://www.boat24.ch/chen/sailingboats/jeanneau/jeanneau-sun-odyssey-30i/detail/664670/
@@ -242,7 +239,9 @@ boat24,746201,Shaw 650,"Daysailer, Racing boat",6.50,2014,20000,CHF,Lake Lucerne
 boat24,727178,Bavaria Cruiser 34,Sailing yacht,9.99,2018,114000,CHF,Lake Lucerne » Buochs,https://www.boat24.ch/chen/sailingboats/bavaria/bavaria-cruiser-34/detail/727178/
 boat24,710371,Esse 750,"Racing boat, Sailing yacht",7.50,2020,54000,CHF,Lake Thun » Faulensee Güetital,https://www.boat24.ch/chen/sailingboats/esse/esse-750/detail/710371/
 boat24,476950,Sunbeam 30,Sailing yacht,9.00,1985,28500,CHF,Lago Maggiore » Ascona,https://www.boat24.ch/chen/sailingboats/sunbeam/sunbeam-30/detail/476950/
+boat24,744077,Sparkman & Stephens 42 (Westphal),"Bluewater yacht, Center cockpit, Classic sailing yacht",12.57,1964,65000,CHF,"Italy » Capo d'Orlando, Sizilien",https://www.boat24.ch/chen/sailingboats/sparkman-stephens-42-westphal/detail/744077/
 boat24,743273,Dufour 35,Sailing yacht,10.80,1974,60000,CHF,Lake Geneva » Creux-de-Genthod GE,https://www.boat24.ch/chen/sailingboats/dufour/dufour-35/detail/743273/
+boat24,746612,Beneteau Oceanis 41.1,Sailing yacht,12.43,2018,180000,CHF,Italy » Sardegna » Villasimius,https://www.boat24.ch/chen/sailingboats/beneteau/beneteau-oceanis-411/detail/746612/
 boat24,604394,Aubin Sancerre,"Bluewater yacht, Dinghy cruiser, Motorsailer",11.40,1982,54000,CHF,Lake Neuchâtel » Nid-du-Crô à Neuchâtel,https://www.boat24.ch/chen/sailingboats/aubin/aubin-sancerre/detail/604394/
 boat24,645932,Bavaria Cruiser 32,Sailing yacht,9.99,2011,62000,CHF,Lake Constance » Kreuzlingen,https://www.boat24.ch/chen/sailingboats/bavaria/bavaria-cruiser-32/detail/645932/
 boat24,738003,Beneteau First 32,"Classic sailing yacht, Keelboat, Sailing yacht",10.00,1981,27000,CHF,Bielersee » IPSACH,https://www.boat24.ch/chen/sailingboats/beneteau/beneteau-first-32/detail/738003/
@@ -279,7 +278,6 @@ boat24,729810,X-Yachts XP-33,Sailing yacht,9.99,2015,133000,CHF,Lake Constance �
 boat24,729305,Esse 990,Racing boat,9.90,2014,118000,CHF,Altnau oder Bottighofen,https://www.boat24.ch/chen/sailingboats/esse/esse-990/detail/729305/
 boat24,722484,Neptun 25 Kurzkiel,Sailing yacht,7.50,1990,6600,CHF,Walensee » Unterterzen,https://www.boat24.ch/chen/sailingboats/neptun/neptun-25-kurzkiel/detail/722484/
 boat24,742974,Frauscher Trias,Classic sailing yacht,9.20,1993,7500,CHF,Lake Thun » Einigen,https://www.boat24.ch/chen/sailingboats/frauscher/frauscher-trias/detail/742974/
-boat24,692906,Artekno H-Boot,Sailing yacht,8.28,1980,3900,CHF,Lake Constance » Arbon,https://www.boat24.ch/chen/sailingboats/artekno/artekno-h-boot/detail/692906/
 boat24,596069,Moser M2,Daysailer,8.60,1982,9000,CHF,Uerikon,https://www.boat24.ch/chen/sailingboats/moser/moser-m2/detail/596069/
 boat24,685406,5.5 j.i.,Racing boat,9.30,2019,,,Lausanne,https://www.boat24.ch/chen/sailingboats/55-ji/detail/685406/
 boat24,648406,Aquamarine Albadra 600,Catamaran,18.35,2005,1050000,CHF,France » Meditéranée,https://www.boat24.ch/chen/sailingboats/aquamarine/aquamarine-albadra-600/detail/648406/
@@ -319,7 +317,6 @@ boat24,653719,Frauscher H-Boot,Daysailer,8.28,1995,26500,CHF,Unterterzen,https:/
 boat24,708211,Sunbeam 25,Sailing yacht,7.50,1981,15900,CHF,Hallwilersee » Beinwil am See,https://www.boat24.ch/chen/sailingboats/sunbeam/sunbeam-25/detail/708211/
 boat24,679557,Bavaria Cruiser 34,Sailing yacht,9.75,2024,149000,CHF,Lake Lucerne » Luzern,https://www.boat24.ch/chen/sailingboats/bavaria/bavaria-cruiser-34/detail/679557/
 boat24,749404,Schöchl Sunbeam 32,Sailing yacht,9.80,1991,30000,CHF,Lake Zurich » 8716 Schmerikon,https://www.boat24.ch/chen/sailingboats/schoechl/schoechl-sunbeam-32/detail/749404/
-boat24,576942,Seezunge,Daysailer,6.50,,27000,CHF,Lake Constance » Altnau,https://www.boat24.ch/chen/sailingboats/seezunge/detail/576942/
 boat24,560523,One Ton Classic-Yacht,Sailing yacht,11.33,1978,219900,CHF,Lake Constance » Bottighofen,https://www.boat24.ch/chen/sailingboats/one-ton-classic-yacht/detail/560523/
 boat24,747858,Dufour 512 GRAND LARGE,Sailing yacht,14.75,2017,,,France » PORT CAMARGUE,https://www.boat24.ch/chen/sailingboats/dufour/dufour-512-grand-large/detail/747858/
 boat24,701140,Wirz Wilante,Classic sailing yacht,8.80,1973,35000,CHF,Schweiz Romanshorn,https://www.boat24.ch/chen/sailingboats/wirz/wirz-wilante/detail/701140/
@@ -339,6 +336,7 @@ boat24,749793,Sunbeam 37,Sailing yacht,11.30,1999,50000,CHF,Lake Neuchâtel » C
 boat24,694046,Marieholm Folkboat,Classic sailing yacht,7.90,1975,15800,CHF,Lago Maggiore » Tenero,https://www.boat24.ch/chen/sailingboats/marieholm/marieholm-folkboat/detail/694046/
 boat24,746901,X-Yachts X-35,Sailing yacht,10.61,2006,79900,CHF,"Lake Constance » XM-Marine GmbH, Bottighofen bei Kreuzlingen/Konsta",https://www.boat24.ch/chen/sailingboats/x-yachts/x-yachts-x-35/detail/746901/
 boat24,748576,Beneteau Oceanis Clipper 393,Center cockpit,11.62,2006,85000,CHF,Lago Maggiore » Locarno,https://www.boat24.ch/chen/sailingboats/beneteau/beneteau-oceanis-clipper-393/detail/748576/
+boat24,739712,Hallberg-Rassy 342,Sailing yacht,10.32,2010,165400,CHF,Lake Constance » Lengwil,https://www.boat24.ch/chen/sailingboats/hallberg-rassy/hallberg-rassy-342/detail/739712/
 boat24,739971,Latitude Tofinou 8,Daysailer,8.00,2019,91500,CHF,Italy » Liguria » Alassio,https://www.boat24.ch/chen/sailingboats/latitude/latitude-tofinou-8/detail/739971/
 boat24,746591,N'Fun 30,Daysailer,9.00,2019,101600,CHF,France » Arcachon,https://www.boat24.ch/chen/sailingboats/nfun/nfun-30/detail/746591/
 boat24,659866,Frauscher H-Boot,Daysailer,8.28,1990,19500,CHF,Walensee » .,https://www.boat24.ch/chen/sailingboats/frauscher/frauscher-h-boot/detail/659866/
@@ -378,7 +376,6 @@ boat24,692091,Arcona 345,Sailing yacht,10.40,2026,330000,CHF,Lake Lucerne » Bru
 boat24,611688,GERYS 4.7,Sailing dinghy,4.70,2026,65999,CHF,Aare » Aarau,https://www.boat24.ch/chen/sailingboats/gerys/gerys-47/detail/611688/
 boat24,492134,Psaros 33,Racing boat,10.00,2024,300000,CHF,Lake Geneva » Vesenaz,https://www.boat24.ch/chen/sailingboats/psaros/psaros-33/detail/492134/
 boat24,548939,Sunbeam 29.1,Sailing yacht,8.99,2026,118900,CHF,Lake Lucerne » Luzern,https://www.boat24.ch/chen/sailingboats/sunbeam/sunbeam-291/detail/548939/
-boat24,503587,A-Yachts a27,Daysailer,8.20,2026,,,Lake Zurich » Meilen,https://www.boat24.ch/chen/sailingboats/a-yachts/a-yachts-a27/detail/503587/
 boat24,20431,Sunwind 280,Sailing yacht,8.60,2026,136700,CHF,Romanshorn,https://www.boat24.ch/chen/sailingboats/sunwind/sunwind-280/detail/20431/
 boat24,371628,Domani S30,Daysailer,9.00,2026,143000,CHF,Lake Lucerne » Luzern,https://www.boat24.ch/chen/sailingboats/domani/domani-s30/detail/371628/
 boat24,565311,Tiwal 3,Sailing dinghy,3.20,,6320,CHF,Colombier,https://www.boat24.ch/chen/sailingboats/tiwal/tiwal-3/detail/565311/

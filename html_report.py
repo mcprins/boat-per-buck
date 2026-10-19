@@ -78,15 +78,31 @@ a { color: inherit; text-decoration-color: var(--axis); text-underline-offset: 3
 a:hover { text-decoration-color: currentColor; }
 .src { color: var(--text-secondary); font-size: 13px; }
 footer { color: var(--muted); font-size: 13px; margin-top: 32px; }
-@media (max-width: 640px) { .hide-sm { display: none; } }
+.tip .open { pointer-events: auto; display: inline-block; margin-top: 6px; padding: 4px 0; font-weight: 600;
+  color: var(--series-1); text-decoration: none; }
+@media (max-width: 640px) {
+  .hide-sm { display: none; }
+  main { padding: 24px 16px 48px; }
+  h1 { font-size: 22px; }
+  /* no card chrome on a phone: charts run edge to edge */
+  .card { padding: 16px 0; margin: 0; border: 0; border-radius: 0; background: none; }
+  .card + .card { border-top: 1px solid var(--grid); }
+  .chart { margin: 0 -16px; }
+  .note { display: none; }
+  .picker { flex-wrap: nowrap; overflow-x: auto; margin: 8px -16px 4px; padding: 0 16px; scrollbar-width: none; }
+  .chip, .picker select { flex: none; }
+  .tiles { grid-template-columns: 1fr 1fr; }
+  .tile .value { font-size: 20px; }
+  .tip { white-space: normal; max-width: calc(100% - 8px); }
+  table { font-size: 13px; }
+  th, td { padding: 6px 4px; }
+}
 </style>
 </head>
 <body>
 <main>
   <h1>Fastest sailboat models per price bracket</h1>
   <p class="sub">Predicted top speed at 15 kts true wind (ORC VPP, best angle) for boats currently for sale. Generated __DATE__.</p>
-
-  <div class="tiles">__TILES__</div>
 
   <section class="card">
     <h2>Speed vs. asking price</h2>
@@ -96,7 +112,7 @@ footer { color: var(--muted); font-size: 13px; margin-top: 32px; }
 
   <section class="card">
     <h2>Speed vs. length</h2>
-    <p class="note">One dot per boat model for sale (length overall from its ORC certificates); click a dot to open its cheapest listing.
+    <p class="note">One dot per boat model for sale (length overall from its ORC certificates); click a dot (tap twice on a phone) to open its cheapest listing.
       The dashed curve is the classic displacement hull speed, 1.34·√LOA (ft), treating length overall as waterline length.</p>
     <div id="length-chart" class="chart"><div id="length-tip" class="tip"></div></div>
   </section>
@@ -132,6 +148,8 @@ footer { color: var(--muted); font-size: 13px; margin-top: 32px; }
 
   __BRACKETS__
 
+  <div class="tiles">__TILES__</div>
+
   <footer>
     Sources: __SOURCES__. Polars: ORC certificates via github.com/jieter/orc-data.
     Speeds are per model (median over certificates), not per individual boat. Prices converted to EUR at ECB reference rates.
@@ -151,11 +169,67 @@ const el = (tag, attrs, parent) => {
   parent.appendChild(e);
   return e;
 };
+// draw at the container's real width so text stays 12px on a phone; on a narrow screen, fill most of its height
+const size = (root, h) => {
+  const W = Math.round(root.clientWidth) || 1000;
+  return [W, W < 640 ? Math.max(320, Math.round(window.innerHeight * 0.7)) : h];
+};
+// tooltip above the item (r: its radius), or below it near the top edge; on touch, with a link to the listing
+const place = (svg, tip, cx, cy, r = 0) => {
+  if (tip.dataset.link) {
+    const a = document.createElement("a");
+    a.className = "open"; a.href = tip.dataset.link; a.target = "_blank"; a.rel = "noopener";
+    a.textContent = "Open listing ↗";
+    tip.appendChild(a);
+  }
+  const rect = svg.getBoundingClientRect(), k = svg.viewBox.baseVal.width / rect.width;
+  const tx = cx / k, top = (cy - r) / k - tip.offsetHeight - 10;
+  tip.style.left = Math.max(4, Math.min(tx + 14, rect.width - tip.offsetWidth - 4)) + "px";
+  tip.style.top = (top < 0 ? (cy + r) / k + 14 : top) + "px";
+  tip.style.opacity = 1;
+};
+// With a mouse: hover shows the tooltip, click opens the listing (url) or runs the action.
+// Touch has no hover, so the first tap shows the tooltip (with an "Open listing" link) and a second tap on the same item opens it.
+let pointerType = "mouse";
+function interact(svg, tip, { hit, show, hide, url, action }) {
+  let pinned = null;
+  const point = ev => {
+    const r = svg.getBoundingClientRect(), k = svg.viewBox.baseVal.width / r.width;
+    return [(ev.clientX - r.left) * k, (ev.clientY - r.top) * k];
+  };
+  const clear = () => { hide(); tip.querySelector(".open")?.remove(); pinned = null; svg.style.cursor = ""; };
+  svg.addEventListener("pointerdown", ev => { pointerType = ev.pointerType; });
+  svg.addEventListener("pointermove", ev => {
+    if (ev.pointerType !== "mouse") return;
+    const item = hit(...point(ev), 1);
+    if (!item) return clear();
+    delete tip.dataset.link;
+    show(item, false);
+    svg.style.cursor = url?.(item) || action ? "pointer" : "";
+  });
+  svg.addEventListener("pointerleave", ev => { if (ev.pointerType === "mouse") clear(); });
+  svg.addEventListener("click", ev => {
+    const touch = pointerType !== "mouse";
+    const item = hit(...point(ev), touch ? 2 : 1);  // fingers are less precise: twice the reach
+    if (!item) return clear();
+    if (touch && item !== pinned) {
+      pinned = item;
+      if (url?.(item)) tip.dataset.link = url(item); else delete tip.dataset.link;
+      show(item, true);
+      return;
+    }
+    if (url?.(item)) window.open(url(item), "_blank", "noopener");
+    else if (action) { action(item); clear(); }
+  });
+  document.addEventListener("click", ev => {
+    if (pinned && !svg.contains(ev.target) && !tip.contains(ev.target)) clear();
+  });
+}
 
 (function () {
   const root = document.getElementById("chart");
   const tip = document.getElementById("tip");
-  const W = 1000, H = 440, m = { t: 28, r: 16, b: 40, l: 44 };
+  const [W, H] = size(root, 440), m = { t: 28, r: 16, b: 40, l: 44 };
   const xmin = Math.log10(Math.max(500, Math.min(...BOATS.map(b => b.p)) * 0.9));
   const xmax = Math.log10(Math.max(...BOATS.map(b => b.p)) * 1.1);
   const ymin = Math.floor(Math.min(...BOATS.map(b => b.s))) - 0.5;
@@ -195,40 +269,33 @@ const el = (tag, attrs, parent) => {
   });
   const ring = el("circle", { r: 7, fill: "none", stroke: "var(--text-primary)", "stroke-width": 1.5, opacity: 0 }, svg);
 
-  // hover: nearest boat within 14 viewBox px, highlighted boats preferred
-  let current = null;
-  const nearest = (px, py) => {
-    let best = null, bd = 14 * 14;
-    for (const b of sorted) {
-      const d = (b.cx - px) ** 2 + (b.cy - py) ** 2 - (b.top ? 40 : 0);
-      if (d < bd) { bd = d; best = b; }
-    }
-    return best;
-  };
-  svg.addEventListener("mousemove", ev => {
-    const r = svg.getBoundingClientRect(), k = W / r.width;
-    const b = nearest((ev.clientX - r.left) * k, (ev.clientY - r.top) * k);
-    current = b;
-    if (!b) { tip.style.opacity = 0; ring.setAttribute("opacity", 0); svg.style.cursor = ""; return; }
-    ring.setAttribute("cx", b.cx); ring.setAttribute("cy", b.cy); ring.setAttribute("opacity", 1);
-    svg.style.cursor = "pointer";
-    tip.innerHTML = `<b></b><div class="meta"></div>`;
-    tip.querySelector("b").textContent = b.t;
-    tip.querySelector(".meta").textContent =
-      `${b.s.toFixed(2)} kn · €${b.p.toLocaleString("en")}${b.y ? " · " + b.y : ""} · ${b.src}`;
-    const tx = b.cx / k, ty = b.cy / k;
-    tip.style.left = Math.min(tx + 14, r.width - tip.offsetWidth - 4) + "px";
-    tip.style.top = (ty - tip.offsetHeight - 10 < 0 ? ty + 14 : ty - tip.offsetHeight - 10) + "px";
-    tip.style.opacity = 1;
+  interact(svg, tip, {
+    // nearest boat within 14 px, highlighted boats preferred
+    hit: (px, py, reach) => {
+      let best = null, bd = (14 * reach) ** 2;
+      for (const b of sorted) {
+        const d = (b.cx - px) ** 2 + (b.cy - py) ** 2 - (b.top ? 40 : 0);
+        if (d < bd) { bd = d; best = b; }
+      }
+      return best;
+    },
+    show: b => {
+      ring.setAttribute("cx", b.cx); ring.setAttribute("cy", b.cy); ring.setAttribute("opacity", 1);
+      tip.innerHTML = `<b></b><div class="meta"></div>`;
+      tip.querySelector("b").textContent = b.t;
+      tip.querySelector(".meta").textContent =
+        `${b.s.toFixed(2)} kn · €${b.p.toLocaleString("en")}${b.y ? " · " + b.y : ""} · ${b.src}`;
+      place(svg, tip, b.cx, b.cy);
+    },
+    hide: () => { tip.style.opacity = 0; ring.setAttribute("opacity", 0); },
+    url: b => b.u,
   });
-  svg.addEventListener("mouseleave", () => { tip.style.opacity = 0; ring.setAttribute("opacity", 0); current = null; });
-  svg.addEventListener("click", () => { if (current) window.open(current.u, "_blank", "noopener"); });
 })();
 
 (function () {
   const root = document.getElementById("length-chart");
   const tip = document.getElementById("length-tip");
-  const W = 1000, H = 480, m = { t: 28, r: 16, b: 40, l: 44 };
+  const [W, H] = size(root, 480), m = { t: 28, r: 16, b: 40, l: 44 };
   MODELS.forEach(b => { b.ft = b.l * 3.28084; });
   const xmin = Math.floor(Math.min(...MODELS.map(b => b.ft))), xmax = Math.ceil(Math.max(...MODELS.map(b => b.ft)));
   const ymin = Math.floor(Math.min(...MODELS.map(b => b.s))) - 0.5;
@@ -244,9 +311,11 @@ const el = (tag, attrs, parent) => {
   }
   el("text", { x: m.l - 8, y: m.t - 12, "text-anchor": "end" }, svg).textContent = "knots";
   el("line", { x1: m.l, x2: W - m.r, y1: H - m.b, y2: H - m.b, stroke: "var(--axis)" }, svg);
-  for (let l = Math.ceil(xmin / 5) * 5; l <= xmax; l += 5) {
+  // every 5 ft, or 10/15/... when the labels would sit closer than 40 px
+  const step = 5 * Math.ceil(40 / (5 * (x(1) - x(0)))), lastTick = xmax - xmax % step;
+  for (let l = Math.ceil(xmin / step) * step; l <= xmax; l += step) {
     el("line", { x1: x(l), x2: x(l), y1: m.t - 8, y2: H - m.b, stroke: "var(--grid)" }, svg);
-    el("text", { x: x(l), y: H - m.b + 20, "text-anchor": "middle" }, svg).textContent = l + (l === xmax - xmax % 5 ? " ft" : "");
+    el("text", { x: x(l), y: H - m.b + 20, "text-anchor": "middle" }, svg).textContent = l + (l === lastTick ? " ft" : "");
   }
 
   const hull = ft => 1.34 * Math.sqrt(ft);
@@ -265,37 +334,33 @@ const el = (tag, attrs, parent) => {
   });
   const ring = el("circle", { r: 7, fill: "none", stroke: "var(--text-primary)", "stroke-width": 1.5, opacity: 0 }, svg);
 
-  let current = null;
-  svg.addEventListener("mousemove", ev => {
-    const r = svg.getBoundingClientRect(), k = W / r.width;
-    const px = (ev.clientX - r.left) * k, py = (ev.clientY - r.top) * k;
-    let best = null, bd = 12 * 12;
-    for (const b of MODELS) {
-      const dd = (b.cx - px) ** 2 + (b.cy - py) ** 2;
-      if (dd < bd) { bd = dd; best = b; }
-    }
-    current = best;
-    if (!best) { tip.style.opacity = 0; ring.setAttribute("opacity", 0); svg.style.cursor = ""; return; }
-    ring.setAttribute("cx", best.cx); ring.setAttribute("cy", best.cy); ring.setAttribute("opacity", 1);
-    svg.style.cursor = "pointer";
-    tip.innerHTML = `<b></b><div class="meta"></div><div class="meta"></div>`;
-    tip.querySelector("b").textContent = best.t;
-    const metas = tip.querySelectorAll(".meta");
-    metas[0].textContent = `${best.s.toFixed(2)} kn · ${best.ft.toFixed(1)} ft (${best.l.toFixed(2)} m) · ORC: ${best.orc}`;
-    metas[1].textContent = `${best.n} for sale, from €${best.p.toLocaleString("en")}`;
-    const tx = best.cx / k, ty = best.cy / k;
-    tip.style.left = Math.min(tx + 14, r.width - tip.offsetWidth - 4) + "px";
-    tip.style.top = (ty - tip.offsetHeight - 10 < 0 ? ty + 14 : ty - tip.offsetHeight - 10) + "px";
-    tip.style.opacity = 1;
+  interact(svg, tip, {
+    hit: (px, py, reach) => {
+      let best = null, bd = (12 * reach) ** 2;
+      for (const b of MODELS) {
+        const dd = (b.cx - px) ** 2 + (b.cy - py) ** 2;
+        if (dd < bd) { bd = dd; best = b; }
+      }
+      return best;
+    },
+    show: b => {
+      ring.setAttribute("cx", b.cx); ring.setAttribute("cy", b.cy); ring.setAttribute("opacity", 1);
+      tip.innerHTML = `<b></b><div class="meta"></div><div class="meta"></div>`;
+      tip.querySelector("b").textContent = b.t;
+      const metas = tip.querySelectorAll(".meta");
+      metas[0].textContent = `${b.s.toFixed(2)} kn · ${b.ft.toFixed(1)} ft (${b.l.toFixed(2)} m) · ORC: ${b.orc}`;
+      metas[1].textContent = `${b.n} for sale, from €${b.p.toLocaleString("en")}`;
+      place(svg, tip, b.cx, b.cy);
+    },
+    hide: () => { tip.style.opacity = 0; ring.setAttribute("opacity", 0); },
+    url: b => b.u,
   });
-  svg.addEventListener("mouseleave", () => { tip.style.opacity = 0; ring.setAttribute("opacity", 0); current = null; });
-  svg.addEventListener("click", () => { if (current) window.open(current.u, "_blank", "noopener"); });
 })();
 
 (function () {
   const root = document.getElementById("brand-chart");
   const tip = document.getElementById("brand-tip");
-  const W = 1000, H = 520, m = { t: 28, r: 24, b: 40, l: 44 };
+  const [W, H] = size(root, 520), m = { t: 28, r: 24, b: 40, l: 44 };
   const xmin = Math.log10(Math.min(...BRANDS.map(b => b.p)) / 1.4);
   const xmax = Math.log10(Math.max(...BRANDS.map(b => b.p)) * 1.4);
   const ymin = Math.floor(Math.min(...BRANDS.map(b => b.s)) - 0.25);
@@ -303,7 +368,7 @@ const el = (tag, attrs, parent) => {
   const x = p => m.l + (Math.log10(p) - xmin) / (xmax - xmin) * (W - m.l - m.r);
   const y = s => H - m.b - (s - ymin) / (ymax - ymin) * (H - m.t - m.b);
   const maxN = Math.max(...BRANDS.map(b => b.n));
-  const rad = n => 4 + 12 * Math.sqrt(n / maxN);
+  const rad = n => (4 + 12 * Math.sqrt(n / maxN)) * Math.max(0.6, Math.min(1, W / 800));
   const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img",
     "aria-label": "Scatter plot of each brand's median speed against median asking price; the table below lists the same brands." }, root);
 
@@ -313,11 +378,14 @@ const el = (tag, attrs, parent) => {
   }
   el("text", { x: m.l - 8, y: m.t - 12, "text-anchor": "end" }, svg).textContent = "knots";
   el("line", { x1: m.l, x2: W - m.r, y1: H - m.b, y2: H - m.b, stroke: "var(--axis)" }, svg);
+  let lastLabelX = -Infinity;
   [2e3, 5e3, 1e4, 2e4, 5e4, 1e5, 2e5, 5e5, 1e6, 2e6].forEach(v => {
     const lv = Math.log10(v);
     if (lv < xmin || lv > xmax) return;
     el("line", { x1: x(v), x2: x(v), y1: m.t - 8, y2: H - m.b, stroke: "var(--grid)" }, svg);
+    if (x(v) - lastLabelX < 48) return;  // labels would collide; the gridline stays
     el("text", { x: x(v), y: H - m.b + 20, "text-anchor": "middle" }, svg).textContent = fmt(v);
+    lastLabelX = x(v);
   });
 
   // biggest dots first so small brands stay visible on top
@@ -358,35 +426,34 @@ const el = (tag, attrs, parent) => {
   });
   const ring = el("circle", { fill: "none", stroke: "var(--text-primary)", "stroke-width": 1.5, opacity: 0 }, svg);
 
-  // hover: the smallest dot under the pointer (or within 6 px of its edge)
-  svg.addEventListener("mousemove", ev => {
-    const r = svg.getBoundingClientRect(), k = W / r.width;
-    const px = (ev.clientX - r.left) * k, py = (ev.clientY - r.top) * k;
-    let best = null;
-    for (const b of dots) {
-      if (Math.hypot(b.cx - px, b.cy - py) <= b.r + 6 && (!best || b.r < best.r)) best = b;
-    }
-    if (!best) { tip.style.opacity = 0; ring.setAttribute("opacity", 0); return; }
-    ring.setAttribute("cx", best.cx); ring.setAttribute("cy", best.cy); ring.setAttribute("r", best.r + 3);
-    ring.setAttribute("opacity", 1);
-    tip.innerHTML = `<b></b><div class="meta"></div><div class="meta"></div>`;
-    tip.querySelector("b").textContent = best.brand;
-    const metas = tip.querySelectorAll(".meta");
-    metas[0].textContent = `${best.s.toFixed(2)} kn · €${best.p.toLocaleString("en")} (medians)`;
-    metas[1].textContent = `${best.n} boats · ${best.models} models`;
-    const tx = best.cx / k, ty = (best.cy - best.r) / k;
-    tip.style.left = Math.min(tx + 14, r.width - tip.offsetWidth - 4) + "px";
-    tip.style.top = (ty - tip.offsetHeight - 8 < 0 ? (best.cy + best.r) / k + 8 : ty - tip.offsetHeight - 8) + "px";
-    tip.style.opacity = 1;
+  interact(svg, tip, {
+    // the smallest dot under the pointer (or within 6 px of its edge)
+    hit: (px, py, reach) => {
+      let best = null;
+      for (const b of dots) {
+        if (Math.hypot(b.cx - px, b.cy - py) <= b.r + 6 * reach && (!best || b.r < best.r)) best = b;
+      }
+      return best;
+    },
+    show: b => {
+      ring.setAttribute("cx", b.cx); ring.setAttribute("cy", b.cy); ring.setAttribute("r", b.r + 3);
+      ring.setAttribute("opacity", 1);
+      tip.innerHTML = `<b></b><div class="meta"></div><div class="meta"></div>`;
+      tip.querySelector("b").textContent = b.brand;
+      const metas = tip.querySelectorAll(".meta");
+      metas[0].textContent = `${b.s.toFixed(2)} kn · €${b.p.toLocaleString("en")} (medians)`;
+      metas[1].textContent = `${b.n} boats · ${b.models} models`;
+      place(svg, tip, b.cx, b.cy, b.r);
+    },
+    hide: () => { tip.style.opacity = 0; ring.setAttribute("opacity", 0); },
   });
-  svg.addEventListener("mouseleave", () => { tip.style.opacity = 0; ring.setAttribute("opacity", 0); });
 })();
 
 (function () {
   const root = document.getElementById("range-chart");
   const tip = document.getElementById("range-tip");
   const picker = document.getElementById("range-picker");
-  const W = 1000, H = 520, m = { t: 28, r: 16, b: 40, l: 44 };
+  const [W, H] = size(root, 520), m = { t: 28, r: 16, b: 40, l: 44 };
   const SLOTS = [1, 2, 3];  // the palette's first three hues stay distinguishable when lines and dots overlap
   const CHIPS = 16;  // most-listed brands get a chip; the rest are in the dropdown
   const byBrand = new Map(BRANDS.map(b => [b.brand, { ...b, boats: [] }]));
@@ -406,11 +473,14 @@ const el = (tag, attrs, parent) => {
   }
   el("text", { x: m.l - 8, y: m.t - 12, "text-anchor": "end" }, svg).textContent = "knots";
   el("line", { x1: m.l, x2: W - m.r, y1: H - m.b, y2: H - m.b, stroke: "var(--axis)" }, svg);
+  let lastLabelX = -Infinity;
   [1e3, 2e3, 5e3, 1e4, 2e4, 5e4, 1e5, 2e5, 5e5, 1e6, 2e6, 5e6].forEach(v => {
     const lv = Math.log10(v);
     if (lv < xmin || lv > xmax) return;
     el("line", { x1: x(v), x2: x(v), y1: m.t - 8, y2: H - m.b, stroke: "var(--grid)" }, svg);
+    if (x(v) - lastLabelX < 48) return;  // labels would collide; the gridline stays
     el("text", { x: x(v), y: H - m.b + 20, "text-anchor": "middle" }, svg).textContent = fmt(v);
+    lastLabelX = x(v);
   });
 
   brands.forEach(b => { b.x1 = x(b.line[0]); b.y1 = y(b.line[1]); b.x2 = x(b.line[2]); b.y2 = y(b.line[3]); });
@@ -497,52 +567,43 @@ const el = (tag, attrs, parent) => {
     const t = len2 ? Math.max(0, Math.min(1, ((px - b.x1) * dx + (py - b.y1) * dy) / len2)) : 0;
     return Math.hypot(b.x1 + t * dx - px, b.y1 + t * dy - py);
   };
-  const hide = () => { tip.style.opacity = 0; ring.setAttribute("opacity", 0); hoverLine.setAttribute("opacity", 0); svg.style.cursor = ""; };
-  const place = (r, k, tx, ty) => {
-    tip.style.left = Math.min(tx / k + 14, r.width - tip.offsetWidth - 4) + "px";
-    tip.style.top = (ty / k - tip.offsetHeight - 10 < 0 ? ty / k + 14 : ty / k - tip.offsetHeight - 10) + "px";
-    tip.style.opacity = 1;
-  };
-
-  // hover: a selected brand's boat within 10 px wins, else the nearest line within 8 px (selected lines favoured)
-  let current = null;
-  svg.addEventListener("mousemove", ev => {
-    const r = svg.getBoundingClientRect(), k = W / r.width;
-    const px = (ev.clientX - r.left) * k, py = (ev.clientY - r.top) * k;
-    let dot = null, dd = 10, line = null, ld = 8;
-    for (const o of dots) { const q = Math.hypot(o.cx - px, o.cy - py); if (q < dd) { dd = q; dot = o; } }
-    if (!dot) for (const b of brands) {
-      const q = segDist(b, px, py) - (sel.some(s => s.name === b.brand) ? 3 : 0);
-      if (q < ld) { ld = q; line = b; }
-    }
-    current = dot || line;
-    if (!current) return hide();
-    svg.style.cursor = "pointer";
-    tip.innerHTML = `<b></b><div class="meta"></div><div class="meta"></div>`;
-    const metas = tip.querySelectorAll(".meta");
-    if (dot) {
-      hoverLine.setAttribute("opacity", 0);
-      ring.setAttribute("cx", dot.cx); ring.setAttribute("cy", dot.cy); ring.setAttribute("opacity", 1);
-      tip.querySelector("b").textContent = dot.d.t;
-      metas[0].textContent = `${dot.d.s.toFixed(2)} kn · €${dot.d.p.toLocaleString("en")}${dot.d.y ? " · " + dot.d.y : ""} · ${dot.d.src}`;
-      metas[1].textContent = dot.brand;
-      place(r, k, dot.cx, dot.cy);
-    } else {
-      ring.setAttribute("opacity", 0);
-      for (const a of ["x1", "y1", "x2", "y2"]) hoverLine.setAttribute(a, line[a]);
-      hoverLine.setAttribute("opacity", 1);
-      const picked = sel.some(s => s.name === line.brand);
-      tip.querySelector("b").textContent = line.brand;
-      metas[0].textContent = `€${line.pr[0].toLocaleString("en")} – €${line.pr[1].toLocaleString("en")} · ${line.sr[0].toFixed(1)}–${line.sr[1].toFixed(1)} kn`;
-      metas[1].textContent = `${line.n} boats · ${line.models} models · click to ${picked ? "hide" : "show"} its boats`;
-      place(r, k, px, py);
-    }
-  });
-  svg.addEventListener("mouseleave", () => { hide(); current = null; });
-  svg.addEventListener("click", () => {
-    if (!current) return;
-    if (current.d) window.open(current.d.u, "_blank", "noopener");
-    else { toggle(current.brand); hide(); current = null; }
+  interact(svg, tip, {
+    // a selected brand's boat within 10 px wins, else the nearest line within 8 px (selected lines favoured)
+    hit: (px, py, reach) => {
+      let dot = null, dd = 10 * reach, line = null, ld = 8 * reach;
+      for (const o of dots) { const q = Math.hypot(o.cx - px, o.cy - py); if (q < dd) { dd = q; dot = o; } }
+      if (dot) return dot;
+      for (const b of brands) {
+        const q = segDist(b, px, py) - (sel.some(s => s.name === b.brand) ? 3 : 0);
+        if (q < ld) { ld = q; line = b; }
+      }
+      if (line) line.at = [px, py];
+      return line;
+    },
+    show: (it, touch) => {
+      tip.innerHTML = `<b></b><div class="meta"></div><div class="meta"></div>`;
+      const metas = tip.querySelectorAll(".meta");
+      if (it.d) {
+        hoverLine.setAttribute("opacity", 0);
+        ring.setAttribute("cx", it.cx); ring.setAttribute("cy", it.cy); ring.setAttribute("opacity", 1);
+        tip.querySelector("b").textContent = it.d.t;
+        metas[0].textContent = `${it.d.s.toFixed(2)} kn · €${it.d.p.toLocaleString("en")}${it.d.y ? " · " + it.d.y : ""} · ${it.d.src}`;
+        metas[1].textContent = it.brand;
+        place(svg, tip, it.cx, it.cy);
+      } else {
+        ring.setAttribute("opacity", 0);
+        for (const a of ["x1", "y1", "x2", "y2"]) hoverLine.setAttribute(a, it[a]);
+        hoverLine.setAttribute("opacity", 1);
+        const picked = sel.some(s => s.name === it.brand);
+        tip.querySelector("b").textContent = it.brand;
+        metas[0].textContent = `€${it.pr[0].toLocaleString("en")} – €${it.pr[1].toLocaleString("en")} · ${it.sr[0].toFixed(1)}–${it.sr[1].toFixed(1)} kn`;
+        metas[1].textContent = `${it.n} boats · ${it.models} models · ${touch ? "tap again" : "click"} to ${picked ? "hide" : "show"} its boats`;
+        place(svg, tip, ...it.at);
+      }
+    },
+    hide: () => { tip.style.opacity = 0; ring.setAttribute("opacity", 0); hoverLine.setAttribute("opacity", 0); },
+    url: it => it.d?.u,
+    action: it => toggle(it.brand),
   });
 })();
 </script>

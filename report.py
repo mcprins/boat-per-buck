@@ -1,10 +1,11 @@
 """Match boat listings to ORC polars and show the fastest boat models per price bracket.
 
 Run fetch_polars.py and the fetch_<site>.py scrapers first.
-Writes data/matched.csv and report.html.
+Writes data/matched.csv, report.html and vpp.html (each matched model's speed polar).
 """
 
 import csv
+import json
 import re
 import statistics
 import urllib.request
@@ -19,6 +20,7 @@ BRACKETS_EUR = [0, 10_000, 25_000, 50_000, 100_000, 200_000, 350_000, 500_000, 1
 ECB_RATES = "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
 FALLBACK_RATES = {"EUR": 1.0, "CHF": 0.93, "GBP": 0.86, "DKK": 7.46, "SEK": 11.0, "NOK": 11.6, "USD": 1.10}
 HTML_OUT = Path(__file__).parent / "report.html"
+VPP_OUT = HTML_OUT.parent / "vpp.html"
 TOP_N = 10
 MIN_PRICE_EUR = 500  # below this it's a placeholder ("bid from €100"), not a price
 OUTLIER_FRACTION = 0.25  # drop listings priced below 25% of their model's median (deposits, typos)
@@ -180,6 +182,7 @@ def main():
             matched.setdefault(dedupe_key, {
                 **l, "model_id": p["model_id"], "orc_type": p["type"], "builder": p["builder"],
                 "orc_loa": float(p["loa"]) if p["loa"] else None, "speed": float(p["top_speed_15kt"]),
+                "n_certs": int(p["n_certs"]),
             })
     n_matched = len(matched)
     matched = drop_price_outliers(list(matched.values()))
@@ -227,6 +230,7 @@ def main():
         print()
 
     html_report.render(HTML_OUT, brackets, brands, MIN_BRAND_BOATS, models, matched, len(listings), BRACKETS_EUR)
+    html_report.render_vpp(VPP_OUT, models, json.loads((DATA / "vpp.json").read_text()))
 
 
 if __name__ == "__main__":

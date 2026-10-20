@@ -383,8 +383,7 @@ function filteredDots(svg, items, pickerRoot, r) {
   // label below the curve near its left end, where it runs under the trend and the dots
   el("text", { x: x(xmin + 1), y: y(hull(xmin + 1)) + 22, "text-anchor": "start", class: "brand-label" }, svg).textContent = "hull speed 1.34·√L";
 
-  // trend through the dots (fitted in report.py), labelled below its right end (where it runs under the hull-speed
-  // curve), with the constant the data gives when forced into the hull-speed form
+  // trend through the dots (fitted in report.py), labelled below its right end, where it runs under the hull-speed curve
   const trend = ft => FIT.a * ft ** FIT.b;
   d = "";
   for (let l = xmin; l <= xmax; l += 1) d += (d ? "L" : "M") + x(l).toFixed(1) + "," + y(trend(l)).toFixed(1);
@@ -392,7 +391,6 @@ function filteredDots(svg, items, pickerRoot, r) {
   const trendLabel = el("text", { x: x(xmax), y: y(trend(xmax)) + 22, "text-anchor": "end", class: "brand-label" }, svg);
   trendLabel.textContent = `trend ${FIT.a.toFixed(2)}·L`;
   el("tspan", { dy: -5, "font-size": 10 }, trendLabel).textContent = FIT.b.toFixed(2);
-  el("tspan", { x: x(xmax), dy: 20 }, trendLabel).textContent = `as k·√L: k = ${FIT.k.toFixed(2)}`;
 
   MODELS.forEach(b => { b.cx = x(b.ft); b.cy = y(b.s); });
   const dots = filteredDots(svg, MODELS, document.getElementById("length-picker"), 3.5);
@@ -741,11 +739,6 @@ def _vpp_id(model):
     return model["model_id"].replace("#", "-")
 
 
-def _sqrt_fit(points):
-    """Least-squares k for y = k·√x: the hull-speed form, with the data's constant instead of 1.34."""
-    return sum(y * math.sqrt(x) for x, y in points) / sum(x for x, _ in points)
-
-
 def _power_fit(points):
     """Least-squares fit of y = a·x^b, as a straight line in log-log space."""
     b, ln_a = statistics.linear_regression([math.log(x) for x, _ in points], [math.log(y) for _, y in points])
@@ -773,10 +766,9 @@ def render(path, brackets, brands, min_brand_boats, models, matched, n_listings,
         for m in models if m["orc_loa"]
     ]
     points = [(m["l"] * 3.28084, m["s"]) for m in model_data]
-    fit_k, (fit_a, fit_b) = _sqrt_fit(points), _power_fit(points)
+    fit_a, fit_b = _power_fit(points)
     fit_text = (
-        f"forced into the hull-speed form, the data gives {fit_k:.2f}·√LOA instead of 1.34; "
-        f"with a free exponent it is {fit_a:.2f}·LOA^{fit_b:.2f} (least squares over {len(points):,} models), "
+        f"{fit_a:.2f}·LOA^{fit_b:.2f} (least squares over {len(points):,} models), "
         f"so {'small boats beat hull speed and big ones fall short of it' if fit_b < 0.5 else 'big boats beat hull speed more than small ones'}"
     )
     brand_rows = "".join(
@@ -796,7 +788,7 @@ def render(path, brackets, brands, min_brand_boats, models, matched, n_listings,
         PAGE.replace("__STYLE__", STYLE).replace("__HELPERS__", HELPERS)
         .replace("__DATE__", datetime.date.today().isoformat())
         .replace("__FIT__", html.escape(fit_text))
-        .replace("__FIT_JSON__", json.dumps({"k": round(fit_k, 4), "a": round(fit_a, 4), "b": round(fit_b, 4)}))
+        .replace("__FIT_JSON__", json.dumps({"a": round(fit_a, 4), "b": round(fit_b, 4)}))
         .replace("__TILES__", "".join(
             f'<div class="tile"><div class="label">{l}</div><div class="value">{v}</div></div>' for l, v in tiles
         ))

@@ -3,7 +3,16 @@ name: Daily report
 on:
   schedule:
     - cron: "17 5 * * *"  # 05:17 UTC every day
-  workflow_dispatch:  # "Run workflow" button for manual runs
+  # front-end changes re-render the committed listings without scraping
+  push:
+    branches: [main]
+    paths: [html_report.py, report.py, .github/workflows/daily.yml]
+  workflow_dispatch:  # "Run workflow" button for manual runs; by default only re-renders the committed listings
+    inputs:
+      scrape:
+        description: Scrape listings first
+        type: boolean
+        default: false
 
 permissions:
   contents: write  # commit refreshed listings
@@ -28,6 +37,7 @@ jobs:
 
       # a site that fails or blocks us keeps its previous CSV, so the report still builds
       - name: Scrape listings
+        if: github.event_name == 'schedule' || inputs.scrape
         run: |
           for site in boat24 scanboat apolloduck marktplaats; do
             python fetch_$site.py || echo "::warning::fetch_$site.py failed; using previous listings"
@@ -37,6 +47,7 @@ jobs:
         run: python report.py
 
       - name: Commit refreshed listings
+        if: github.event_name == 'schedule' || inputs.scrape
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898733+github-actions[bot]@users.noreply.github.com"

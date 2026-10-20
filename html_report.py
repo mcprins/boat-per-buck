@@ -16,14 +16,14 @@ PAGE = """<!doctype html>
   color-scheme: light;
   --page: #f9f9f7; --surface-1: #fcfcfb; --text-primary: #0b0b0b; --text-secondary: #52514e;
   --muted: #898781; --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11,11,11,0.10);
-  --series-1: #2a78d6; --series-2: #eb6834; --series-3: #1baf7a; --other: #c3c2b7; --row-hover: #f0efec;
+  --series-1: #2a78d6; --series-2: #eb6834; --series-3: #1baf7a; --series-rest: #52514e; --other: #c3c2b7; --row-hover: #f0efec;
 }
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
     --page: #0d0d0d; --surface-1: #1a1a19; --text-primary: #f0efec; --text-secondary: #c3c2b7;
     --muted: #898781; --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10);
-    --series-1: #3987e5; --series-2: #d95926; --series-3: #199e70; --other: #52514e; --row-hover: #262624;
+    --series-1: #3987e5; --series-2: #d95926; --series-3: #199e70; --series-rest: #c3c2b7; --other: #52514e; --row-hover: #262624;
   }
 }
 * { box-sizing: border-box; }
@@ -38,9 +38,6 @@ h2 { font-size: 18px; font-weight: 600; margin: 0; }
 .tile { background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px; padding: 14px 18px; }
 .tile .label { color: var(--text-secondary); font-size: 13px; }
 .tile .value { font-size: 24px; font-weight: 600; }
-.legend { display: flex; gap: 20px; color: var(--text-secondary); font-size: 13px; margin: 4px 0 8px; }
-.legend span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 50%;
-  margin-right: 6px; vertical-align: -1px; background: var(--key); }
 .chart { position: relative; }
 .chart svg { display: block; width: 100%; height: auto; overflow: visible; }
 .chart text { fill: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
@@ -51,15 +48,13 @@ h2 { font-size: 18px; font-weight: 600; margin: 0; }
 .tip b { font-weight: 600; }
 .tip .meta { color: var(--text-secondary); }
 .note { color: var(--text-secondary); font-size: 13px; margin: 4px 0 8px; }
-.picker { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 12px; }
+.picker { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 12px; --key: var(--series-1); }
 .chip, .picker select { font: inherit; font-size: 13px; color: var(--text-secondary); background: transparent;
   border: 1px solid var(--border); border-radius: 999px; padding: 3px 10px; cursor: pointer; }
 .chip:hover { background: var(--row-hover); }
 .chip[aria-pressed="true"] { color: var(--text-primary); border-color: var(--axis); background: var(--row-hover); }
 .chip[aria-pressed="true"]::before { content: ""; display: inline-block; width: 10px; height: 3px; border-radius: 2px;
   margin-right: 6px; vertical-align: 3px; background: var(--key); }
-.chart .line-label { fill: var(--text-primary); font-weight: 600; paint-order: stroke;
-  stroke: var(--surface-1); stroke-width: 4px; stroke-linejoin: round; }
 details { margin-top: 12px; }
 summary { cursor: pointer; color: var(--text-secondary); font-size: 13px; }
 details table { margin-top: 8px; }
@@ -106,7 +101,9 @@ footer { color: var(--muted); font-size: 13px; margin-top: 32px; }
 
   <section class="card">
     <h2>Speed vs. asking price</h2>
-    <div class="legend"><span style="--key: var(--series-1)">Top __TOP_N__ models in bracket</span><span style="--key: var(--other)">Other matched boats</span></div>
+    <p class="note">One dot per boat for sale; click a dot (tap twice on a phone) to open its listing.
+      Pick brands to grey out the rest, so only the picked brands' boats can be clicked; the first three picks get their own colour, later picks share dark grey.</p>
+    <div id="price-picker" class="picker" role="group" aria-label="Brands to show"></div>
     <div id="chart" class="chart"><div id="tip" class="tip"></div></div>
   </section>
 
@@ -114,6 +111,7 @@ footer { color: var(--muted); font-size: 13px; margin-top: 32px; }
     <h2>Speed vs. length</h2>
     <p class="note">One dot per boat model for sale (length overall from its ORC certificates); click a dot (tap twice on a phone) to open its cheapest listing.
       The dashed curve is the classic displacement hull speed, 1.34·√LOA (ft), treating length overall as waterline length.</p>
+    <div id="length-picker" class="picker" role="group" aria-label="Brands to show"></div>
     <div id="length-chart" class="chart"><div id="length-tip" class="tip"></div></div>
   </section>
 
@@ -126,22 +124,6 @@ footer { color: var(--muted); font-size: 13px; margin-top: 32px; }
       <table>
         <thead><tr><th>Brand</th><th class="num">Boats</th><th class="num">Models</th><th class="num">Median price</th><th class="num">Median knots</th></tr></thead>
         <tbody>__BRAND_ROWS__</tbody>
-      </table>
-    </details>
-  </section>
-
-  <section class="card">
-    <h2>Brands: price range and speed range</h2>
-    <p class="note">One line per brand, from its cheapest to its dearest boats (5th–95th percentile of asking price), following
-      the least-squares trend of speed against price. A steep line means paying more buys a lot more speed within that brand.
-      Pick up to three brands to colour them and show their boats as dots; click a grey line to pick that brand.</p>
-    <div id="range-picker" class="picker" role="group" aria-label="Brands to highlight"></div>
-    <div id="range-chart" class="chart"><div id="range-tip" class="tip"></div></div>
-    <details>
-      <summary>Show as table</summary>
-      <table>
-        <thead><tr><th>Brand</th><th class="num">Boats</th><th class="num">Price range</th><th class="num">Knots range</th><th class="num hide-sm">Trend line</th></tr></thead>
-        <tbody>__RANGE_ROWS__</tbody>
       </table>
     </details>
   </section>
@@ -226,6 +208,73 @@ function interact(svg, tip, { hit, show, hide, url, action }) {
   });
 }
 
+// Brand filter: chips for the most-listed brands, a dropdown for the rest. An empty selection shows every brand.
+// Only the first three picks get their own hue (more stop being distinguishable in a scatter, colour-blind or not);
+// later picks share a neutral. A brand keeps its colour while it stays picked.
+const slotColor = k => k ? `var(--series-${k})` : "var(--series-rest)";
+function brandPicker(root, items, onChange) {
+  const CHIPS = 12, EXTRA_CHIPS = 6;  // dropdown picks get a chip too, while there are only a few of them
+  const counts = new Map();
+  items.forEach(d => { if (d.b) counts.set(d.b, (counts.get(d.b) || 0) + 1); });
+  const brands = [...counts.keys()].sort((a, b) => counts.get(b) - counts.get(a) || a.localeCompare(b));
+  const sel = new Map();  // brand -> colour slot (1-3, or 0 for the shared neutral)
+  const add = b => sel.set(b, [1, 2, 3].find(k => ![...sel.values()].includes(k)) || 0);
+  const toggle = b => { sel.has(b) ? sel.delete(b) : add(b); update(); };
+  const update = () => { draw(); onChange(sel); };
+  const chip = (label, pressed, onClick, key) => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "chip";
+    btn.textContent = label;
+    if (pressed !== undefined) btn.setAttribute("aria-pressed", pressed ? "true" : "false");
+    if (key) btn.style.setProperty("--key", key);
+    btn.addEventListener("click", onClick);
+    root.appendChild(btn);
+  };
+  function draw() {
+    root.replaceChildren();
+    if (sel.size < brands.length) chip("Select all", undefined, () => { brands.forEach(b => { if (!sel.has(b)) add(b); }); update(); });
+    if (sel.size) chip("Clear", undefined, () => { sel.clear(); update(); });
+    const picked = brands.slice(CHIPS).filter(b => sel.has(b));
+    const shown = [...brands.slice(0, CHIPS), ...(picked.length <= EXTRA_CHIPS ? picked : [])];
+    shown.forEach(b => chip(b, sel.has(b), () => toggle(b), sel.has(b) && slotColor(sel.get(b))));
+    const more = brands.filter(b => !shown.includes(b));
+    if (!more.length) return;
+    const select = document.createElement("select");
+    select.setAttribute("aria-label", "More brands");
+    const n = more.filter(b => sel.has(b)).length;
+    [["", `More brands (${n ? n + " of " : ""}${more.length})…`],
+     ...more.map(b => [b, `${sel.has(b) ? "✓ " : ""}${b} (${counts.get(b)})`])].forEach(([value, text]) => {
+      const o = document.createElement("option");
+      o.value = value;
+      o.textContent = text;
+      select.appendChild(o);
+    });
+    select.addEventListener("change", () => { if (select.value) toggle(select.value); });
+    root.appendChild(select);
+  }
+  draw();
+}
+
+// Dots for items (each with cx, cy and brand b), filtered by a brand picker: the picked brands' dots in their colours
+// on top (first pick topmost), the rest grey underneath. Returns a function giving the dots that can currently be hit.
+function filteredDots(svg, items, pickerRoot, r) {
+  const layer = el("g", {}, svg);
+  let active = items;
+  const draw = sel => {
+    layer.replaceChildren();
+    active = sel.size ? items.filter(d => sel.has(d.b)) : items;
+    if (sel.size) items.forEach(d => { if (!sel.has(d.b)) el("circle", { cx: d.cx, cy: d.cy, r: r - 1, fill: "var(--other)" }, layer); });
+    const z = d => sel.size && sel.get(d.b) ? 4 - sel.get(d.b) : 0;
+    [...active].sort((a, b) => z(a) - z(b)).forEach(d =>
+      el("circle", { cx: d.cx, cy: d.cy, r, fill: sel.size ? slotColor(sel.get(d.b)) : "var(--series-1)",
+        stroke: "var(--surface-1)", "stroke-width": 1 }, layer));
+  };
+  draw(new Set());
+  brandPicker(pickerRoot, items, draw);
+  return () => active;
+}
+
 (function () {
   const root = document.getElementById("chart");
   const tip = document.getElementById("tip");
@@ -259,22 +308,16 @@ function interact(svg, tip, { hit, show, hide, url, action }) {
     lastLabelX = x(v);
   });
 
-  // other boats first, highlighted on top
-  const sorted = [...BOATS].sort((a, b) => a.top - b.top);
-  sorted.forEach(b => {
-    b.cx = x(b.p); b.cy = y(b.s);
-    el("circle", b.top
-      ? { cx: b.cx, cy: b.cy, r: 4.5, fill: "var(--series-1)", stroke: "var(--surface-1)", "stroke-width": 2 }
-      : { cx: b.cx, cy: b.cy, r: 2.5, fill: "var(--other)" }, svg);
-  });
+  BOATS.forEach(b => { b.cx = x(b.p); b.cy = y(b.s); });
+  const dots = filteredDots(svg, BOATS, document.getElementById("price-picker"), 3.5);
   const ring = el("circle", { r: 7, fill: "none", stroke: "var(--text-primary)", "stroke-width": 1.5, opacity: 0 }, svg);
 
   interact(svg, tip, {
-    // nearest boat within 14 px, highlighted boats preferred
+    // nearest shown boat within 12 px
     hit: (px, py, reach) => {
-      let best = null, bd = (14 * reach) ** 2;
-      for (const b of sorted) {
-        const d = (b.cx - px) ** 2 + (b.cy - py) ** 2 - (b.top ? 40 : 0);
+      let best = null, bd = (12 * reach) ** 2;
+      for (const b of dots()) {
+        const d = (b.cx - px) ** 2 + (b.cy - py) ** 2;
         if (d < bd) { bd = d; best = b; }
       }
       return best;
@@ -328,16 +371,14 @@ function interact(svg, tip, { hit, show, hide, url, action }) {
   // label below the curve, which rises away from it to the right
   el("text", { x: x(xmax - 20), y: y(hull(xmax - 20)) + 20, "text-anchor": "start", class: "brand-label" }, svg).textContent = "hull speed";
 
-  MODELS.forEach(b => {
-    b.cx = x(b.ft); b.cy = y(b.s);
-    el("circle", { cx: b.cx, cy: b.cy, r: 3.5, fill: "var(--series-1)", stroke: "var(--surface-1)", "stroke-width": 1 }, svg);
-  });
+  MODELS.forEach(b => { b.cx = x(b.ft); b.cy = y(b.s); });
+  const dots = filteredDots(svg, MODELS, document.getElementById("length-picker"), 3.5);
   const ring = el("circle", { r: 7, fill: "none", stroke: "var(--text-primary)", "stroke-width": 1.5, opacity: 0 }, svg);
 
   interact(svg, tip, {
     hit: (px, py, reach) => {
       let best = null, bd = (12 * reach) ** 2;
-      for (const b of MODELS) {
+      for (const b of dots()) {
         const dd = (b.cx - px) ** 2 + (b.cy - py) ** 2;
         if (dd < bd) { bd = dd; best = b; }
       }
@@ -448,164 +489,6 @@ function interact(svg, tip, { hit, show, hide, url, action }) {
     hide: () => { tip.style.opacity = 0; ring.setAttribute("opacity", 0); },
   });
 })();
-
-(function () {
-  const root = document.getElementById("range-chart");
-  const tip = document.getElementById("range-tip");
-  const picker = document.getElementById("range-picker");
-  const [W, H] = size(root, 520), m = { t: 28, r: 16, b: 40, l: 44 };
-  const SLOTS = [1, 2, 3];  // the palette's first three hues stay distinguishable when lines and dots overlap
-  const CHIPS = 16;  // most-listed brands get a chip; the rest are in the dropdown
-  const byBrand = new Map(BRANDS.map(b => [b.brand, { ...b, boats: [] }]));
-  BOATS.forEach(d => byBrand.get(d.b)?.boats.push(d));
-  const brands = [...byBrand.values()];
-  const all = brands.flatMap(b => b.boats);
-  const xmin = Math.log10(Math.min(...all.map(d => d.p)) * 0.9), xmax = Math.log10(Math.max(...all.map(d => d.p)) * 1.1);
-  const ymin = Math.floor(Math.min(...all.map(d => d.s))) - 0.5, ymax = Math.ceil(Math.max(...all.map(d => d.s))) + 0.5;
-  const x = p => m.l + (Math.log10(p) - xmin) / (xmax - xmin) * (W - m.l - m.r);
-  const y = s => H - m.b - (s - ymin) / (ymax - ymin) * (H - m.t - m.b);
-  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img",
-    "aria-label": "One trend line per brand of predicted speed against asking price; the table below lists each brand's ranges." }, root);
-
-  for (let s = Math.ceil(ymin); s <= ymax; s++) {
-    el("line", { x1: m.l, x2: W - m.r, y1: y(s), y2: y(s), stroke: "var(--grid)" }, svg);
-    el("text", { x: m.l - 8, y: y(s) + 4, "text-anchor": "end" }, svg).textContent = s;
-  }
-  el("text", { x: m.l - 8, y: m.t - 12, "text-anchor": "end" }, svg).textContent = "knots";
-  el("line", { x1: m.l, x2: W - m.r, y1: H - m.b, y2: H - m.b, stroke: "var(--axis)" }, svg);
-  let lastLabelX = -Infinity;
-  [1e3, 2e3, 5e3, 1e4, 2e4, 5e4, 1e5, 2e5, 5e5, 1e6, 2e6, 5e6].forEach(v => {
-    const lv = Math.log10(v);
-    if (lv < xmin || lv > xmax) return;
-    el("line", { x1: x(v), x2: x(v), y1: m.t - 8, y2: H - m.b, stroke: "var(--grid)" }, svg);
-    if (x(v) - lastLabelX < 48) return;  // labels would collide; the gridline stays
-    el("text", { x: x(v), y: H - m.b + 20, "text-anchor": "middle" }, svg).textContent = fmt(v);
-    lastLabelX = x(v);
-  });
-
-  brands.forEach(b => { b.x1 = x(b.line[0]); b.y1 = y(b.line[1]); b.x2 = x(b.line[2]); b.y2 = y(b.line[3]); });
-  const base = el("g", {}, svg);
-  brands.forEach(b => el("line", { x1: b.x1, y1: b.y1, x2: b.x2, y2: b.y2,
-    stroke: "var(--other)", "stroke-width": 2, "stroke-linecap": "round" }, base));
-  const selLayer = el("g", {}, svg);
-  const hoverLine = el("line", { stroke: "var(--text-primary)", "stroke-width": 2.5, "stroke-linecap": "round", opacity: 0 }, svg);
-  const labelLayer = el("g", {}, svg);
-  const ring = el("circle", { r: 7, fill: "none", stroke: "var(--text-primary)", "stroke-width": 1.5, opacity: 0 }, svg);
-
-  // a brand keeps its colour while it stays selected; a fourth pick replaces the oldest
-  let sel = ["Beneteau", "Hallberg-Rassy", "Nautor's Swan"].filter(n => byBrand.has(n));
-  if (!sel.length) sel = brands.slice(0, 3).map(b => b.brand);
-  sel = sel.map((name, i) => ({ name, slot: SLOTS[i] }));
-  const toggle = name => {
-    const i = sel.findIndex(s => s.name === name);
-    if (i >= 0) sel.splice(i, 1);
-    else {
-      if (sel.length === SLOTS.length) sel.shift();
-      sel.push({ name, slot: SLOTS.find(k => !sel.some(s => s.slot === k)) });
-    }
-    draw();
-  };
-
-  let dots = [];
-  function draw() {
-    selLayer.replaceChildren();
-    labelLayer.replaceChildren();
-    dots = [];
-    sel.forEach(({ name, slot }) => byBrand.get(name).boats.forEach(d => {
-      const dot = { d, brand: name, cx: x(d.p), cy: y(d.s) };
-      dots.push(dot);
-      el("circle", { cx: dot.cx, cy: dot.cy, r: 3.5, fill: `var(--series-${slot})`, stroke: "var(--surface-1)", "stroke-width": 1 }, selLayer);
-    }));
-    // lines over every selected brand's dots, each on a surface halo
-    sel.forEach(({ name, slot }) => {
-      const b = byBrand.get(name), a = { x1: b.x1, y1: b.y1, x2: b.x2, y2: b.y2, "stroke-linecap": "round" };
-      el("line", { ...a, stroke: "var(--surface-1)", "stroke-width": 7 }, selLayer);
-      el("line", { ...a, stroke: `var(--series-${slot})`, "stroke-width": 3 }, selLayer);
-    });
-    // direct label past the line's dearer end; above it when that would run off the plot; nudged down off other labels
-    const boxes = [];
-    sel.forEach(({ name }) => {
-      const b = byBrand.get(name), w = name.length * 7.4;
-      let [lx, ly, anchor] = b.x2 + 8 + w <= W - m.r ? [b.x2 + 8, b.y2 + 4, "start"] : [b.x2, b.y2 - 10, "end"];
-      const x0 = anchor === "start" ? lx : lx - w;
-      for (let i = 0; i < 6 && boxes.some(o => x0 < o[2] && x0 + w > o[0] && ly - 11 < o[3] && ly + 3 > o[1]); i++) ly += 14;
-      boxes.push([x0, ly - 11, x0 + w, ly + 3]);
-      el("text", { x: lx, y: ly, "text-anchor": anchor, class: "line-label" }, labelLayer).textContent = name;
-    });
-
-    picker.replaceChildren();
-    const shown = brands.slice(0, CHIPS).map(b => b.brand);
-    sel.forEach(s => { if (!shown.includes(s.name)) shown.push(s.name); });
-    shown.forEach(name => {
-      const s = sel.find(s => s.name === name), btn = document.createElement("button");
-      btn.type = "button";
-      btn.className = "chip";
-      btn.textContent = name;
-      btn.setAttribute("aria-pressed", s ? "true" : "false");
-      if (s) btn.style.setProperty("--key", `var(--series-${s.slot})`);
-      btn.addEventListener("click", () => toggle(name));
-      picker.appendChild(btn);
-    });
-    const more = brands.filter(b => !shown.includes(b.brand));
-    if (more.length) {
-      const select = document.createElement("select");
-      select.setAttribute("aria-label", "More brands");
-      [{ brand: `More brands (${more.length})…`, n: 0 }, ...more].forEach((b, i) => {
-        const o = document.createElement("option");
-        o.value = i ? b.brand : "";
-        o.textContent = i ? `${b.brand} (${b.n})` : b.brand;
-        select.appendChild(o);
-      });
-      select.addEventListener("change", () => { if (select.value) toggle(select.value); });
-      picker.appendChild(select);
-    }
-  }
-  draw();
-
-  const segDist = (b, px, py) => {
-    const dx = b.x2 - b.x1, dy = b.y2 - b.y1, len2 = dx * dx + dy * dy;
-    const t = len2 ? Math.max(0, Math.min(1, ((px - b.x1) * dx + (py - b.y1) * dy) / len2)) : 0;
-    return Math.hypot(b.x1 + t * dx - px, b.y1 + t * dy - py);
-  };
-  interact(svg, tip, {
-    // a selected brand's boat within 10 px wins, else the nearest line within 8 px (selected lines favoured)
-    hit: (px, py, reach) => {
-      let dot = null, dd = 10 * reach, line = null, ld = 8 * reach;
-      for (const o of dots) { const q = Math.hypot(o.cx - px, o.cy - py); if (q < dd) { dd = q; dot = o; } }
-      if (dot) return dot;
-      for (const b of brands) {
-        const q = segDist(b, px, py) - (sel.some(s => s.name === b.brand) ? 3 : 0);
-        if (q < ld) { ld = q; line = b; }
-      }
-      if (line) line.at = [px, py];
-      return line;
-    },
-    show: (it, touch) => {
-      tip.innerHTML = `<b></b><div class="meta"></div><div class="meta"></div>`;
-      const metas = tip.querySelectorAll(".meta");
-      if (it.d) {
-        hoverLine.setAttribute("opacity", 0);
-        ring.setAttribute("cx", it.cx); ring.setAttribute("cy", it.cy); ring.setAttribute("opacity", 1);
-        tip.querySelector("b").textContent = it.d.t;
-        metas[0].textContent = `${it.d.s.toFixed(2)} kn · €${it.d.p.toLocaleString("en")}${it.d.y ? " · " + it.d.y : ""} · ${it.d.src}`;
-        metas[1].textContent = it.brand;
-        place(svg, tip, it.cx, it.cy);
-      } else {
-        ring.setAttribute("opacity", 0);
-        for (const a of ["x1", "y1", "x2", "y2"]) hoverLine.setAttribute(a, it[a]);
-        hoverLine.setAttribute("opacity", 1);
-        const picked = sel.some(s => s.name === it.brand);
-        tip.querySelector("b").textContent = it.brand;
-        metas[0].textContent = `€${it.pr[0].toLocaleString("en")} – €${it.pr[1].toLocaleString("en")} · ${it.sr[0].toFixed(1)}–${it.sr[1].toFixed(1)} kn`;
-        metas[1].textContent = `${it.n} boats · ${it.models} models · ${touch ? "tap again" : "click"} to ${picked ? "hide" : "show"} its boats`;
-        place(svg, tip, ...it.at);
-      }
-    },
-    hide: () => { tip.style.opacity = 0; ring.setAttribute("opacity", 0); hoverLine.setAttribute("opacity", 0); },
-    url: it => it.d?.u,
-    action: it => toggle(it.brand),
-  });
-})();
 </script>
 </body>
 </html>
@@ -644,38 +527,29 @@ def _more(model):
     return f" · also {links}{extra}"
 
 
-def render(path, brackets, brands, min_brand_boats, models, matched, n_listings, edges, top_n):
+def render(path, brackets, brands, min_brand_boats, models, matched, n_listings, edges):
     """brackets: list of (label, top models, boats in bracket, models in bracket); each model carries its listings.
     brands: dicts with brand, boats, models, median price_eur and speed.
     models: every matched model, as its cheapest listing plus all its listings."""
-    top_ids = {(b["source"], b["id"]) for _, top, _, _ in brackets for m in top for b in m["listings"]}
     data = [
         {
             "t": b["title"], "s": round(b["speed"], 2), "p": b["price_eur"], "y": b["year"],
-            "src": b["source"], "u": b["url"], "top": (b["source"], b["id"]) in top_ids, "b": b.get("brand"),
+            "src": b["source"], "u": b["url"], "b": b.get("brand"),
         }
         for b in matched
     ]
     brand_data = [
-        {"brand": b["brand"], "n": b["boats"], "models": b["models"], "p": b["price_eur"], "s": round(b["speed"], 2),
-         "pr": b["price_range"], "sr": b["speed_range"], "line": b["trend"]}
+        {"brand": b["brand"], "n": b["boats"], "models": b["models"], "p": b["price_eur"], "s": round(b["speed"], 2)}
         for b in brands
     ]
     model_data = [
         {"t": m["title"], "orc": m["orc_type"], "l": m["orc_loa"], "s": round(m["speed"], 2),
-         "p": m["price_eur"], "n": len(m["listings"]), "u": m["url"]}
+         "p": m["price_eur"], "n": len(m["listings"]), "u": m["url"], "b": m.get("brand")}
         for m in models if m["orc_loa"]
     ]
     brand_rows = "".join(
         f'<tr><td>{html.escape(b["brand"])}</td><td class="num">{b["boats"]:,}</td><td class="num">{b["models"]:,}</td>'
         f'<td class="num">€{b["price_eur"]:,}</td><td class="num">{b["speed"]:.2f}</td></tr>'
-        for b in brands
-    )
-    range_rows = "".join(
-        f'<tr><td>{html.escape(b["brand"])}</td><td class="num">{b["boats"]:,}</td>'
-        f'<td class="num">€{b["price_range"][0]:,} – €{b["price_range"][1]:,}</td>'
-        f'<td class="num">{b["speed_range"][0]:.1f} – {b["speed_range"][1]:.1f}</td>'
-        f'<td class="num hide-sm">{b["trend"][1]:.1f} kn at €{b["trend"][0]:,} → {b["trend"][3]:.1f} kn at €{b["trend"][2]:,}</td></tr>'
         for b in brands
     )
     fastest = max(matched, key=lambda b: b["speed"])
@@ -691,10 +565,8 @@ def render(path, brackets, brands, min_brand_boats, models, matched, n_listings,
         .replace("__TILES__", "".join(
             f'<div class="tile"><div class="label">{l}</div><div class="value">{v}</div></div>' for l, v in tiles
         ))
-        .replace("__TOP_N__", str(top_n))
         .replace("__MIN_BRAND__", str(min_brand_boats))
         .replace("__BRAND_ROWS__", brand_rows)
-        .replace("__RANGE_ROWS__", range_rows)
         .replace("__MODELS__", json.dumps(model_data).replace("</", "<\\/"))
         .replace("__BRANDS__", json.dumps(brand_data).replace("</", "<\\/"))
         .replace("__BRACKETS__", "\n".join(_bracket_html(*b) for b in brackets))

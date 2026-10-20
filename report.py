@@ -5,7 +5,6 @@ Writes data/matched.csv and report.html.
 """
 
 import csv
-import math
 import re
 import statistics
 import urllib.request
@@ -50,7 +49,7 @@ MIN_BRAND_BOATS = 5  # brands with fewer boats for sale are left out of the bran
 BRAND_ALIASES = {
     "j rogers": "Contessa (J. Rogers)", "cantiere del": "Grand Soleil", "cantiere zuanelli": "Zuanelli",
     "j": "J/Boats", "tpi": "J/Boats", "tillotson": "J/Boats", "x": "X-Yachts", "hallberg": "Hallberg-Rassy",
-    "nautor": "Nautor's Swan", "benneteau": "Beneteau", "hanseyachtsag": "Hanse", "kirie": "Feeling",
+    "nautor": "Nautor's Swan", "nautors": "Nautor's Swan", "swan": "Nautor's Swan", "benneteau": "Beneteau", "hanseyachtsag": "Hanse", "kirie": "Feeling",
     "del": "Grand Soleil", "gibert": "Gib'Sea", "gibsea": "Gib'Sea", "marine": "Marine Projects (Moody, Sigma)",
     "comfort": "Comfortbåtar", "notesund": "Vindö", "yz": "YZ Greifswald", "camper": "Camper & Nicholson",
     "sd": "SD Marine", "ad": "AD Boats", "t": "Waarschip", "jachtbouw": "Jachtbouw Meijer",
@@ -161,19 +160,6 @@ def top_models(boats, n):
     return sorted(models, key=lambda m: (-m["speed"], m["price_eur"]))[:n], len(models)
 
 
-def trend(boats):
-    """Least-squares speed ~ log10(price), as a segment over the brand's 5th-95th percentile price span."""
-    xs = [math.log10(m["price_eur"]) for m in boats]
-    ys = [m["speed"] for m in boats]
-    cuts = statistics.quantiles(xs, n=20, method="inclusive")
-    lo, hi = cuts[0], cuts[-1]
-    try:
-        slope, intercept = statistics.linear_regression(xs, ys)
-    except statistics.StatisticsError:  # every boat at the same price
-        slope, intercept = 0.0, statistics.mean(ys)
-    return [round(10**lo), round(intercept + slope * lo, 2), round(10**hi), round(intercept + slope * hi, 2)]
-
-
 def main():
     polars = load_polars()
     rates = eur_rates()
@@ -203,6 +189,12 @@ def main():
         w.writeheader()
         w.writerows(sorted(matched, key=lambda m: m["price_eur"]))
 
+    by_brand = defaultdict(list)
+    for m in matched:
+        if b := brand(m["builder"]):
+            m["brand"] = b
+            by_brand[b].append(m)
+
     brackets = []
     for lo, hi in zip(BRACKETS_EUR, BRACKETS_EUR[1:]):
         label = f"€{lo:,.0f} – €{hi:,.0f}" if hi != float("inf") else f"€{lo:,.0f}+"
@@ -211,20 +203,12 @@ def main():
         brackets.append((label, top, len(in_bracket), n_models))
     models, _ = top_models(matched, None)
 
-    by_brand = defaultdict(list)
-    for m in matched:
-        if b := brand(m["builder"]):
-            m["brand"] = b
-            by_brand[b].append(m)
     brands = sorted(
         (
             {
                 "brand": b, "boats": len(boats), "models": len({m["model_id"] for m in boats}),
                 "price_eur": round(statistics.median(m["price_eur"] for m in boats)),
                 "speed": statistics.median(m["speed"] for m in boats),
-                "price_range": (min(m["price_eur"] for m in boats), max(m["price_eur"] for m in boats)),
-                "speed_range": (min(m["speed"] for m in boats), max(m["speed"] for m in boats)),
-                "trend": trend(boats),
             }
             for b, boats in by_brand.items()
             if len(boats) >= MIN_BRAND_BOATS
@@ -242,7 +226,7 @@ def main():
             print(f"  {m['speed']:5.2f} kn  €{m['price_eur']:>9,}  {m['year']:4}  {m['title'][:34]:34}  [ORC: {m['orc_type']}]  {m['source']}{more}")
         print()
 
-    html_report.render(HTML_OUT, brackets, brands, MIN_BRAND_BOATS, models, matched, len(listings), BRACKETS_EUR, TOP_N)
+    html_report.render(HTML_OUT, brackets, brands, MIN_BRAND_BOATS, models, matched, len(listings), BRACKETS_EUR)
 
 
 if __name__ == "__main__":

@@ -1,4 +1,5 @@
 source,id,title,category,loa,year,price,currency,location,url
+scanboat,17550515,Hoek Truly Classic 65,Sailingboat,,2001,1095000,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-hoek-truly-classic-65-17550515
 scanboat,17550491,Saffier SC 8m Cabin,Sailingboat,,2014,92000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-saffier-sc-8m-cabin-17550491
 scanboat,17550465,Bavaria 46 Cruiser,Sailingboat,,2006,120270,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-46-cruiser-17550465
 scanboat,17550385,Hanse 355,Sailingboat,,2011,99000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-355-17550385
@@ -46,7 +47,6 @@ scanboat,17547345,Dragon Petticrow,Sailingboat,,2003,19600,EUR,France,https://ww
 scanboat,17547160,Berckemeyer 31 Classic,Sailingboat,,2022,180000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-berckemeyer-31-classic-17547160
 scanboat,17546976,Nauticat 38 Efterårsudsalg Indtil 1. Nov.,Motorsailer,,1981,58450,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/motorsailer-nauticat-38-efteraarsudsalg-indtil-1-nov-17546976
 scanboat,17546945,Sirius 31,Sailingboat,,1989,59000,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-sirius-31-17546945
-scanboat,17546627,Jeanneau Sun Rise 34,Sailingboat,,1987,32500,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-rise-34-17546627
 scanboat,17546344,Rubin 35,Motorsailer,,1978,45000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/motorsailer-rubin-35-17546344
 scanboat,17546030,Lm 30,Sailingboat,,1979,36950,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-lm-30-17546030
 scanboat,17545912,LM 32 Med Bovpropel,Motorsailer,,1980,26140,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/motorsailer-lm-32-med-bovpropel-17545912
@@ -56,6 +56,7 @@ scanboat,17545443,Albin Delta,Sailingboat,,1985,12770,EUR,Denmark,https://www.sc
 scanboat,17545275,Benetau Oceanis 381 Clipper,Sailingboat,,1998,49990,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-benetau-oceanis-381-clipper-17545275
 scanboat,17545271,Mamba 34,Sailingboat,,1977,21230,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-mamba-34-17545271
 scanboat,17544945,Carana,Sailingboat,,1980,56300,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-carana-17544945
+scanboat,17543440,Seamaster 925,Sailingboat,,1980,6000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-seamaster-925-17543440
 scanboat,17541453,Dehler 38,Sailingboat,,1987,38970,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-dehler-38-17541453
 scanboat,17541443,Jeanneau Sun Kiss 47,Sailingboat,,1989,66520,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-kiss-47-17541443
 scanboat,17539658,Bavaria 32 Holiday,Sailingboat,,1997,33590,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-32-holiday-17539658
@@ -66,51 +67,167 @@ scanboat,17530602,Nauticat 32,Sailingboat,,1991,88000,EUR,Germany,https://www.sc
 scanboat,17527545,Ketch,Sailingboat,,1980,85000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-ketch-17527545
 scanboat,17516714,Vindø 50 Sloop,Sailingboat,,1979,39780,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-vindoe-50-sloop-17516714
 scanboat,17501845,Hanse 385,Sailingboat,,2015,159000,EUR,Estonia,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-385-17501845
-scanboat,17517975,Jeanneau Sun Odyssey 54 Ds,Sailingboat,,2006,245450,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-54-ds-17517975
 scanboat,17442844,Coronet Elvström MS 38,Motorsailer,,1977,39500,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/motorsailer-coronet-elvstroem-ms-38-17442844
 scanboat,17508312,Omega 36,Sailingboat,,1994,55000,EUR,France,https://www.scanboat.com/en/boat-market/boats/sailingboat-omega-36-17508312
 scanboat,17481457,Vindø 30,Sailingboat,,1969,2690,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-vindoe-30-17481457
 scanboat,17549339,Yamaha F115 Dobbeltmontage – F115 og Kontraroteren,Boat type not specified,,2025,28680,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boat-type-not-specified-yamaha-f115-dobbeltmontage-f115-og-kontraroterende-lf115-17549339
+scanboat,17551636,Omega 34,Sailingboat,,1984,19480,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-omega-34-17551636
+scanboat,17551634,Bavaria 40 Cruiser,Sailingboat,,2011,99900,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-40-cruiser-17551634
+scanboat,17551629,Elan 45 Impression,Sailingboat,,2015,162000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-elan-45-impression-17551629
+scanboat,17551619,Hanse 311,Sailingboat,,2002,35000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-311-17551619
+scanboat,17551631,Jeanneau 42i,Sailingboat,,2009,128500,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-42i-17551631
+scanboat,17546860,Jongert 21s,Sailingboat,,1982,620000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-jongert-21s-17546860
+scanboat,17546859,Unclassified Custom Open 60,Sailingboat,,1995,140000,EUR,Portugal,https://www.scanboat.com/en/boat-market/boats/sailingboat-unclassified-custom-open-60-17546859
+scanboat,17546858,Southerly 115,Sailingboat,,1994,76570,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-southerly-115-17546858
+scanboat,17527633,Moody DS 41,Sailingboat,,2027,656761,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-moody-ds-41-17527633
+scanboat,17518782,Hunter 44 AC,Sailingboat,,2005,99000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-hunter-44-ac-17518782
+scanboat,17546854,Lagoon 46,Multi hull boat,,2023,690000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-lagoon-46-17546854
+scanboat,17538406,Nordan 27 Fiskebåd,Live a board / Riverboat,,1997,40180,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-nordan-27-fiskebaad-17538406
+scanboat,17528299,Jeanneau Sun Odyssey 490,Sailingboat,,2020,280000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-490-17528299
+scanboat,17510975,Bianca Lido,Sailingboat,,1983,13410,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-bianca-lido-17510975
+scanboat,17546861,Elan Marine Impression 45,Sailingboat,,2025,350000,EUR,Turkey,https://www.scanboat.com/en/boat-market/boats/sailingboat-elan-marine-impression-45-17546861
+scanboat,17538603,Uecker Yacht- Und Bootsbau Rendsburg Fahrensmann 3,Sailingboat,,1987,39000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-uecker-yacht--und-bootsbau-rendsburg-fahrensmann-36-17538603
+scanboat,17533992,Jeanneau Sun Odyssey 349,Sailingboat,,2020,141310,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-349-17533992
+scanboat,17405664,Bavaria Cruiser 41,Sailingboat,,2022,229000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-cruiser-41-17405664
+scanboat,17512567,Bavaria 46 Vision,Sailingboat,,2015,154886,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-46-vision-17512567
+scanboat,17488156,Dufour 520 Grand Large,Sailingboat,,2018,299000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-dufour-520-grand-large-17488156
+scanboat,17516537,Bavaria 40,Sailingboat,,2001,50000,EUR,Martinique,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-40-17516537
+scanboat,17531187,Jeanneau Sun Odyssey 490,Sailingboat,,2022,339700,EUR,Virgin Islands,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-490-17531187
+scanboat,17538602,Bavaria Cruiser 34-2,Sailingboat,,2024,115000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-cruiser-34-2-17538602
+scanboat,17530883,Hanse 531,Sailingboat,,2006,220000,EUR,Ireland,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-531-17530883
+scanboat,17474668,Shogun Yachts Shogun 43,Sailingboat,,2023,695000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-shogun-yachts-shogun-43-17474668
+scanboat,17543032,Trio 96,Sailingboat,,1985,31514,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-trio-96-17543032
+scanboat,17528008,Jeanneau Sun Fast 32I,Sailingboat,,2006,54090,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-fast-32i-17528008
+scanboat,17477684,Spits 38.97 Cvo Rijn,Live a board / Riverboat,,1958,95000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-spits-3897-cvo-rijn-17477684
+scanboat,17538599,Sunbeam 34.2,Sailingboat,,2008,94600,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/sailingboat-sunbeam-342-17538599
+scanboat,17518821,Custom Steel Ketch,Sailingboat,,1962,490000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-custom-steel-ketch-17518821
+scanboat,17473771,Lion Class (Arthur Robb) Lion Class (Arthur Robb),Sailingboat,,1964,95000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-lion-class-(arthur-robb)-lion-class-(arthur-robb)-35-17473771
+scanboat,17526740,Hanse 470e,Sailingboat,,2008,150000,EUR,Italy,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-470e-17526740
+scanboat,17551567,Finnsailer 35,Sailingboat,,1976,18130,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-finnsailer-35-17551567
+scanboat,17551562,Hanse 348,Sailingboat,,2026,239785,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-348-17551562
+scanboat,17551561,Schooner,Sailingboat,,1981,220000,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-schooner-17551561
+scanboat,17551559,Aventura 47 Explorer,Multi hull boat,,2027,,,Sweden,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-aventura-47-explorer-17551559
+scanboat,17551560,Privilège Signature 600,Multi hull boat,,2027,,,Sweden,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-privilege-signature-600-17551560
+scanboat,17536568,Scanner 391,Sailingboat,,2001,109090,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-scanner-391-17536568
+scanboat,17551073,Gib Sea 402,Sailingboat,,1988,39500,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-gib-sea-402-17551073
+scanboat,17551074,Jenneau Sunfast 36,Sailingboat,,1996,45,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-jenneau-sunfast-36-17551074
+scanboat,17551072,Sweden Yachts 390,Sailingboat,,1992,117220,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-sweden-yachts-390-17551072
+scanboat,17551070,Beneteau 57,Sailingboat,,2007,385000,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-57-17551070
+scanboat,17551060,X-Yachts X 412,Sailingboat,,1995,119000,EUR,France,https://www.scanboat.com/en/boat-market/boats/sailingboat-x-yachts-x-412-17551060
+scanboat,17551057,Långedrag 401,Sailingboat,,2023,90910,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-laangedrag-401-17551057
+scanboat,17551051,Beneteau Beneteau 373,Sailingboat,,2004,68180,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-beneteau-373-17551051
+scanboat,17551050,Bavaria 42 Cruiser,Sailingboat,,2008,100770,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-42-cruiser-17551050
+scanboat,17538468,X-Power 33C - X-Yachts,Sailingboat,,2026,237600,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-x-power-33c---x-yachts-17538468
+scanboat,17526030,Sigma 35,Sailingboat,,1991,49500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-sigma-35-17526030
+scanboat,17527634,Moody 54 DS,Sailingboat,,2027,1187501,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-moody-54-ds-17527634
+scanboat,17526362,Lagoon 450,Multi hull boat,,2012,295000,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-lagoon-450-17526362
+scanboat,17538325,Baltic 47,Sailingboat,,2000,294520,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-baltic-47-17538325
+scanboat,17529060,Bavaria 46 Cruiser,Sailingboat,,2014,120000,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-46-cruiser-17529060
+scanboat,17485020,Damarin 582 (Nieuw),Sailingboat,,2025,37500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-damarin-582-(nieuw)-17485020
+scanboat,17481596,Bavaria C46,Sailingboat,,2024,471170,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-c46-17481596
+scanboat,17546625,Linjett 37,Sailingboat,,2013,250000,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-linjett-37-17546625
+scanboat,17530837,Fricke & Dannhus J 22,Sailingboat,,2000,70000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-fricke---dannhus-j-22-17530837
+scanboat,17518569,Excess 11,Sailingboat,,2021,318000,EUR,Martinique,https://www.scanboat.com/en/boat-market/boats/sailingboat-excess-11-17518569
+scanboat,17526343,Dufour 425 GL,Sailingboat,,2007,115000,EUR,France,https://www.scanboat.com/en/boat-market/boats/sailingboat-dufour-425-gl-17526343
+scanboat,17496038,"Tjalk Woonschip, Bedrijfsschip",Live a board / Riverboat,,1901,150000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-tjalk-woonschip-bedrijfsschip-17496038
+scanboat,17484805,Klipper Tweemast 26.29,Sailingboat,,1898,190000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-klipper-tweemast-2629-17484805
+scanboat,17534979,Husbåd i Tuborg Havn,Live a board / Riverboat,,1969,403120,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-husbaad-i-tuborg-havn-17534979
+scanboat,17532658,Beneteau First 28,Sailingboat,,1982,30000,EUR,France,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-first-28-17532658
+scanboat,17508440,Smelne Veenje Kotter 980,Motorsailer,,1976,19500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/motorsailer-smelne-veenje-kotter-980-17508440
+scanboat,17514648,Lagoon 46,Multi hull boat,,2023,600000,EUR,France,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-lagoon-46-17514648
+scanboat,17544848,Bavaria C38 - End-Sommer-Special,Sailingboat,,2026,272794,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-c38---end-sommer-special-17544848
+scanboat,17530756,Beneteau First 53,Sailingboat,,2022,648000,EUR,Turkey,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-first-53-17530756
+scanboat,17538509,Jeanneau Sun Odyssey 39i,Sailingboat,,2008,88888,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-39i-17538509
+scanboat,17535202,X-Yachts X4.9,Sailingboat,,2022,750000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-x-yachts-x49-17535202
+scanboat,17534977,LM 26,Sailingboat,,1982,11420,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-lm-26-17534977
+scanboat,17540547,Lagoon 42,Multi hull boat,,2023,499000,EUR,Montenegro,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-lagoon-42-17540547
+scanboat,17520423,Catalina 34,Sailingboat,,1989,30000,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-catalina-34-17520423
+scanboat,17534041,Jeanneau Sun Odyssey 440,Sailingboat,,2019,174550,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-440-17534041
+scanboat,17544852,Marker Rondbouw 10.50,Sailingboat,,1936,22500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-marker-rondbouw-1050-17544852
+scanboat,17514614,Nautor Swan 60,Sailingboat,,2009,800000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-nautor-swan-60-17514614
+scanboat,17540653,Houseboat,Live a board / Riverboat,,,235030,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-houseboat-17540653
+scanboat,17540411,Archambault A40 RC,Sailingboat,,2009,120000,EUR,Finland,https://www.scanboat.com/en/boat-market/boats/sailingboat-archambault-a40-rc-17540411
+scanboat,17526368,Fountaine Pajot Saona 47,Multi hull boat,,2018,430000,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-fountaine-pajot-saona-47-17526368
+scanboat,17544859,Prout 72,Sailingboat,,2015,1118000,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/sailingboat-prout-72-17544859
+scanboat,17540657,Xp 50 - X-Yachts,Sailingboat,,2012,518360,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-xp-50---x-yachts-17540657
+scanboat,17530814,Neo 350,Sailingboat,,2018,180000,EUR,Litauen,https://www.scanboat.com/en/boat-market/boats/sailingboat-neo-350-17530814
+scanboat,17525024,Bavaria 44 Vision,Sailingboat,,2008,139000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-44-vision-17525024
+scanboat,17508567,Beister S-Spant 11.00 Kmz,Sailingboat,,1972,37500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-beister-s-spant-1100-kmz-17508567
+scanboat,17544869,Bavaria 32 Cruiser,Sailingboat,,2010,64000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-32-cruiser-17544869
+scanboat,17534990,Hallberg Rassy 31 Mkii Scandinavia.,Sailingboat,,2007,107230,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-hallberg-rassy-31-mkii-scandinavia-17534990
+scanboat,17507262,"Nederlof, Geertruidenberg Rietaak 13.25",Live a board / Riverboat,,1982,69990,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-nederlof-geertruidenberg-rietaak-1325-17507262
+scanboat,17535081,Jeanneau Sun Odyssey 415,Sailingboat,,2026,419000,EUR,Ireland,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-415-17535081
+scanboat,17538573,Dufour 40 Performance,Sailingboat,,2003,69900,EUR,France,https://www.scanboat.com/en/boat-market/boats/sailingboat-dufour-40-performance-17538573
+scanboat,17536537,Jeanneau Sun Odyssey 34.2,Sailingboat,,1997,39000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-342-17536537
+scanboat,17540571,Jeanneau Sun Odyssey 389,Sailingboat,,2018,79000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-389-17540571
+scanboat,17540694,Catalina 42 Mkii,Sailingboat,,1995,93740,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/sailingboat-catalina-42-mkii-17540694
+scanboat,17515127,Hallberg Rassy 48,Sailingboat,,2008,399000,EUR,Italy,https://www.scanboat.com/en/boat-market/boats/sailingboat-hallberg-rassy-48-17515127
+scanboat,17538494,Comfortina 32,Sailingboat,,1986,22040,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-comfortina-32-17538494
+scanboat,17526161,Nissen Bbr31 One-Off,Sailingboat,,1996,59000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-nissen-bbr31-one-off-17526161
+scanboat,17538571,Hunter Horizon 32 Wheelhouse,Sailingboat,,1987,23500,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-hunter-horizon-32-wheelhouse-17538571
+scanboat,17489161,Ta Chiao (Taiwan) Ta Chiao (Taiwan) CT 56,Sailingboat,,1988,249990,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-ta-chiao-(taiwan)-ta-chiao-(taiwan)-ct-56-17489161
+scanboat,17536577,Dufour 445 Grand Large,Sailingboat,,2011,179000,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/sailingboat-dufour-445-grand-large-17536577
+scanboat,17520957,Beneteau Oceanis 35.1,Sailingboat,,2017,139000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-oceanis-351-17520957
+scanboat,17540575,Leopard 40,Sailingboat,,2020,315000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-leopard-40-17540575
+scanboat,17548792,Moody 54,Sailingboat,,2002,369000,EUR,Italy,https://www.scanboat.com/en/boat-market/boats/sailingboat-moody-54-17548792
+scanboat,17538570,Belliure 41,Sailingboat,,1995,119000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-belliure-41-17538570
+scanboat,17535118,Farrier F32-RX Folding Trimaran,Multi hull boat,,2014,160000,EUR,France,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-farrier-f32-rx-folding-trimaran-17535118
+scanboat,17548794,Amateur Wharram Tiki 26 Catamaran,Multi hull boat,,2015,6500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-amateur-wharram-tiki-26-catamaran-17548794
+scanboat,17548795,Amateur Starter 800 Catamaran,Multi hull boat,,1999,5950,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-amateur-starter-800-catamaran-17548795
+scanboat,17542978,Dufour 325 Grand Large,Sailingboat,,2008,59090,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-dufour-325-grand-large-17542978
+scanboat,17495707,Maxi 1050,Sailingboat,,2008,95000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-maxi-1050-17495707
+scanboat,17520838,Westerly Gk 29,Sailingboat,,1979,15000,EUR,Belgium,https://www.scanboat.com/en/boat-market/boats/sailingboat-westerly-gk-29-17520838
+scanboat,17477706,Hotel / Passagiersschip 18 Pass 18 Pass,Live a board / Riverboat,,1897,425000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-hotel--passagiersschip-18-pass-18-pass-17477706
+scanboat,17540435,Drabant 30 - 1983 - Aas,Sailingboat,,1983,14780,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-drabant-30---1983---aas-17540435
+scanboat,17538550,Lagoon 450,Multi hull boat,,2018,350000,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-lagoon-450-17538550
+scanboat,17534997,Hustler 32,Sailingboat,,1999,8830,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-hustler-32-17534997
+scanboat,17536578,Dick Zaal 41,Sailingboat,,1973,95000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-dick-zaal-41-17536578
+scanboat,17543056,Beneteau Oceanis 55,Sailingboat,,2015,350000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-oceanis-55-17543056
+scanboat,17522644,Scanner Scanner 38,Sailingboat,,1990,59090,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-scanner-scanner-38-17522644
+scanboat,17538549,Nautitech 46 Fly,Multi hull boat,,2019,370000,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-nautitech-46-fly-17538549
+scanboat,17525174,X-Yachts X-50,Sailingboat,,2005,284000,EUR,Slovenia,https://www.scanboat.com/en/boat-market/boats/sailingboat-x-yachts-x-50-17525174
+scanboat,17535039,Jeanneau Sun Odyssey 415,Sailingboat,,2025,291000,EUR,Finland,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-415-17535039
+scanboat,17514911,Dufour 40 Performance,Sailingboat,,2003,69000,EUR,Martinique,https://www.scanboat.com/en/boat-market/boats/sailingboat-dufour-40-performance-17514911
 scanboat,17525201,Bavaria 34 Cruiser,Sailingboat,,2008,73900,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-34-cruiser-17525201
 scanboat,17507136,Uw Jacht / Schip Verkopen,Live a board / Riverboat,,,,,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-uw-jacht--schip-verkopen-17507136
+scanboat,17528376,Fisher 37 Ketch,Sailingboat,,1997,99000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-fisher-37-ketch-17528376
 scanboat,17512956,Dynamic 43,Sailingboat,,1987,77270,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-dynamic-43-17512956
 scanboat,17536581,Composite Lda (Portugal) Composite Lda (Portugal),Live a board / Riverboat,,2022,139000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-composite-lda-(portugal)-composite-lda-(portugal)-waterlily-large-canal-17536581
 scanboat,17538533,Sailcraft Apache 41 Catamaran,Multi hull boat,,1975,67500,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-sailcraft-apache-41-catamaran-17538533
+scanboat,17540587,Leopard 45,Sailingboat,,2019,375000,EUR,Italy,https://www.scanboat.com/en/boat-market/boats/sailingboat-leopard-45-17540587
+scanboat,17525563,X-Yachts X-442,Sailingboat,,2003,154090,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-x-yachts-x-442-17525563
+scanboat,17538547,Schmidt Motorsegler Stahl,Sailingboat,,1962,148000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-schmidt-motorsegler-stahl-17538547
 scanboat,17526325,Bali 4.4,Sailingboat,,2022,731000,EUR,USA,https://www.scanboat.com/en/boat-market/boats/sailingboat-bali-44-17526325
+scanboat,17534998,Nicholson 31,Sailingboat,,1976,24000,EUR,Ireland,https://www.scanboat.com/en/boat-market/boats/sailingboat-nicholson-31-17534998
 scanboat,17519117,Westerly Typhoon 37,Sailingboat,,1990,74500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-westerly-typhoon-37-17519117
+scanboat,17540588,Jeanneau Sun Odyssey 389,Sailingboat,,2020,105000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-389-17540588
+scanboat,17538644,Bavaria 46 Cruiser,Sailingboat,,2007,149500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-46-cruiser-17538644
 scanboat,17538531,Beneteau Oceanis 411,Sailingboat,,2001,94000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-oceanis-411-17538531
+scanboat,17540589,Leopard 40,Sailingboat,,2020,329000,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/sailingboat-leopard-40-17540589
+scanboat,17538546,Scandinavia Yachts 30,Sailingboat,,2022,99000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-scandinavia-yachts-30-17538546
+scanboat,17529118,M.A.T 12.20,Sailingboat,,2023,565000,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-mat-1220-17529118
+scanboat,17540590,Leopard 42,Sailingboat,,2021,379000,EUR,France,https://www.scanboat.com/en/boat-market/boats/sailingboat-leopard-42-17540590
 scanboat,17524851,Frers 46 Calypso Ior 2 Ton Racer,Sailingboat,,1984,72900,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-frers-46-calypso-ior-2-ton-racer-17524851
 scanboat,17507328,Custom Craft Motorsegler,Sailingboat,,1966,23000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-custom-craft-motorsegler-17507328
+scanboat,17546898,Luffe 45,Sailingboat,,2018,495000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-luffe-45-17546898
 scanboat,17535056,X4? Mki - X-Yachts,Sailingboat,,2022,750000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-x4ae-mki---x-yachts-17535056
+scanboat,17538545,Bavaria 41 Cruiser,Sailingboat,,2020,189000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-41-cruiser-17538545
 scanboat,17503340,Amel 60,Sailingboat,,2023,1980000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-amel-60-17503340
 scanboat,17538428,Hanse 291,Sailingboat,,1993,20000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-291-17538428
+scanboat,17538643,Dufour 40 Performance,Sailingboat,,2004,109000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-dufour-40-performance-17538643
 scanboat,17525323,Bavaria 38 Holiday,Sailingboat,,2009,69000,EUR,Finland,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-38-holiday-17525323
+scanboat,17526013,Grand Soleil 43,Sailingboat,,2001,99000,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-grand-soleil-43-17526013
 scanboat,17538323,Hanse 461,Sailingboat,,2005,172500,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-461-17538323
+scanboat,17546888,Zuidkaper 40,Sailingboat,,2016,520000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-zuidkaper-40-17546888
 scanboat,17527632,Moody DS 48,Sailingboat,,2027,1029231,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-moody-ds-48-17527632
 scanboat,17510752,Vindø 32,Sailingboat,,1978,23468,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-vindoe-32-17510752
 scanboat,17540441,Maxi 999,Sailingboat,,1986,29540,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-maxi-999-17540441
 scanboat,17538528,Bavaria 30 Cruiser,Sailingboat,,2005,45000,EUR,Portugal,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-30-cruiser-17538528
+scanboat,17485016,Damarin 732 Cabin (Nieuw),Sailingboat,,2025,80500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-damarin-732-cabin-(nieuw)-17485016
 scanboat,17551040,LM Mermaid 290,Sailingboat,,1987,23500,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-lm-mermaid-290-17551040
 scanboat,17516978,Werft Plaue Sundreamer 1100,Live a board / Riverboat,,2022,119990,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-werft-plaue-sundreamer-1100-17516978
 scanboat,17551038,Bali 4.3,Sailingboat,,2018,285000,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/sailingboat-bali-43-17551038
 scanboat,17551036,Beneteau Oceanis Clipper 343,Sailingboat,,2006,79500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-oceanis-clipper-343-17551036
-scanboat,17550938,Onbekend Stainless Steel Marine Chimney 316 – Dura,Live a board / Riverboat,,2026,,,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-onbekend-stainless-steel-marine-chimney-316-durable-corrosion-resistant-smoke-exhaust-for-maritime-and-industrial-use-17550938
-scanboat,17550808,Vetus Nlp50S Waterlock Exhaust Muffler - Silencer,Live a board / Riverboat,,2026,,,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-vetus-nlp50s-waterlock-exhaust-muffler---silencer-50-mm---nlp50s-17550808
-scanboat,17550810,Vetus Lgs5038 Gas-Waterseparator For Exhaust Syste,Live a board / Riverboat,,2026,,,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-vetus-lgs5038-gas-waterseparator-for-exhaust-system-38---50mm-17550810
-scanboat,17550824,Centek Combo Sep 1040300 Marine Exhaust Muffler |,Live a board / Riverboat,,2026,,,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-centek-combo-sep-1040300-marine-exhaust-muffler-%7C-separator-17550824
-scanboat,17550742,Vetus LT6575 65 - 75 mm Gooseneck Exhaust LT,Live a board / Riverboat,,2026,,,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-vetus-lt6575-65---75-mm-gooseneck-exhaust-lt-17550742
-scanboat,17550746,Vetus Lgs9075 Exhaust Gas - Water Separator 90 - 7,Live a board / Riverboat,,2026,,,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-vetus-lgs9075-exhaust-gas---water-separator-90---75-mm-17550746
-scanboat,17550747,Vetus LT152 152 mm Gooseneck Exhaust Muffler LT,Live a board / Riverboat,,2026,,,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-vetus-lt152-152-mm-gooseneck-exhaust-muffler-lt-17550747
-scanboat,17550756,Vetus MV150 150 mm Exhaust Engine Muffler High Cap,Live a board / Riverboat,,2026,,,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-vetus-mv150-150-mm-exhaust-engine-muffler-high-capacity-17550756
-scanboat,17550757,Vetus Nlph75 Exhaust Waterlock | Muffler 75 mm Rot,Live a board / Riverboat,,2026,,,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-vetus-nlph75-exhaust-waterlock-%7C-muffler-75-mm-rotatable-17550757
-scanboat,17550758,Vetus LT100 100 mm Gooseneck - Zwanenhals Exhaust,Live a board / Riverboat,,2026,,,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-vetus-lt100-100-mm-gooseneck---zwanenhals-exhaust-muffler-17550758
-scanboat,17550759,Vetus Mgl6458A Exhaust Muffler | Silencer 127 - 20,Live a board / Riverboat,,2026,,,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-vetus-mgl6458a-exhaust-muffler-%7C-silencer-127---203-mm-17550759
-scanboat,17550786,Vetus Trc150SV Stainless Steel Transom Mount Exhau,Live a board / Riverboat,,2026,,,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-vetus-trc150sv-stainless-steel-transom-mount-exhaust-output-152-mm-17550786
-scanboat,17550683,Centek Marine 3.5 Inch Black Grp Exhaust Muffler -,Live a board / Riverboat,,2026,,,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-centek-marine-35-inch-black-grp-exhaust-muffler---1050350-17550683
-scanboat,17550692,Centek 3.5 Inch Vernatone Mkii Round Exhaust Muffl,Live a board / Riverboat,,2026,,,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-centek-35-inch-vernatone-mkii-round-exhaust-muffler---1400016-17550692
-scanboat,17550704,Vetus Mgl84510A Exhaust Muffler Inlet 203 mm 45 De,Live a board / Riverboat,,2026,,,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-vetus-mgl84510a-exhaust-muffler-inlet-203-mm-45-degree-exhaust-254-mm-17550704
-scanboat,17550539,Ferretti F670 Exhaust Grille 465 x 275mm Stainless,Live a board / Riverboat,,2026,,,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-ferretti-f670-exhaust-grille-465-x-275mm-stainless-steel---406200-17550539
-scanboat,17550560,Centek Generator Exhaust Water Separator 3.5 x 3.5,Live a board / Riverboat,,2026,,,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-centek-generator-exhaust-water-separator-35-x-35-x-2-inch---1020350-17550560
 scanboat,17550532,Jeanneau Sun Odyssey 410,Sailingboat,,2023,230000,EUR,Portugal,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-410-17550532
 scanboat,17544419,Albin 82 MS Motorsejle,Motorsailer,,1976,10080,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/motorsailer-albin-82-ms-motorsejle-17544419
 scanboat,17550531,Dufour 56 Exclusive,Sailingboat,,2018,490000,EUR,Italy,https://www.scanboat.com/en/boat-market/boats/sailingboat-dufour-56-exclusive-17550531
@@ -120,11 +237,23 @@ scanboat,17550525,Dufour 41 GL,Sailingboat,,2025,349000,EUR,France,https://www.s
 scanboat,17550524,Westerly Sealord,Sailingboat,,1983,31810,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-westerly-sealord-17550524
 scanboat,17550522,Xc 38 - X-Yachts,Sailingboat,,2011,270000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-xc-38---x-yachts-17550522
 scanboat,17550521,Jeanneau Sun Odyssey 385,Sailingboat,,2027,324650,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-385-17550521
+scanboat,17546876,Zeilschoener 24.95 Met Ubc,Live a board / Riverboat,,1931,324500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-zeilschoener-2495-met-ubc-17546876
+scanboat,17536580,Martin Bekebrede 1300 AK,Live a board / Riverboat,,2001,142500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-martin-bekebrede-1300-ak-17536580
 scanboat,17512820,Damarin 842 (Nieuw),Sailingboat,,2025,103500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-damarin-842-(nieuw)-17512820
 scanboat,17484810,Schokker Vollenhove 10.50,Sailingboat,,1998,59500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-schokker-vollenhove-1050-17484810
+scanboat,17538390,Dehler 45,Sailingboat,,2011,298000,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-dehler-45-17538390
+scanboat,17546871,Hanse Yachts 510,Sailingboat,,2024,499800,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-yachts-510-17546871
 scanboat,17536679,Bavaria 31,Sailingboat,,2008,52500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-31-17536679
+scanboat,17546870,Hanse Yachts 508,Sailingboat,,2019,285000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-yachts-508-17546870
+scanboat,17543085,Wauquiez Centurion 38,Sailingboat,,1987,59000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-wauquiez-centurion-38-17543085
+scanboat,17528735,Mini 6.50 - Zero,Sailingboat,,2006,28500,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-mini-650---zero-17528735
+scanboat,17546869,Hanse Yachts 508,Sailingboat,,2019,269900,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-yachts-508-17546869
+scanboat,17546868,Hanse Yachts 455,Sailingboat,,2018,159800,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-yachts-455-17546868
+scanboat,17546867,Hanse Yachts 415,Sailingboat,,2018,130000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-yachts-415-17546867
 scanboat,17540340,Gib Sea 442,Sailingboat,,1989,42000,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-gib-sea-442-17540340
+scanboat,17546866,Hanse 410,Sailingboat,,2025,259900,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-410-17546866
 scanboat,17520675,Rorqual NS 44 Ketch,Sailingboat,,1977,49500,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-rorqual-ns-44-ketch-17520675
+scanboat,17532631,Porsius Shipyard Directieboot,Sailingboat,,1979,58000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-porsius-shipyard-directieboot-17532631
 scanboat,17530758,Hanse Yachts Hanse 548,Sailingboat,,2021,579000,EUR,Turkey,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-yachts-hanse-548-17530758
 scanboat,17536593,Endurance 35,Sailingboat,,1979,49000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-endurance-35-17536593
 scanboat,17533550,Beneteau Oceanis 38,Sailingboat,,2016,109900,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-oceanis-38-17533550
@@ -143,7 +272,6 @@ scanboat,17526308,Dufour 45 E Performance,Sailingboat,,2009,150000,EUR,Ireland,h
 scanboat,17540376,Asante Sloop 50,Sailingboat,,1997,199000,EUR,Portugal,https://www.scanboat.com/en/boat-market/boats/sailingboat-asante-sloop-50-17540376
 scanboat,17544755,Tango 33 - 3 Cabin,Sailingboat,,2022,227770,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-tango-33---3-cabin-17544755
 scanboat,17540377,Panoramer 40,Sailingboat,,2002,95000,EUR,Portugal,https://www.scanboat.com/en/boat-market/boats/sailingboat-panoramer-40-17540377
-scanboat,17550515,Hoek Truly Classic 65,Sailingboat,,2001,1095000,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-hoek-truly-classic-65-17550515
 scanboat,17544771,Jeanneau 342,Sailingboat,,1997,29390,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-342-17544771
 scanboat,17538523,Bavaria Cruiser 51,Sailingboat,,2022,249500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-cruiser-51-17538523
 scanboat,17544772,Elan 333,Sailingboat,,2000,59000,EUR,Ireland,https://www.scanboat.com/en/boat-market/boats/sailingboat-elan-333-17544772
@@ -232,6 +360,7 @@ scanboat,17546661,Lemsteraak 14.00,Sailingboat,,1916,125000,EUR,The Netherlands,
 scanboat,17524648,Baltic 38 DP,Sailingboat,,1984,87000,EUR,Finland,https://www.scanboat.com/en/boat-market/boats/sailingboat-baltic-38-dp-17524648
 scanboat,17546524,Swan 65 Ketch,Sailingboat,,1973,475000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-swan-65-ketch-17546524
 scanboat,17536513,Beneteau Evasion 32,Sailingboat,,1977,19000,EUR,Portugal,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-evasion-32-17536513
+scanboat,17546652,Beneteau Oceanis 38.1,Sailingboat,,2018,149500,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-oceanis-381-17546652
 scanboat,17507685,Hanse 460,Sailingboat,,2025,339800,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-460-17507685
 scanboat,17520416,Beneteau Oceanis 41,Sailingboat,,2013,189900,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-oceanis-41-17520416
 scanboat,17526331,J 24,Sailingboat,,1975,30710,EUR,Australia,https://www.scanboat.com/en/boat-market/boats/sailingboat-j-24-17526331
@@ -330,6 +459,7 @@ scanboat,17550488,Jeanneau Sun Odyssey 45.2,Sailingboat,,2000,79000,EUR,France,h
 scanboat,17548705,Luffe 43 DS,Sailingboat,,2005,227300,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-luffe-43-ds-17548705
 scanboat,17550479,Lagoon 51,Multi hull boat,,2025,1250000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-lagoon-51-17550479
 scanboat,17550478,Lagoon 51,Multi hull boat,,2025,1250000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-lagoon-51-17550478
+scanboat,17550477,Cookson 39 Bruce Farr,Sailingboat,,1990,70000,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-cookson-39-bruce-farr-17550477
 scanboat,17548710,X4.3 (X-Yachts),Sailingboat,,2017,416560,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-x43-(x-yachts)-17548710
 scanboat,17522783,Hanse 588,Sailingboat,,2018,419000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-588-17522783
 scanboat,17482386,Suncoast 48,Sailingboat,,1982,99000,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-suncoast-48-17482386
@@ -482,9 +612,9 @@ scanboat,17542744,Custom Built Gulet,Sailingboat,,2000,750000,EUR,Croatia,https:
 scanboat,17512138,Hausboot-Manufaktur Tiny 46,Live a board / Riverboat,,2025,286200,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-hausboot-manufaktur-tiny-46-17512138
 scanboat,17550463,Maxi Fenix Succé,Sailingboat,,1983,,,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-maxi-fenix-succe-17550463
 scanboat,17550464,Pronavia 38,Sailingboat,,2008,,,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-pronavia-38-17550464
-scanboat,17550454,Bavaria 32,Sailingboat,,2003,47500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-32-17550454
 scanboat,17550448,Dehler Duetta 94,Sailingboat,,1986,24500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-dehler-duetta-94-17550448
 scanboat,17550447,Fountaine Pajot Saba 50,Multi hull boat,,2015,515140,EUR,Virgin Islands,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-fountaine-pajot-saba-50-17550447
+scanboat,17550446,Bavaria 30 Cruiser,Sailingboat,,2005,50450,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-30-cruiser-17550446
 scanboat,17528348,Beneteau 40 Oceanis,Sailingboat,,2007,131020,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-40-oceanis-17528348
 scanboat,17550440,Hanse Yachts 505,Sailingboat,,2018,225800,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-yachts-505-17550440
 scanboat,17464202,Waarschip 1220,Sailingboat,,1992,115000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-waarschip-1220-17464202
@@ -562,23 +692,21 @@ scanboat,17532509,Custom Built 31 m Bodrum Gulet,Sailingboat,,2009,1800000,EUR,T
 scanboat,17491745,International Dragon 29,Sailingboat,,1938,16500,EUR,Ireland,https://www.scanboat.com/en/boat-market/boats/sailingboat-international-dragon-29-17491745
 scanboat,17540242,Luffe 40,Sailingboat,,2003,138500,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-luffe-40-17540242
 scanboat,17550394,Aventura 43,Multi hull boat,,2026,,,No country info,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-aventura-43-17550394
-scanboat,17550395,Privilège Signature 580,Multi hull boat,,2024,,,France,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-privilege-signature-580-17550395
 scanboat,17550396,Privilège Signature 650,Multi hull boat,,2024,,,France,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-privilege-signature-650-17550396
 scanboat,17550397,Aventura 38 MY Fly Bridge,Multi hull boat,,2027,,,No country info,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-aventura-38-my-fly-bridge-17550397
 scanboat,17550398,Aventura 45,Multi hull boat,,2026,,,No country info,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-aventura-45-17550398
 scanboat,17550399,Aventura 38 SC,Multi hull boat,,2027,,,No country info,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-aventura-38-sc-17550399
 scanboat,17550400,Aventura 56 MY,Multi hull boat,,2024,1332208,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-aventura-56-my-17550400
-scanboat,17550401,Lagoon 55,Multi hull boat,,2026,,,The Netherlands,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-lagoon-55-17550401
+scanboat,17550401,Lagoon 55,Multi hull boat,,2027,,,The Netherlands,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-lagoon-55-17550401
 scanboat,17550402,Italia 12.98,Sailingboat,,2023,498000,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-italia-1298-17550402
-scanboat,17550403,Nautitech 48 Open,Multi hull boat,,2026,,,The Netherlands,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-nautitech-48-open-17550403
+scanboat,17550403,Nautitech 48 Open,Multi hull boat,,2027,,,The Netherlands,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-nautitech-48-open-17550403
 scanboat,17550404,Lagoon 43,Multi hull boat,,2027,,,The Netherlands,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-lagoon-43-17550404
-scanboat,17550405,Lagoon 51,Multi hull boat,,2026,,,The Netherlands,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-lagoon-51-17550405
 scanboat,17550406,Nautitech 44 Open,Multi hull boat,,2026,,,France,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-nautitech-44-open-17550406
 scanboat,17550407,Aventura 37,Multi hull boat,,2026,,,Sweden,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-aventura-37-17550407
-scanboat,17550408,Seawind 1170,Multi hull boat,,2026,,,Sweden,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-seawind-1170-17550408
+scanboat,17550408,Seawind 1170,Multi hull boat,,2027,,,Sweden,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-seawind-1170-17550408
 scanboat,17550409,Seawind 1270,Multi hull boat,,2026,,,Sweden,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-seawind-1270-17550409
-scanboat,17550410,Seawind 1370,Multi hull boat,,2024,,,Sweden,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-seawind-1370-17550410
-scanboat,17550411,Seawind 1600 Passagemaker,Multi hull boat,,2024,,,Sweden,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-seawind-1600-passagemaker-17550411
+scanboat,17550410,Seawind 1370,Multi hull boat,,2017,,,Sweden,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-seawind-1370-17550410
+scanboat,17550411,Seawind 1600 Passagemaker,Multi hull boat,,2027,,,Sweden,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-seawind-1600-passagemaker-17550411
 scanboat,17550412,Jeanneau Sun Odyssey 440,Sailingboat,,2018,142400,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-440-17550412
 scanboat,17550413,Lagoon 42,Multi hull boat,,2018,264000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-lagoon-42-17550413
 scanboat,17550414,Nautitech 40 Open,Multi hull boat,,2023,518000,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-nautitech-40-open-17550414
@@ -589,9 +717,9 @@ scanboat,17550418,Lagoon 40,Multi hull boat,,2020,249000,EUR,Virgin Islands,http
 scanboat,17550419,Excess 14,Multi hull boat,,2025,667000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-excess-14-17550419
 scanboat,17550420,Jeanneau Sun Odyssey 440,Sailingboat,,2019,147500,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-440-17550420
 scanboat,17550389,Aventura 38 MY Sedan,Multi hull boat,,2027,495500,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-aventura-38-my-sedan-17550389
-scanboat,17550390,Aventura Explorer,Multi hull boat,,2027,306950,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-aventura-explorer-17550390
+scanboat,17550390,Aventura 37 Explorer,Multi hull boat,,2027,306950,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-aventura-37-explorer-17550390
 scanboat,17550391,Nautitech 41 Type S,Multi hull boat,,2026,,,France,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-nautitech-41-type-s-17550391
-scanboat,17550392,Aventura Explorer Fly-Bridge,Multi hull boat,,2027,354885,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-aventura-explorer-fly-bridge-17550392
+scanboat,17550392,Aventura 37 Explorer Fly-Bridge,Multi hull boat,,2027,354885,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-aventura-37-explorer-fly-bridge-17550392
 scanboat,17550393,Privilège Signature 510,Multi hull boat,,2026,,,France,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-privilege-signature-510-17550393
 scanboat,17504556,Hanse Hanse 445,Sailingboat,,2011,270000,EUR,Finland,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-hanse-445-17504556
 scanboat,17514336,Hanse 325,Sailingboat,,2015,66000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-325-17514336
@@ -648,7 +776,7 @@ scanboat,17502445,Bavaria 50 Cruiser,Sailingboat,,2008,89000,EUR,Greece,https://
 scanboat,17546401,Jeanneau Sun Odyssey 40.3,Sailingboat,,2005,61500,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-403-17546401
 scanboat,17507698,Fountaine Pajot Astrea 42,Multi hull boat,,2019,419000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-fountaine-pajot-astrea-42-17507698
 scanboat,17508221,Hanse 460,Sailingboat,,2023,460000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-460-17508221
-scanboat,17538207,Tofinou 12,Sailingboat,,2010,185000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-tofinou-12-17538207
+scanboat,17538207,Tofinou 12,Sailingboat,,2010,169000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-tofinou-12-17538207
 scanboat,17536301,Xc 42 - X-Yachts,Sailingboat,,2010,330000,EUR,Italy,https://www.scanboat.com/en/boat-market/boats/sailingboat-xc-42---x-yachts-17536301
 scanboat,17522138,Vilm 1,Motorsailer,,1982,29500,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/motorsailer-vilm-1-17522138
 scanboat,17540193,Hunter Legend 326,Sailingboat,,2003,38880,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-hunter-legend-326-17540193
@@ -827,7 +955,6 @@ scanboat,17550323,C-Yacht Compromis C999,Sailingboat,,1992,44500,EUR,The Netherl
 scanboat,17550324,C-Yacht Compromis C999,Sailingboat,,1991,42000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-c-yacht-compromis-c999-17550324
 scanboat,17550311,Leopard 38,Sailingboat,,2010,199000,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-leopard-38-17550311
 scanboat,17550308,Compromis 888,Sailingboat,,1988,7000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-compromis-888-17550308
-scanboat,17550310,Archambault Sprint 95,Sailingboat,,1992,3000,EUR,Hungary,https://www.scanboat.com/en/boat-market/boats/sailingboat-archambault-sprint-95-17550310
 scanboat,17550299,Jan Haring 960,Sailingboat,,1982,33000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-jan-haring-960-17550299
 scanboat,17550297,Fountaine Pajot Elba 45,Multi hull boat,,2023,580500,EUR,Virgin Islands,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-fountaine-pajot-elba-45-17550297
 scanboat,17550298,Hanse 348,Sailingboat,,2022,145340,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-348-17550298
@@ -846,6 +973,7 @@ scanboat,17550272,Nicholson 52,Sailingboat,,1948,232000,EUR,United Kingdom,https
 scanboat,17550270,African Cats Greencat 445,Sailingboat,,2011,322500,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/sailingboat-african-cats-greencat-445-17550270
 scanboat,17550271,Waller 1480,Sailingboat,,2008,249000,EUR,Malaisia,https://www.scanboat.com/en/boat-market/boats/sailingboat-waller-1480-17550271
 scanboat,17550269,Waller 1480,Sailingboat,,2008,249000,EUR,Malaisia,https://www.scanboat.com/en/boat-market/boats/sailingboat-waller-1480-17550269
+scanboat,17550265,Beneteau Oceanis 46.1,Sailingboat,,2023,360000,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-oceanis-461-17550265
 scanboat,17550266,Jeanneau 54,Sailingboat,,2017,199000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-54-17550266
 scanboat,17550263,Pogo 30,Sailingboat,,2020,195000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-pogo-30-17550263
 scanboat,17550264,Nauticat 42,Sailingboat,,2002,230000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-nauticat-42-17550264
@@ -853,7 +981,7 @@ scanboat,17550259,Dufour 35 Classic,Sailingboat,,1999,49500,EUR,The Netherlands,
 scanboat,17550249,Beneteau Oceanis 411,Sailingboat,,1999,119000,EUR,France,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-oceanis-411-17550249
 scanboat,17550250,Beneteau Oceanis 311 Clipper,Sailingboat,,1999,42000,EUR,France,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-oceanis-311-clipper-17550250
 scanboat,17550246,Jeanneau Sun Fizz 40,Sailingboat,,1983,56000,EUR,France,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-fizz-40-17550246
-scanboat,17550243,Beneteau Oceanis,Sailingboat,,2021,375000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-oceanis-17550243
+scanboat,17550243,Beneteau Oceanis 51.1,Sailingboat,,2021,375000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-oceanis-511-17550243
 scanboat,17550236,Comfortina 32,Sailingboat,,1993,46000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-comfortina-32-17550236
 scanboat,17542789,Beneteau Oceanis 41.1,Sailingboat,,2019,149000,EUR,Italy,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-oceanis-411-17542789
 scanboat,17550235,Custom Built Yawl 20,Sailingboat,,2019,32930,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-custom-built-yawl-20-17550235
@@ -966,13 +1094,12 @@ scanboat,17550196,Fellowship 27,Sailingboat,,1980,2000,EUR,The Netherlands,https
 scanboat,17550198,Kos Meinstra Zeeschouw,Sailingboat,,1972,2000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-kos-meinstra-zeeschouw-17550198
 scanboat,17526594,Chantiers Maritimes de Paimpol et Fécamp Via 52,Sailingboat,,1984,399550,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-chantiers-maritimes-de-paimpol-et-fecamp-via-52-17526594
 scanboat,17532385,Fountaine Pajot Motorcatamaran MY 37,Multi hull boat,,2018,249000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-fountaine-pajot-motorcatamaran-my-37-17532385
-scanboat,17542764,Saffier SC8 Cabin,Sailingboat,,2022,149000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-saffier-sc8-cabin-17542764
 scanboat,17508516,Hallberg-Rassy 43,Sailingboat,,2003,329500,EUR,Finland,https://www.scanboat.com/en/boat-market/boats/sailingboat-hallberg-rassy-43-17508516
 scanboat,17515399,Fænø 36,Motorsailer,,1982,30173,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/motorsailer-faenoe-36-17515399
 scanboat,17544570,Moody 336,Sailingboat,,1990,59000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-moody-336-17544570
 scanboat,17544571,Custom Built Sloop,Sailingboat,,2019,139000,EUR,Italy,https://www.scanboat.com/en/boat-market/boats/sailingboat-custom-built-sloop-17544571
 scanboat,17464199,"Waarschip 700 LD , 700 CR of 700 C",Sailingboat,,2023,97000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-waarschip-700-ld--700-cr-of-700-c-17464199
-scanboat,17532602,Hanse 458,Sailingboat,,2024,475000,EUR,Malaisia,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-458-17532602
+scanboat,17532602,Hanse 458,Sailingboat,,2024,465000,EUR,Malaisia,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-458-17532602
 scanboat,17530609,Bavaria 32,Sailingboat,,2004,39500,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-32-17530609
 scanboat,17544572,Maestro 35,Sailingboat,,1985,62000,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-maestro-35-17544572
 scanboat,17536233,Jeanneau 57,Sailingboat,,2010,450000,EUR,Turkey,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-57-17536233
@@ -1055,7 +1182,6 @@ scanboat,17354016,Nicholson Classic 35 (ex Yeomen Xiv),Sailingboat,,1966,89480,E
 scanboat,17514394,Tofinou 7.9,Sailingboat,,2024,99700,EUR,France,https://www.scanboat.com/en/boat-market/boats/sailingboat-tofinou-79-17514394
 scanboat,17536454,Jeanneau Sun Odyssey 51,Sailingboat,,1992,140000,EUR,France,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-51-17536454
 scanboat,17542648,Hunter Hunter 31,Sailingboat,,2006,45000,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-hunter-hunter-31-17542648
-scanboat,17536188,Nauticat 35,Sailingboat,,1993,82410,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-nauticat-35-17536188
 scanboat,17523268,Oe Olle Enderlein 35,Sailingboat,,1971,29900,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-oe-olle-enderlein-35-17523268
 scanboat,17536237,Beneteau Oceanis 43,Sailingboat,,2007,105000,EUR,Turkey,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-oceanis-43-17536237
 scanboat,17472575,Albin Stratus 35,Sailingboat,,1980,26860,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-albin-stratus-35-17472575
@@ -1451,7 +1577,6 @@ scanboat,17548308,X4° - X-Yachts,Sailingboat,,2023,481600,EUR,Denmark,https://w
 scanboat,17548309,Xc 42 - X-Yachts,Sailingboat,,2014,419500,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-xc-42---x-yachts-17548309
 scanboat,17536039,Hanse 370,Sailingboat,,2008,89000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-370-17536039
 scanboat,17548318,Beneteau Oceanis 321,Sailingboat,,1995,39900,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-oceanis-321-17548318
-scanboat,17548320,Dehler 28 S,Sailingboat,,1993,27000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-dehler-28-s-17548320
 scanboat,17511522,Bavaria 39 Cruiser,Sailingboat,,2006,78500,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-39-cruiser-17511522
 scanboat,17548321,Bavaria Vision 42 Blue Edition,Sailingboat,,2018,176650,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-vision-42-blue-edition-17548321
 scanboat,17537887,Jeanneau Sun Odyssey 45.2,Sailingboat,,2003,155000,EUR,France,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-452-17537887
@@ -1583,11 +1708,10 @@ scanboat,17509509,Italia 11.98,Sailingboat,,2025,367000,EUR,Germany,https://www.
 scanboat,17548257,Cornish Crabbers Cornish Shrimper 19,Sailingboat,,2005,19900,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-cornish-crabbers-cornish-shrimper-19-17548257
 scanboat,17548162,Beneteau Cyclades 50 - 3 Cabins,Sailingboat,,2007,150000,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-cyclades-50---3-cabins-17548162
 scanboat,17548163,Najad 391,Sailingboat,,1999,186750,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-najad-391-17548163
-scanboat,17544160,Tartan 42,Sailingboat,,1981,76540,EUR,USA,https://www.scanboat.com/en/boat-market/boats/sailingboat-tartan-42-17544160
+scanboat,17544160,Tartan 42,Sailingboat,,1981,66130,EUR,USA,https://www.scanboat.com/en/boat-market/boats/sailingboat-tartan-42-17544160
 scanboat,17548264,Baba 35,Sailingboat,,1979,59340,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/sailingboat-baba-35-17548264
 scanboat,17544162,Najad 400,Sailingboat,,2002,299000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-najad-400-17544162
 scanboat,17532292,Hanse 460,Sailingboat,,2023,334800,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-460-17532292
-scanboat,17545920,Hanse 341,Sailingboat,,2002,54900,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-341-17545920
 scanboat,17542348,Victoire 1044,Sailingboat,,1993,45000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-victoire-1044-17542348
 scanboat,17502226,Botter Yard North Sea,Sailingboat,,1931,189990,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-botter-yard-north-sea-17502226
 scanboat,17548269,J-Boats J92,Sailingboat,,2001,35000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-j-boats-j92-17548269
@@ -1731,10 +1855,10 @@ scanboat,17550118,Hanse 315,Sailingboat,,2016,93000,EUR,Germany,https://www.scan
 scanboat,17550113,Bavaria 37-2 C,Sailingboat,,2007,79500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-37-2-c-17550113
 scanboat,17550114,Jeanneau Sun 2000,Sailingboat,,2007,9900,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-2000-17550114
 scanboat,17550109,Leopard 50,Sailingboat,,2020,599000,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/sailingboat-leopard-50-17550109
+scanboat,17550106,Hanse 350,Sailingboat,,2008,67730,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-350-17550106
 scanboat,17550105,Hallberg-Rassy 31,Sailingboat,,2002,82410,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-hallberg-rassy-31-17550105
 scanboat,17550104,Hallberg Rassy Rasmus 35,Sailingboat,,1976,47500,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-hallberg-rassy-rasmus-35-17550104
 scanboat,17550102,Bavaria C38,Sailingboat,,2026,272794,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-c38-17550102
-scanboat,17550101,Jeanneau 42I,Sailingboat,,2009,128500,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-42i-17550101
 scanboat,17550097,X56 - X-Yachts,Sailingboat,,2023,1450000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-x56---x-yachts-17550097
 scanboat,17550098,X56 - X-Yachts,Sailingboat,,2023,1450000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-x56---x-yachts-17550098
 scanboat,17550095,Hanse 400,Sailingboat,,2010,110000,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-400-17550095
@@ -1794,7 +1918,7 @@ scanboat,17542166,De Boarnstream Sirocco 31 Decksalon,Motorsailer,,1986,40040,EU
 scanboat,17537736,Alerion Express 28,Sailingboat,,2004,67730,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-alerion-express-28-17537736
 scanboat,17531556,Bavaria 37 Cruiser,Sailingboat,,2018,149000,EUR,Turkey,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-37-cruiser-17531556
 scanboat,17537875,Lagoon 46,Multi hull boat,,2021,631560,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-lagoon-46-17537875
-scanboat,17531555,Solaris 64 RS,Sailingboat,,2022,2395000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-solaris-64-rs-17531555
+scanboat,17531555,Solaris 64 RS,Sailingboat,,2022,2250000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-solaris-64-rs-17531555
 scanboat,17542145,Van de Stadt Splinter 30,Sailingboat,,1970,18750,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-van-de-stadt-splinter-30-17542145
 scanboat,17544013,Finnsaurus 34,Sailingboat,,1988,45000,EUR,Finland,https://www.scanboat.com/en/boat-market/boats/sailingboat-finnsaurus-34-17544013
 scanboat,17542287,Bavaria 34 Cruiser,Sailingboat,,2018,146840,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-34-cruiser-17542287
@@ -2012,7 +2136,6 @@ scanboat,17528212,Bavaria 46 Cruiser,Sailingboat,,2005,120000,EUR,Spain,https://
 scanboat,17544027,First Class One Off 40,Sailingboat,,1980,32920,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-first-class-one-off-40-17544027
 scanboat,17523754,Beneteau Oceanis 323 Clipper,Sailingboat,,2003,51730,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-oceanis-323-clipper-17523754
 scanboat,17550040,Medusa 25,Motorsailer,,1974,4030,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/motorsailer-medusa-25-17550040
-scanboat,17534366,Canados Heritage 36,Multi hull boat,,2026,388000,EUR,Italy,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-canados-heritage-36-17534366
 scanboat,17509508,Italia 9.98,Sailingboat,,2025,266500,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-italia-998-17509508
 scanboat,17542254,Custom 22m Catamaran,Multi hull boat,,2023,549000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-custom-22m-catamaran-17542254
 scanboat,17446950,Gullet 38m,Motorsailer,,2000,1000000,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/motorsailer-gullet-38m-17446950
@@ -2086,7 +2209,6 @@ scanboat,17543895,Bavaria Bavaria 40 Ocean,Sailingboat,,2001,108640,EUR,Sweden,h
 scanboat,17544048,La Mare Apart,Live a board / Riverboat,,2020,114900,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-la-mare-apart-17544048
 scanboat,17543896,Sweden Yachts Sweden Yachts 45,Sailingboat,,2001,272270,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-sweden-yachts-sweden-yachts-45-17543896
 scanboat,17543897,Salona 44 Performance,Sailingboat,,2016,220000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-salona-44-performance-17543897
-scanboat,17543898,Hanse 315,Sailingboat,,2006,52270,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-315-17543898
 scanboat,17543901,Nauticat nc 525,Sailingboat,,2017,475000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-nauticat-nc-525-17543901
 scanboat,17531509,Bavaria C45 Style,Sailingboat,,2019,199950,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-c45-style-17531509
 scanboat,17521914,Elan 333,Sailingboat,,2006,53506,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-elan-333-17521914
@@ -2282,13 +2404,12 @@ scanboat,17529856,Nautors Swan 46 MK Iii,Sailingboat,,2005,395000,EUR,Denmark,ht
 scanboat,17463905,Blohm & Voss Conger C Jolle,Sailingboat,,1974,1590,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-blohm---voss-conger-c-jolle-17463905
 scanboat,17541716,Hallberg-Rassy 53,Sailingboat,,2004,500680,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-hallberg-rassy-53-17541716
 scanboat,17541715,Hallberg-Rassy 342,Sailingboat,,2005,135480,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-hallberg-rassy-342-17541715
-scanboat,17541714,Hallberg-Rassy 44,Sailingboat,,2019,647360,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-hallberg-rassy-44-17541714
 scanboat,17549853,Columbia 8.7 (Model 299),Sailingboat,,1978,11900,EUR,Estonia,https://www.scanboat.com/en/boat-market/boats/sailingboat-columbia-87-(model-299)-17549853
 scanboat,17541712,Hallberg-Rassy 42F MK II,Sailingboat,,2001,182600,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-hallberg-rassy-42f-mk-ii-17541712
 scanboat,17532871,Tjalk Woonschip ex Charter,Live a board / Riverboat,,1905,120000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-tjalk-woonschip-ex-charter-17532871
 scanboat,17534268,Lancer 72,Motorsailer,,1985,267530,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/motorsailer-lancer-72-17534268
 scanboat,17539408,Bavaria Cruiser 37,Sailingboat,,2015,117750,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-cruiser-37-17539408
-scanboat,17534242,Lagoon 46,Multi hull boat,,2021,650000,EUR,Portugal,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-lagoon-46-17534242
+scanboat,17534242,Lagoon 46,Multi hull boat,,2021,575000,EUR,Portugal,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-lagoon-46-17534242
 scanboat,17534241,Werftbau Commodore 35,Live a board / Riverboat,,1952,269990,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-werftbau-commodore-35-17534241
 scanboat,17547897,Hunter Horizon 272,Sailingboat,,1992,8840,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-hunter-horizon-272-17547897
 scanboat,17547898,Beneteau Antares 9,Sailingboat,,1985,11190,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-antares-9-17547898
@@ -2405,7 +2526,6 @@ scanboat,17537313,Lemsteraak Corneel - De Boer Roefaak 12.85,Multi hull boat,,19
 scanboat,17535410,Dufour Yachts Dufour 530,Sailingboat,,2021,480000,EUR,Italy,https://www.scanboat.com/en/boat-market/boats/sailingboat-dufour-yachts-dufour-530-17535410
 scanboat,17537312,Comfortina 35,Sailingboat,,2003,109900,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-comfortina-35-17537312
 scanboat,17541747,Jeanneau Sun Odyssey 34.2,Sailingboat,,2001,42950,EUR,Ireland,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-342-17541747
-scanboat,17535411,Leopard 53,Multi hull boat,,2024,1350000,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-leopard-53-17535411
 scanboat,17522385,Ericson 39,Sailingboat,,1973,29500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-ericson-39-17522385
 scanboat,17549814,Najad 361,Sailingboat,,1995,134900,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-najad-361-17549814
 scanboat,17549800,Winner 10.10,Sailingboat,,2010,85000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-winner-1010-17549800
@@ -2491,7 +2611,6 @@ scanboat,17535400,E.G. Van DE Stadt Stormy 55,Sailingboat,,1981,120000,EUR,Spain
 scanboat,17535383,Beneteau First 53,Sailingboat,,2020,449000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-first-53-17535383
 scanboat,17541445,Jeanneau Sun Odyssey 490,Sailingboat,,2020,270000,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-490-17541445
 scanboat,17545464,Caliber 40 Cutter,Sailingboat,,1992,96750,EUR,USA,https://www.scanboat.com/en/boat-market/boats/sailingboat-caliber-40-cutter-17545464
-scanboat,17541570,Custom Built Boat Catamaran 38 Pax,Multi hull boat,,2022,395000,EUR,France,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-custom-built-boat-catamaran-38-pax-17541570
 scanboat,17506236,Dufour 56 Exclusive,Sailingboat,,2018,399000,EUR,Italy,https://www.scanboat.com/en/boat-market/boats/sailingboat-dufour-56-exclusive-17506236
 scanboat,17539125,Piana 30 Cruising Catamaran,Multi hull boat,,1994,24950,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-piana-30-cruising-catamaran-17539125
 scanboat,17541569,Lagoon LG 46,Multi hull boat,,2022,899000,EUR,Montenegro,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-lagoon-lg-46-17541569
@@ -2623,7 +2742,6 @@ scanboat,17547666,Dufour 38 Classic,Sailingboat,,1998,67050,EUR,Denmark,https://
 scanboat,17547667,Bavaria 39 Cruiser - 3 Cabin,Sailingboat,,2005,103470,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-39-cruiser---3-cabin-17547667
 scanboat,17537147,Jongert Trewes 59,Sailingboat,,1973,212212,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-jongert-trewes-59-17537147
 scanboat,17543637,Beneteau Oceanis 60,Sailingboat,,2023,949000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-oceanis-60-17543637
-scanboat,17534138,Richard Woods Mira 35 Catamaran,Multi hull boat,,1995,35000,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-richard-woods-mira-35-catamaran-17534138
 scanboat,17547670,Jeanneau Sun Odyssey 39i,Sailingboat,,2009,125000,EUR,Portugal,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-39i-17547670
 scanboat,17547671,Jeanneau Sun Odyssey 36i,Sailingboat,,2007,65000,EUR,Portugal,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-36i-17547671
 scanboat,17543638,Olivier Van Meer 143 Zaca A Te Moana,Sailingboat,,1992,200000,EUR,Belgium,https://www.scanboat.com/en/boat-market/boats/sailingboat-olivier-van-meer-143-zaca-a-te-moana-17543638
@@ -2636,7 +2754,6 @@ scanboat,17546905,Lm27,Sailingboat,,1979,16110,EUR,Denmark,https://www.scanboat.
 scanboat,17546969,Omega 36,Sailingboat,,1986,24170,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-omega-36-17546969
 scanboat,17547681,Jeanneau Sun Odyssey 379,Sailingboat,,2015,80000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-379-17547681
 scanboat,17547682,Dufour 460 GL,Sailingboat,,2018,114000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-dufour-460-gl-17547682
-scanboat,17547683,Jeanneau Sun Odyssey 419,Sailingboat,,2018,124000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-419-17547683
 scanboat,17541468,Dragonfly 25 MK1,Multi hull boat,,1984,16100,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-dragonfly-25-mk1-17541468
 scanboat,17527782,Elan Impression 50,Sailingboat,,2016,231000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-elan-impression-50-17527782
 scanboat,17547686,Etap 35 i,Sailingboat,,1995,49900,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-etap-35-i-17547686
@@ -2675,6 +2792,7 @@ scanboat,17549661,Camper & Nicholsons 58,Sailingboat,,1995,145000,EUR,Ireland,ht
 scanboat,17549662,Beneteau 393,Sailingboat,,2007,80000,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-393-17549662
 scanboat,17549663,Leopard 45,Sailingboat,,2020,630000,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-leopard-45-17549663
 scanboat,17549658,Dufour 460 Grand Large,Sailingboat,,2016,115000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-dufour-460-grand-large-17549658
+scanboat,17549657,Najad 355,Sailingboat,,2006,195000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-najad-355-17549657
 scanboat,17549655,Bavaria 31 Cruiser,Sailingboat,,2008,55800,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-31-cruiser-17549655
 scanboat,17549624,LM 27,Sailingboat,,1977,20020,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-lm-27-17549624
 scanboat,17549625,Wauquiez Pilot Saloon 55,Sailingboat,,2008,328680,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-wauquiez-pilot-saloon-55-17549625
@@ -2744,7 +2862,6 @@ scanboat,17541240,Fountaine Pajot Mahe 36 Evolution,Multi hull boat,,2014,190000
 scanboat,17504026,Feeling 920,Sailingboat,,1984,14000,EUR,Belgium,https://www.scanboat.com/en/boat-market/boats/sailingboat-feeling-920-17504026
 scanboat,17545323,Bavaria 31 Cruiser,Sailingboat,,2007,57000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-31-cruiser-17545323
 scanboat,17500018,Fountaine Pajot 37 Antigua,Multi hull boat,,1992,122500,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-fountaine-pajot-37-antigua-17500018
-scanboat,17545467,Bavaria 31 Cruiser,Sailingboat,,2008,59900,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-31-cruiser-17545467
 scanboat,17545314,Jeanneau Sun Odyssey 319,Sailingboat,,2018,90000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-319-17545314
 scanboat,17549613,Fijian 47,Sailingboat,,1987,290000,EUR,Portugal,https://www.scanboat.com/en/boat-market/boats/sailingboat-fijian-47-17549613
 scanboat,17468714,Hanse 388,Sailingboat,,2022,199900,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-388-17468714
@@ -2789,7 +2906,6 @@ scanboat,17535306,Outremer 38/40,Sailingboat,,1996,128000,EUR,Martinique,https:/
 scanboat,17529784,Lagoon 42,Multi hull boat,,2019,410000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-lagoon-42-17529784
 scanboat,17539089,Beneteau Oceanis 38,Sailingboat,,2014,119000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-oceanis-38-17539089
 scanboat,17534088,Moody 33,Sailingboat,,1975,18500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-moody-33-17534088
-scanboat,17543609,LM 27,Motorsailer,,1974,9940,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/motorsailer-lm-27-17543609
 scanboat,17531245,Hanse 460,Sailingboat,,2022,293500,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-460-17531245
 scanboat,17528879,Jeanneau Yachts 60,Sailingboat,,2022,850000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-yachts-60-17528879
 scanboat,17528885,Dufour 500 Grand Large,Sailingboat,,2014,269000,EUR,Martinique,https://www.scanboat.com/en/boat-market/boats/sailingboat-dufour-500-grand-large-17528885
@@ -2883,7 +2999,7 @@ scanboat,17549558,Sabre 426,Sailingboat,,2005,250000,EUR,Turkey,https://www.scan
 scanboat,17549559,Jeanneau Sun Odyssey 37,Sailingboat,,2003,69000,EUR,Turkey,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-37-17549559
 scanboat,17549560,Beneteau Cyclades 39.3,Sailingboat,,2005,60000,EUR,Turkey,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-cyclades-393-17549560
 scanboat,17549562,Jeanneau Sun Odyssey 37,Sailingboat,,2000,64790,EUR,Turkey,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-37-17549562
-scanboat,17549563,Beneteau Oceanis 523,Sailingboat,,2005,188490,EUR,Turkey,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-oceanis-523-17549563
+scanboat,17549563,Beneteau Oceanis 523,Sailingboat,,2005,188490,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-oceanis-523-17549563
 scanboat,17549564,Beneteau Oceanis 36 cc,Sailingboat,,2002,52000,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-oceanis-36-cc-17549564
 scanboat,17549565,Dufour 385 GL,Sailingboat,,2006,62000,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-dufour-385-gl-17549565
 scanboat,17549498,Fountaine Pajot Saona 47,Multi hull boat,,2019,659000,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-fountaine-pajot-saona-47-17549498
@@ -2926,7 +3042,7 @@ scanboat,17527751,Fountaine Pajot Cruising Catamaran Saba 50,Multi hull boat,,20
 scanboat,17539018,Sparkman & Stephens Sailmaster 45 Yawl,Sailingboat,,1967,119500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-sparkman---stephens-sailmaster-45-yawl-17539018
 scanboat,17516738,X-50 - X-Yachts,Sailingboat,,2005,295000,EUR,Slovenia,https://www.scanboat.com/en/boat-market/boats/sailingboat-x-50---x-yachts-17516738
 scanboat,17452772,Dufour Catamaran 48,Sailingboat,,2020,560000,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-dufour-catamaran-48-17452772
-scanboat,17539019,Fjord 33 MS,Sailingboat,,1977,29500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-fjord-33-ms-17539019
+scanboat,17539019,Fjord 33 MS,Sailingboat,,1977,27500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-fjord-33-ms-17539019
 scanboat,17529535,Husbåd Waterliving Missisippi - Helårs,Live a board / Riverboat,,2004,470310,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-husbaad-waterliving-missisippi---helaars-17529535
 scanboat,17527111,Jeanneau Sun Magic 44,Sailingboat,,1990,69000,EUR,France,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-magic-44-17527111
 scanboat,17529479,Sigma 41,Sailingboat,,1984,42570,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/sailingboat-sigma-41-17529479
@@ -3011,8 +3127,8 @@ scanboat,17528590,Solaris 64RS,Sailingboat,,2022,2250000,EUR,Spain,https://www.s
 scanboat,17545209,Vilm 117,Sailingboat,,2010,215000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-vilm-117-17545209
 scanboat,17534087,Catana Bali 4.2,Multi hull boat,,2023,559300,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-catana-bali-42-17534087
 scanboat,17535314,Custom Motorsailer,Motorsailer,,1965,267530,EUR,Ireland,https://www.scanboat.com/en/boat-market/boats/motorsailer-custom-motorsailer-17535314
-scanboat,17543505,Vitesse 35 Vision Dæksalon. Gennemgribende Opdater,Sailingboat,,1992,93930,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-vitesse-35-vision-daeksalon-gennemgribende-opdateret-17543505
-scanboat,17534084,One Off 45 Meter Motor Sailer Barracuda Design,Motorsailer,,2008,405000,EUR,Poland,https://www.scanboat.com/en/boat-market/boats/motorsailer-one-off-45-meter-motor-sailer-barracuda-design-17534084
+scanboat,17543505,Vitesse 35 Vision,Sailingboat,,1992,93930,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-vitesse-35-vision-17543505
+scanboat,17534084,One Off 45 Meter Motor Sailer Barracuda Design,Motorsailer,,2008,995000,EUR,Poland,https://www.scanboat.com/en/boat-market/boats/motorsailer-one-off-45-meter-motor-sailer-barracuda-design-17534084
 scanboat,17508151,Custom Aluminium Ketch Stern 60,Sailingboat,,1990,299000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-custom-aluminium-ketch-stern-60-17508151
 scanboat,17549453,1975 Graham Jackson 18.8m Aux Bermudian Schooner,Sailingboat,,1975,24900,EUR,Latvia,https://www.scanboat.com/en/boat-market/boats/sailingboat-1975-graham-jackson-188m-aux-bermudian-schooner-17549453
 scanboat,17549452,X-402 X-Yachts,Sailingboat,,1985,63160,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-x-402-x-yachts-17549452
@@ -3203,7 +3319,6 @@ scanboat,17545105,Hanse 540e,Sailingboat,,2009,225000,EUR,Italy,https://www.scan
 scanboat,17545104,Van de Stadt 48,Sailingboat,,2007,299500,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-van-de-stadt-48-17545104
 scanboat,17549284,Leopard 51 Powercat,Multi hull boat,,2017,680000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-leopard-51-powercat-17549284
 scanboat,17549285,Aquila 54 Yacht,Multi hull boat,,2022,1650000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-aquila-54-yacht-17549285
-scanboat,17545102,Hanse 311,Sailingboat,,2002,35000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-311-17545102
 scanboat,17549280,Moody 41 DS,Sailingboat,,2022,619000,EUR,Italy,https://www.scanboat.com/en/boat-market/boats/sailingboat-moody-41-ds-17549280
 scanboat,17545095,X-55 - X-Yachts,Sailingboat,,2007,473000,EUR,USA,https://www.scanboat.com/en/boat-market/boats/sailingboat-x-55---x-yachts-17545095
 scanboat,17545094,Cmb 32,Sailingboat,,2006,2850000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-cmb-32-17545094
@@ -3245,7 +3360,7 @@ scanboat,17538842,Fountaine Pajot Elba 45,Multi hull boat,,2022,600000,EUR,Greec
 scanboat,17543360,Contessa 32,Sailingboat,,1982,44180,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-contessa-32-17543360
 scanboat,17543362,Henningsen & Steckmest Scalar28,Sailingboat,,1973,21000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-henningsen---steckmest-scalar28-17543362
 scanboat,17549274,30er Jollenkreuzer,Sailingboat,,1956,5000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-30er-jollenkreuzer-17549274
-scanboat,17543367,Irwin 72,Sailingboat,,1984,150000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-irwin-72-17543367
+scanboat,17543367,Irwin 72,Sailingboat,,1984,145000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-irwin-72-17543367
 scanboat,17528416,One Off Motorsailer,Sailingboat,,1992,99000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-one-off-motorsailer-17528416
 scanboat,17547280,Delphia Delphia 33.3,Sailingboat,,2011,72270,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-delphia-delphia-333-17547280
 scanboat,17547286,Jeanneau Sun Odyssey 380,Sailingboat,,2023,253290,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-380-17547286
@@ -3271,7 +3386,7 @@ scanboat,17538823,Bavaria Yachtbau Gmbh 34 Cruiser,Sailingboat,,2009,62990,EUR,G
 scanboat,17543376,Island Packet 38,Sailingboat,,1986,73010,EUR,Virgin Islands,https://www.scanboat.com/en/boat-market/boats/sailingboat-island-packet-38-17543376
 scanboat,17536916,Lemster Aak 1360,Sailingboat,,2001,280000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-lemster-aak-1360-17536916
 scanboat,17536906,Jeanneau Sun Odyssey 440,Sailingboat,,2022,364900,EUR,Ireland,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-440-17536906
-scanboat,17531250,Elan E6,Sailingboat,,2022,399000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-elan-e6-17531250
+scanboat,17531250,Elan E6,Sailingboat,,2022,349900,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-elan-e6-17531250
 scanboat,17526564,Sweden Yachts 45,Sailingboat,,2000,271360,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-sweden-yachts-45-17526564
 scanboat,17543381,Fountaine Pajot Highland 35,Multi hull boat,,2011,169000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-fountaine-pajot-highland-35-17543381
 scanboat,17543384,Jeanneau Sun Odyssey 37,Sailingboat,,2001,59000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-37-17543384
@@ -3316,7 +3431,7 @@ scanboat,17549222,Hallberg-Rassy 31 Monsun,Sailingboat,,1974,20130,EUR,Denmark,h
 scanboat,17549227,Bianca 27 Sejlbåd,Sailingboat,,1967,4000,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-bianca-27-sejlbaad-17549227
 scanboat,17549228,LM 380 Mermaid Sejlbåd,Sailingboat,,1988,60470,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-lm-380-mermaid-sejlbaad-17549228
 scanboat,17549232,LM Mermaid 290 Sejlbåd,Sailingboat,,1986,12070,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-lm-mermaid-290-sejlbaad-17549232
-scanboat,17549217,Granada 30 1992/1999,Sailingboat,,1992,14650,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-granada-30-19921999-17549217
+scanboat,17549217,Granada 30 1992/1999,Sailingboat,,1992,13300,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-granada-30-19921999-17549217
 scanboat,17541288,Bavaria 38 Cruiser,Sailingboat,,2005,49950,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-38-cruiser-17541288
 scanboat,17545056,Baltic 60,Sailingboat,,2005,635000,EUR,Italy,https://www.scanboat.com/en/boat-market/boats/sailingboat-baltic-60-17545056
 scanboat,17543470,Luxe Motor 16.20 Deckhouse,Live a board / Riverboat,,1927,249500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-luxe-motor-1620-deckhouse-17543470
@@ -3668,7 +3783,6 @@ scanboat,17549033,Northern Comfort 43,Sailingboat,,1990,139900,EUR,The Netherlan
 scanboat,17549025,Shipman 50,Sailingboat,,2007,375000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-shipman-50-17549025
 scanboat,17549021,Jeanneau Sun Odyssey 44i,Sailingboat,,2011,124000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-44i-17549021
 scanboat,17549022,Bavaria Cruiser 41,Sailingboat,,2018,145000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-cruiser-41-17549022
-scanboat,17549019,Elan 48 Impression,Sailingboat,,2015,162000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-elan-48-impression-17549019
 scanboat,17549018,Hanse 510,Sailingboat,,2025,499900,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-510-17549018
 scanboat,17549014,Hanse 458,Sailingboat,,2021,260000,EUR,Turkey,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-458-17549014
 scanboat,17549013,Malo 39,Sailingboat,,2000,199000,EUR,Ireland,https://www.scanboat.com/en/boat-market/boats/sailingboat-malo-39-17549013
@@ -3700,7 +3814,6 @@ scanboat,17520809,Concord 47.5,Sailingboat,,1999,425000,EUR,No country info,http
 scanboat,17524919,Elan 33,Sailingboat,,1991,26860,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-elan-33-17524919
 scanboat,17522788,Elan Impression 43,Sailingboat,,2023,230000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-elan-impression-43-17522788
 scanboat,17525726,Van de Stadt Madeira 46,Sailingboat,,2001,195000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-van-de-stadt-madeira-46-17525726
-scanboat,17544881,Bavaria 34 Cruiser,Sailingboat,,2022,168000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-34-cruiser-17544881
 scanboat,17533973,Excess 11,Sailingboat,,2026,432500,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-excess-11-17533973
 scanboat,17491892,Moody 41 Classic,Sailingboat,,2010,199000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-moody-41-classic-17491892
 scanboat,17536787,X-362 Sport - X-Yachts,Sailingboat,,2002,70000,EUR,Italy,https://www.scanboat.com/en/boat-market/boats/sailingboat-x-362-sport---x-yachts-17536787
@@ -3876,7 +3989,6 @@ scanboat,17468715,Hanse 418,Sailingboat,,2023,256000,EUR,Germany,https://www.sca
 scanboat,17548922,Fountaine Pajot Tobago 35,Multi hull boat,,1994,129500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-fountaine-pajot-tobago-35-17548922
 scanboat,17548920,Hallberg Rassy HR 31 Monsun,Sailingboat,,1975,19900,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-hallberg-rassy-hr-31-monsun-17548920
 scanboat,17548921,Comar Comet 801,Sailingboat,,1980,11800,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-comar-comet-801-17548921
-scanboat,17548919,Hanse 415,Sailingboat,,2012,179000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-415-17548919
 scanboat,17548918,Sunreef 62,Sailingboat,,2008,200000,EUR,France,https://www.scanboat.com/en/boat-market/boats/sailingboat-sunreef-62-17548918
 scanboat,17548916,Sunreef 62,Sailingboat,,2008,200000,EUR,France,https://www.scanboat.com/en/boat-market/boats/sailingboat-sunreef-62-17548916
 scanboat,17548909,Custom Built Glen L Reliant 49,Sailingboat,,2008,78950,EUR,Italy,https://www.scanboat.com/en/boat-market/boats/sailingboat-custom-built-glen-l-reliant-49-17548909
@@ -3953,135 +4065,7 @@ scanboat,17540599,Jeanneau Sun Odyssey 479,Sailingboat,,2017,93740,EUR,Virgin Is
 scanboat,17533829,S/Y Custom Made Marc Lombardi Cigale 18,Sailingboat,,2020,320000,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-sy-custom-made-marc-lombardi-cigale-18-17533829
 scanboat,17540596,Lagoon 42,Multi hull boat,,2020,325000,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-lagoon-42-17540596
 scanboat,17540592,Jeanneau Sun Odyssey 409,Sailingboat,,2011,139000,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-409-17540592
-scanboat,17546854,Lagoon 46,Multi hull boat,,2023,690000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-lagoon-46-17546854
-scanboat,17546858,Southerly 115,Sailingboat,,1994,76570,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-southerly-115-17546858
-scanboat,17546859,Unclassified Custom Open 60,Sailingboat,,1995,140000,EUR,Portugal,https://www.scanboat.com/en/boat-market/boats/sailingboat-unclassified-custom-open-60-17546859
-scanboat,17546860,Jongert 21s,Sailingboat,,1982,620000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-jongert-21s-17546860
-scanboat,17546861,Elan Marine Impression 45,Sailingboat,,2025,350000,EUR,Turkey,https://www.scanboat.com/en/boat-market/boats/sailingboat-elan-marine-impression-45-17546861
-scanboat,17510975,Bianca Lido,Sailingboat,,1983,13410,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-bianca-lido-17510975
-scanboat,17528299,Jeanneau Sun Odyssey 490,Sailingboat,,2020,280000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-490-17528299
-scanboat,17518782,Hunter 44 AC,Sailingboat,,2005,99000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-hunter-44-ac-17518782
-scanboat,17527633,Moody DS 41,Sailingboat,,2027,656761,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-moody-ds-41-17527633
-scanboat,17532631,Porsius Shipyard Directieboot,Sailingboat,,1979,58000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-porsius-shipyard-directieboot-17532631
-scanboat,17546866,Hanse 410,Sailingboat,,2025,259900,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-410-17546866
-scanboat,17546867,Hanse Yachts 415,Sailingboat,,2018,130000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-yachts-415-17546867
-scanboat,17546868,Hanse Yachts 455,Sailingboat,,2018,159800,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-yachts-455-17546868
-scanboat,17546869,Hanse Yachts 508,Sailingboat,,2019,269900,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-yachts-508-17546869
-scanboat,17528735,Mini 6.50 - Zero,Sailingboat,,2006,28500,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-mini-650---zero-17528735
-scanboat,17543085,Wauquiez Centurion 38,Sailingboat,,1987,59000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-wauquiez-centurion-38-17543085
-scanboat,17546870,Hanse Yachts 508,Sailingboat,,2019,285000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-yachts-508-17546870
-scanboat,17546871,Hanse Yachts 510,Sailingboat,,2024,499800,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-yachts-510-17546871
-scanboat,17538390,Dehler 45,Sailingboat,,2011,298000,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-dehler-45-17538390
-scanboat,17536580,Martin Bekebrede 1300 AK,Live a board / Riverboat,,2001,142500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-martin-bekebrede-1300-ak-17536580
-scanboat,17546876,Zeilschoener 24.95 Met Ubc,Live a board / Riverboat,,1931,324500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-zeilschoener-2495-met-ubc-17546876
-scanboat,17485016,Damarin 732 Cabin (Nieuw),Sailingboat,,2025,80500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-damarin-732-cabin-(nieuw)-17485016
-scanboat,17546888,Zuidkaper 40,Sailingboat,,2016,520000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-zuidkaper-40-17546888
-scanboat,17526013,Grand Soleil 43,Sailingboat,,2001,99000,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-grand-soleil-43-17526013
-scanboat,17538643,Dufour 40 Performance,Sailingboat,,2004,109000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-dufour-40-performance-17538643
-scanboat,17538545,Bavaria 41 Cruiser,Sailingboat,,2020,189000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-41-cruiser-17538545
-scanboat,17546898,Luffe 45,Sailingboat,,2018,495000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-luffe-45-17546898
-scanboat,17540590,Leopard 42,Sailingboat,,2021,379000,EUR,France,https://www.scanboat.com/en/boat-market/boats/sailingboat-leopard-42-17540590
-scanboat,17529118,M.A.T 12.20,Sailingboat,,2023,565000,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-mat-1220-17529118
-scanboat,17538546,Scandinavia Yachts 30,Sailingboat,,2022,99000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-scandinavia-yachts-30-17538546
-scanboat,17540589,Leopard 40,Sailingboat,,2020,329000,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/sailingboat-leopard-40-17540589
-scanboat,17538644,Bavaria 46 Cruiser,Sailingboat,,2007,149500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-46-cruiser-17538644
-scanboat,17540588,Jeanneau Sun Odyssey 389,Sailingboat,,2020,105000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-389-17540588
-scanboat,17534998,Nicholson 31,Sailingboat,,1976,24000,EUR,Ireland,https://www.scanboat.com/en/boat-market/boats/sailingboat-nicholson-31-17534998
-scanboat,17538547,Schmidt Motorsegler Stahl,Sailingboat,,1962,148000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-schmidt-motorsegler-stahl-17538547
-scanboat,17525563,X-Yachts X-442,Sailingboat,,2003,154090,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-x-yachts-x-442-17525563
-scanboat,17540587,Leopard 45,Sailingboat,,2019,375000,EUR,Italy,https://www.scanboat.com/en/boat-market/boats/sailingboat-leopard-45-17540587
-scanboat,17528376,Fisher 37 Ketch,Sailingboat,,1997,99000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-fisher-37-ketch-17528376
-scanboat,17514911,Dufour 40 Performance,Sailingboat,,2003,69000,EUR,Martinique,https://www.scanboat.com/en/boat-market/boats/sailingboat-dufour-40-performance-17514911
-scanboat,17535039,Jeanneau Sun Odyssey 415,Sailingboat,,2025,291000,EUR,Finland,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-415-17535039
-scanboat,17525174,X-Yachts X-50,Sailingboat,,2005,284000,EUR,Slovenia,https://www.scanboat.com/en/boat-market/boats/sailingboat-x-yachts-x-50-17525174
-scanboat,17538549,Nautitech 46 Fly,Multi hull boat,,2019,370000,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-nautitech-46-fly-17538549
-scanboat,17536578,Dick Zaal 41,Sailingboat,,1973,95000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-dick-zaal-41-17536578
-scanboat,17538550,Lagoon 450,Multi hull boat,,2018,350000,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-lagoon-450-17538550
-scanboat,17477706,Hotel / Passagiersschip 18 Pass 18 Pass,Live a board / Riverboat,,1897,425000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-hotel--passagiersschip-18-pass-18-pass-17477706
-scanboat,17520838,Westerly Gk 29,Sailingboat,,1979,15000,EUR,Belgium,https://www.scanboat.com/en/boat-market/boats/sailingboat-westerly-gk-29-17520838
-scanboat,17495707,Maxi 1050,Sailingboat,,2008,95000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-maxi-1050-17495707
-scanboat,17542978,Dufour 325 Grand Large,Sailingboat,,2008,59090,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-dufour-325-grand-large-17542978
-scanboat,17548794,Amateur Wharram Tiki 26 Catamaran,Multi hull boat,,2015,6500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-amateur-wharram-tiki-26-catamaran-17548794
-scanboat,17548795,Amateur Starter 800 Catamaran,Multi hull boat,,1999,5950,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-amateur-starter-800-catamaran-17548795
-scanboat,17535118,Farrier F32-RX Folding Trimaran,Multi hull boat,,2014,160000,EUR,France,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-farrier-f32-rx-folding-trimaran-17535118
-scanboat,17538570,Belliure 41,Sailingboat,,1995,119000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-belliure-41-17538570
-scanboat,17548792,Moody 54,Sailingboat,,2002,369000,EUR,Italy,https://www.scanboat.com/en/boat-market/boats/sailingboat-moody-54-17548792
-scanboat,17540575,Leopard 40,Sailingboat,,2020,315000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-leopard-40-17540575
-scanboat,17520957,Beneteau Oceanis 35.1,Sailingboat,,2017,139000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-oceanis-351-17520957
-scanboat,17536577,Dufour 445 Grand Large,Sailingboat,,2011,179000,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/sailingboat-dufour-445-grand-large-17536577
-scanboat,17489161,Ta Chiao (Taiwan) Ta Chiao (Taiwan) CT 56,Sailingboat,,1988,249990,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-ta-chiao-(taiwan)-ta-chiao-(taiwan)-ct-56-17489161
-scanboat,17538571,Hunter Horizon 32 Wheelhouse,Sailingboat,,1987,23500,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-hunter-horizon-32-wheelhouse-17538571
-scanboat,17526161,Nissen Bbr31 One-Off,Sailingboat,,1996,59000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-nissen-bbr31-one-off-17526161
-scanboat,17538494,Comfortina 32,Sailingboat,,1986,22040,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-comfortina-32-17538494
-scanboat,17515127,Hallberg Rassy 48,Sailingboat,,2008,399000,EUR,Italy,https://www.scanboat.com/en/boat-market/boats/sailingboat-hallberg-rassy-48-17515127
-scanboat,17540694,Catalina 42 Mkii,Sailingboat,,1995,93740,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/sailingboat-catalina-42-mkii-17540694
-scanboat,17540571,Jeanneau Sun Odyssey 389,Sailingboat,,2018,79000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-389-17540571
-scanboat,17536537,Jeanneau Sun Odyssey 34.2,Sailingboat,,1997,39000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-342-17536537
-scanboat,17538573,Dufour 40 Performance,Sailingboat,,2003,69900,EUR,France,https://www.scanboat.com/en/boat-market/boats/sailingboat-dufour-40-performance-17538573
-scanboat,17535081,Jeanneau Sun Odyssey 415,Sailingboat,,2026,419000,EUR,Ireland,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-415-17535081
-scanboat,17507262,"Nederlof, Geertruidenberg Rietaak 13.25",Live a board / Riverboat,,1982,69990,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-nederlof-geertruidenberg-rietaak-1325-17507262
-scanboat,17534990,Hallberg Rassy 31 Mkii Scandinavia.,Sailingboat,,2007,107230,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-hallberg-rassy-31-mkii-scandinavia-17534990
-scanboat,17544869,Bavaria 32 Cruiser,Sailingboat,,2010,64000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-32-cruiser-17544869
-scanboat,17508567,Beister S-Spant 11.00 Kmz,Sailingboat,,1972,37500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-beister-s-spant-1100-kmz-17508567
-scanboat,17525024,Bavaria 44 Vision,Sailingboat,,2008,139000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-44-vision-17525024
-scanboat,17530814,Neo 350,Sailingboat,,2018,180000,EUR,Litauen,https://www.scanboat.com/en/boat-market/boats/sailingboat-neo-350-17530814
-scanboat,17540657,Xp 50 - X-Yachts,Sailingboat,,2012,518360,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-xp-50---x-yachts-17540657
-scanboat,17544859,Prout 72,Sailingboat,,2015,1118000,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/sailingboat-prout-72-17544859
-scanboat,17526368,Fountaine Pajot Saona 47,Multi hull boat,,2018,430000,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-fountaine-pajot-saona-47-17526368
-scanboat,17540411,Archambault A40 RC,Sailingboat,,2009,120000,EUR,Finland,https://www.scanboat.com/en/boat-market/boats/sailingboat-archambault-a40-rc-17540411
-scanboat,17540653,Houseboat,Live a board / Riverboat,,,235030,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-houseboat-17540653
-scanboat,17514614,Nautor Swan 60,Sailingboat,,2009,800000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-nautor-swan-60-17514614
-scanboat,17544852,Marker Rondbouw 10.50,Sailingboat,,1936,22500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-marker-rondbouw-1050-17544852
-scanboat,17534041,Jeanneau Sun Odyssey 440,Sailingboat,,2019,174550,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-440-17534041
-scanboat,17520423,Catalina 34,Sailingboat,,1989,30000,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-catalina-34-17520423
-scanboat,17540547,Lagoon 42,Multi hull boat,,2023,499000,EUR,Montenegro,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-lagoon-42-17540547
-scanboat,17534977,LM 26,Sailingboat,,1982,11420,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-lm-26-17534977
-scanboat,17535202,X-Yachts X4.9,Sailingboat,,2022,750000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-x-yachts-x49-17535202
-scanboat,17538509,Jeanneau Sun Odyssey 39i,Sailingboat,,2008,88888,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-39i-17538509
-scanboat,17530756,Beneteau First 53,Sailingboat,,2022,648000,EUR,Turkey,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-first-53-17530756
-scanboat,17544848,Bavaria C38 - End-Sommer-Special,Sailingboat,,2026,272794,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-c38---end-sommer-special-17544848
-scanboat,17514648,Lagoon 46,Multi hull boat,,2023,600000,EUR,France,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-lagoon-46-17514648
-scanboat,17508440,Smelne Veenje Kotter 980,Motorsailer,,1976,19500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/motorsailer-smelne-veenje-kotter-980-17508440
-scanboat,17532658,Beneteau First 28,Sailingboat,,1982,30000,EUR,France,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-first-28-17532658
-scanboat,17534979,Husbåd i Tuborg Havn,Live a board / Riverboat,,1969,403120,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-husbaad-i-tuborg-havn-17534979
-scanboat,17484805,Klipper Tweemast 26.29,Sailingboat,,1898,190000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-klipper-tweemast-2629-17484805
-scanboat,17496038,"Tjalk Woonschip, Bedrijfsschip",Live a board / Riverboat,,1901,150000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-tjalk-woonschip-bedrijfsschip-17496038
-scanboat,17526343,Dufour 425 GL,Sailingboat,,2007,115000,EUR,France,https://www.scanboat.com/en/boat-market/boats/sailingboat-dufour-425-gl-17526343
-scanboat,17518569,Excess 11,Sailingboat,,2021,318000,EUR,Martinique,https://www.scanboat.com/en/boat-market/boats/sailingboat-excess-11-17518569
-scanboat,17530837,Fricke & Dannhus J 22,Sailingboat,,2000,70000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-fricke---dannhus-j-22-17530837
-scanboat,17546625,Linjett 37,Sailingboat,,2013,250000,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-linjett-37-17546625
-scanboat,17481596,Bavaria C46,Sailingboat,,2024,471170,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-c46-17481596
-scanboat,17485020,Damarin 582 (Nieuw),Sailingboat,,2025,37500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-damarin-582-(nieuw)-17485020
-scanboat,17529060,Bavaria 46 Cruiser,Sailingboat,,2014,120000,EUR,Greece,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-46-cruiser-17529060
-scanboat,17538325,Baltic 47,Sailingboat,,2000,294520,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-baltic-47-17538325
-scanboat,17526362,Lagoon 450,Multi hull boat,,2012,295000,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/multi-hull-boat-lagoon-450-17526362
-scanboat,17527634,Moody 54 DS,Sailingboat,,2027,1187501,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-moody-54-ds-17527634
-scanboat,17526030,Sigma 35,Sailingboat,,1991,49500,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-sigma-35-17526030
-scanboat,17538468,X-Power 33C - X-Yachts,Sailingboat,,2026,237600,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-x-power-33c---x-yachts-17538468
-scanboat,17536568,Scanner 391,Sailingboat,,2001,109090,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-scanner-391-17536568
-scanboat,17526740,Hanse 470e,Sailingboat,,2008,150000,EUR,Italy,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-470e-17526740
-scanboat,17473771,Lion Class (Arthur Robb) Lion Class (Arthur Robb),Sailingboat,,1964,95000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-lion-class-(arthur-robb)-lion-class-(arthur-robb)-35-17473771
-scanboat,17518821,Custom Steel Ketch,Sailingboat,,1962,490000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-custom-steel-ketch-17518821
-scanboat,17538599,Sunbeam 34.2,Sailingboat,,2008,94600,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/sailingboat-sunbeam-342-17538599
-scanboat,17477684,Spits 38.97 Cvo Rijn,Live a board / Riverboat,,1958,95000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-spits-3897-cvo-rijn-17477684
-scanboat,17528008,Jeanneau Sun Fast 32I,Sailingboat,,2006,54090,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-fast-32i-17528008
-scanboat,17543032,Trio 96,Sailingboat,,1985,31514,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-trio-96-17543032
-scanboat,17474668,Shogun Yachts Shogun 43,Sailingboat,,2023,695000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-shogun-yachts-shogun-43-17474668
-scanboat,17530883,Hanse 531,Sailingboat,,2006,220000,EUR,Ireland,https://www.scanboat.com/en/boat-market/boats/sailingboat-hanse-531-17530883
-scanboat,17538602,Bavaria Cruiser 34-2,Sailingboat,,2024,115000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-cruiser-34-2-17538602
-scanboat,17531187,Jeanneau Sun Odyssey 490,Sailingboat,,2022,339700,EUR,Virgin Islands,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-490-17531187
-scanboat,17516537,Bavaria 40,Sailingboat,,2001,50000,EUR,Martinique,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-40-17516537
 scanboat,17548781,Bavaria 30 Cruiser,Sailingboat,,2006,45000,EUR,Poland,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-30-cruiser-17548781
-scanboat,17488156,Dufour 520 Grand Large,Sailingboat,,2018,299000,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/sailingboat-dufour-520-grand-large-17488156
-scanboat,17512567,Bavaria 46 Vision,Sailingboat,,2015,154886,EUR,No country info,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-46-vision-17512567
-scanboat,17405664,Bavaria Cruiser 41,Sailingboat,,2022,229000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-cruiser-41-17405664
-scanboat,17533992,Jeanneau Sun Odyssey 349,Sailingboat,,2020,141310,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-349-17533992
-scanboat,17538603,Uecker Yacht- Und Bootsbau Rendsburg Fahrensmann 3,Sailingboat,,1987,39000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-uecker-yacht--und-bootsbau-rendsburg-fahrensmann-36-17538603
-scanboat,17538406,Nordan 27 Fiskebåd,Live a board / Riverboat,,1997,40180,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/live-a-board--riverboat-nordan-27-fiskebaad-17538406
-scanboat,17522644,Scanner Scanner 38,Sailingboat,,1990,59090,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-scanner-scanner-38-17522644
-scanboat,17543056,Beneteau Oceanis 55,Sailingboat,,2015,350000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-oceanis-55-17543056
-scanboat,17534997,Hustler 32,Sailingboat,,1999,8830,EUR,United Kingdom,https://www.scanboat.com/en/boat-market/boats/sailingboat-hustler-32-17534997
-scanboat,17540435,Drabant 30 - 1983 - Aas,Sailingboat,,1983,14780,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-drabant-30---1983---aas-17540435
 scanboat,17548756,Vindö 40,Sailingboat,,1978,13440,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-vindoe-40-17548756
 scanboat,17548754,Kings Cruiser 33,Sailingboat,,1974,11420,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-kings-cruiser-33-17548754
 scanboat,17548753,Dehler 35 Cruiser,Sailingboat,,1997,69880,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-dehler-35-cruiser-17548753
@@ -4146,9 +4130,9 @@ scanboat,17546788,Fjord 33 MS,Motorsailer,,1973,25000,EUR,Germany,https://www.sc
 scanboat,17546632,Scanmar 33,Sailingboat,,1986,27270,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-scanmar-33-17546632
 scanboat,17546630,Bavaria Vision 44,Sailingboat,,2007,161250,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-vision-44-17546630
 scanboat,17546629,Sweden Yachts 38,Sailingboat,,1986,75000,EUR,Finland,https://www.scanboat.com/en/boat-market/boats/sailingboat-sweden-yachts-38-17546629
+scanboat,17546627,Jeanneau Sun Rise 34,Sailingboat,,1987,32500,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-rise-34-17546627
 scanboat,17546616,Albin Scampi,Sailingboat,,1979,10680,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-albin-scampi-17546616
 scanboat,17546532,X-99,Sailingboat,,1986,23500,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-x-99-17546532
-scanboat,17546530,Catalina 400,Sailingboat,,1998,90000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-catalina-400-17546530
 scanboat,17546523,Winga 87,Sailingboat,,1980,18810,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-winga-87-17546523
 scanboat,17546520,X-482 - X-Yachts,Sailingboat,,2000,174690,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-x-482---x-yachts-17546520
 scanboat,17546440,Mascot 28,Sailingboat,,1986,22500,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-mascot-28-17546440
@@ -4187,7 +4171,6 @@ scanboat,17545875,Vindö 32,Sailingboat,,1976,18180,EUR,Sweden,https://www.scanb
 scanboat,17545874,Knarr,Sailingboat,,1962,6720,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-knarr-17545874
 scanboat,17545872,Nordisches Folkeboot,Sailingboat,,1989,19950,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-nordisches-folkeboot-17545872
 scanboat,17545871,OE32,Sailingboat,,1979,46000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-oe32-17545871
-scanboat,17545867,Tur 97,Motorsailer,,1978,28890,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/motorsailer-tur-97-17545867
 scanboat,17545773,LM26,Motorsailer,,1981,13440,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/motorsailer-lm26-17545773
 scanboat,17545677,Dufour 385 GL,Sailingboat,,2008,87340,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-dufour-385-gl-17545677
 scanboat,17545605,Maxi 95,Sailingboat,,1981,19480,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-maxi-95-17545605
@@ -4255,7 +4238,6 @@ scanboat,17543543,Feltz Skorpion 1A,Sailingboat,,1973,11500,EUR,Germany,https://
 scanboat,17543490,HR Monsun 31,Sailingboat,,1978,27500,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-hr-monsun-31-17543490
 scanboat,17543487,Polaris Drabant 26,Sailingboat,,1974,4700,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-polaris-drabant-26-17543487
 scanboat,17543446,Mamba 33,Sailingboat,,1986,25910,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-mamba-33-17543446
-scanboat,17543440,Seamaster 925,Sailingboat,,1980,6999,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-seamaster-925-17543440
 scanboat,17543418,International 806,Sailingboat,,1996,16900,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-international-806-17543418
 scanboat,17541055,Colvic Victor 34,Sailingboat,,1980,33320,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-colvic-victor-34-17541055
 scanboat,17543411,Beneteau First 405,Sailingboat,,1986,47030,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-first-405-17543411
@@ -4400,6 +4382,7 @@ scanboat,17535279,Artekno H35,Sailingboat,,1977,13550,EUR,Sweden,https://www.sca
 scanboat,17535259,H-Boat,Sailingboat,,1984,16000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-h-boat-17535259
 scanboat,17535100,Jeanneau Sun Odyssey 54 Ds,Sailingboat,,2004,220000,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-54-ds-17535100
 scanboat,17534939,Mascot 28,Motorsailer,,1986,22500,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/motorsailer-mascot-28-17534939
+scanboat,17534938,LM 81,Sailingboat,,1983,13440,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-lm-81-17534938
 scanboat,17534732,Maxi 909,Sailingboat,,1988,30910,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-maxi-909-17534732
 scanboat,17534653,Arcona 385,Sailingboat,,2023,395000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-arcona-385-17534653
 scanboat,17534652,Mak9DS,Sailingboat,,2006,28900,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-mak9ds-17534652
@@ -4555,7 +4538,7 @@ scanboat,17518563,Dehler Duetta GS,Sailingboat,,1980,16800,EUR,Denmark,https://w
 scanboat,17518398,Venø 32,Sailingboat,,1978,12900,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-venoe-32-17518398
 scanboat,17510199,Bianca 36,Sailingboat,,1977,38500,EUR,Finland,https://www.scanboat.com/en/boat-market/boats/sailingboat-bianca-36-17510199
 scanboat,17496853,Dynamic 4000,Sailingboat,,1991,51730,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-dynamic-4000-17496853
-scanboat,17514296,Granada 858,Sailingboat,,1984,9999,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-granada-858-17514296
+scanboat,17517975,Jeanneau Sun Odyssey 54 Ds,Sailingboat,,2006,245450,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-54-ds-17517975
 scanboat,17517878,Hallberg Rassy 312 MK I,Sailingboat,,1980,26500,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-hallberg-rassy-312-mk-i-17517878
 scanboat,17513496,Hallberg-Rassy 312,Sailingboat,,1985,33640,EUR,Sweden,https://www.scanboat.com/en/boat-market/boats/sailingboat-hallberg-rassy-312-17513496
 scanboat,17512117,Bianca 27,Sailingboat,,1977,9270,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-bianca-27-17512117
@@ -4760,11 +4743,31 @@ scanboat,17413904,30qm Schärenkreuzer,Sailingboat,,1922,,,Germany,https://www.s
 scanboat,17400540,Catamarã Oceanic 30,Sailingboat,,1990,79000,EUR,Portugal,https://www.scanboat.com/en/boat-market/boats/sailingboat-catamar%C3%A3-oceanic-30-17400540
 scanboat,17319835,Beneteau Idylle 15.5,Sailingboat,,1986,79280,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-beneteau-idylle-155-17319835
 scanboat,17305758,S U C H E Faurby 363,Sailingboat,,1998,125000,EUR,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-s-u-c-h-e-faurby-363-17305758
+scanboat,17461969,Hallberg Rassy 342 - Solgt / Sold / Verkauft,Sailingboat,,2007,,,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-hallberg-rassy-342---solgt--sold--verkauft-17461969
+scanboat,17507485,Variant 3502BB,Boattrailer,,2025,8220,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-variant-3502bb-17507485
+scanboat,17482082,Variant 260B Edition m/Bremse m/Næsehjul,Boattrailer,,2025,1800,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-variant-260b-edition-mbremse-mnaesehjul-17482082
+scanboat,17274391,Brenderup 1000 KG - 16 Fod,Boattrailer,,2026,2550,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-brenderup-1000-kg---16-fod-17274391
+scanboat,17274394,Brenderup 1800 KG - 22 Fod,Boattrailer,,2026,4420,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-brenderup-1800-kg---22-fod-17274394
+scanboat,17466334,LM 24 - Solgt / Sold / Verkauft,Motorsailer,,1977,,,Denmark,https://www.scanboat.com/en/boat-market/boats/motorsailer-lm-24---solgt--sold--verkauft-17466334
+scanboat,17500371,Brenderup Asr X - 3500 KG - 26 Fod,Boattrailer,,2025,7780,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-brenderup-asr-x---3500-kg---26-fod-17500371
+scanboat,17406152,Variant Ocean 1350,Boattrailer,,2025,2820,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-variant-ocean-1350-17406152
+scanboat,17371143,"Brenderup 5420 Atb, Alu, 2000 kg",Boattrailer,,2025,5530,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-brenderup-5420-atb-alu-2000-kg-17371143
+scanboat,17538502,"Sacs Strider 11 - 2X Mercruiser 6,2",Boat type not specified,,2017,245000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/boat-type-not-specified-sacs-strider-11---2x-mercruiser-62-17538502
+scanboat,17507488,Variant 1800BB,Boattrailer,,2025,5330,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-variant-1800bb-17507488
+scanboat,17371185,Brenderup 1205S m/Ekstra Stålsider Incl. Montering,Boattrailer,,2025,1210,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-brenderup-1205s-mekstra-staalsider-incl-montering-17371185
+scanboat,17520947,Bali Catamarans Catsmart,Boat type not specified,,2025,374800,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/boat-type-not-specified-bali-catamarans-catsmart-17520947
+scanboat,17274408,Brenderup Asr X 2500 KG - 24 Fod,Boattrailer,,2026,6310,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-brenderup-asr-x-2500-kg---24-fod-17274408
+scanboat,17371158,"Brenderup 4310 Stb, Stål, 2000 kg",Boattrailer,,2025,3920,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-brenderup-4310-stb-staal-2000-kg-17371158
 scanboat,17507483,Variant 1351BB,Boattrailer,,2025,4380,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-variant-1351bb-17507483
+scanboat,17520442,Valcke 2700kg,Boattrailer,,2010,3750,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/boattrailer-valcke-2700kg-17520442
 scanboat,17369638,Jeanneau Sun Odyssey 34.2 - Solgt / Sold - Lign. S,Sailingboat,,1998,,,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-jeanneau-sun-odyssey-342---solgt--sold---lign-soeges-17369638
+scanboat,17520949,Bali Catamarans 4.4,Boat type not specified,,2025,671800,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/boat-type-not-specified-bali-catamarans-44-17520949
 scanboat,17510037,Brenderup 1205S Led - !,Boattrailer,,2025,940,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-brenderup-1205s-led---ae-17510037
+scanboat,17546872,Bali Catamarans 4.4,Boat type not specified,,2025,671800,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/boat-type-not-specified-bali-catamarans-44-17546872
+scanboat,17422333,Y-Yachts XC38 - Solgt / Sold / Verkauft,Sailingboat,,2015,,,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-y-yachts-xc38---solgt--sold--verkauft-17422333
 scanboat,17538426,Albin Nova 33 - Solgt / Sold,Sailingboat,,1985,18680,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-albin-nova-33---solgt--sold-17538426
 scanboat,17359132,Variant Ocean 750,Boattrailer,,2022,1210,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-variant-ocean-750-17359132
+scanboat,17274396,Brenderup 2500 KG - 24 Fod,Boattrailer,,2026,5360,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-brenderup-2500-kg---24-fod-17274396
 scanboat,17540513,Yamarin 63 DC,Boat type not specified,,2024,52270,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boat-type-not-specified-yamarin-63-dc-17540513
 scanboat,17386101,Brenderup Bådtrailer 1000 kg Premium Udsalg,Boattrailer,,2025,2280,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-brenderup-baadtrailer-1000-kg-premium-udsalg-17386101
 scanboat,17525153,Bella 530 HT,Boat type not specified,,1999,8870,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boat-type-not-specified-bella-530-ht-17525153
@@ -5142,25 +5145,5 @@ scanboat,17470591,Ocean 451,Boattrailer,,2026,1100,EUR,Denmark,https://www.scanb
 scanboat,17482081,Variant 220 Edition - !,Boattrailer,,2025,1100,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-variant-220-edition---ae-17482081
 scanboat,17510732,Bavaria 38 Cruiser - Solgt/Sold,Sailingboat,,2005,92050,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-bavaria-38-cruiser---solgtsold-17510732
 scanboat,17469652,"Brenderup Basic 1000, 18"" - Spar KR: 2.595,- Spris",Boattrailer,,2025,2280,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-brenderup-basic-1000-18---spar-kr-2595--spris-ae-17469652
-scanboat,17274396,Brenderup 2500 KG - 24 Fod,Boattrailer,,2026,5360,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-brenderup-2500-kg---24-fod-17274396
-scanboat,17422333,Y-Yachts XC38 - Solgt / Sold / Verkauft,Sailingboat,,2015,,,Germany,https://www.scanboat.com/en/boat-market/boats/sailingboat-y-yachts-xc38---solgt--sold--verkauft-17422333
-scanboat,17546872,Bali Catamarans 4.4,Boat type not specified,,2025,671800,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/boat-type-not-specified-bali-catamarans-44-17546872
-scanboat,17520949,Bali Catamarans 4.4,Boat type not specified,,2025,671800,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/boat-type-not-specified-bali-catamarans-44-17520949
-scanboat,17520442,Valcke 2700kg,Boattrailer,,2010,3750,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/boattrailer-valcke-2700kg-17520442
-scanboat,17371158,"Brenderup 4310 Stb, Stål, 2000 kg",Boattrailer,,2025,3920,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-brenderup-4310-stb-staal-2000-kg-17371158
-scanboat,17371185,Brenderup 1205S m/Ekstra Stålsider Incl. Montering,Boattrailer,,2025,1210,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-brenderup-1205s-mekstra-staalsider-incl-montering-17371185
-scanboat,17507488,Variant 1800BB,Boattrailer,,2025,5330,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-variant-1800bb-17507488
-scanboat,17538502,"Sacs Strider 11 - 2X Mercruiser 6,2",Boat type not specified,,2017,245000,EUR,Spain,https://www.scanboat.com/en/boat-market/boats/boat-type-not-specified-sacs-strider-11---2x-mercruiser-62-17538502
-scanboat,17371143,"Brenderup 5420 Atb, Alu, 2000 kg",Boattrailer,,2025,5530,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-brenderup-5420-atb-alu-2000-kg-17371143
-scanboat,17406152,Variant Ocean 1350,Boattrailer,,2025,2820,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-variant-ocean-1350-17406152
-scanboat,17500371,Brenderup Asr X - 3500 KG - 26 Fod,Boattrailer,,2025,7780,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-brenderup-asr-x---3500-kg---26-fod-17500371
-scanboat,17466334,LM 24 - Solgt / Sold / Verkauft,Motorsailer,,1977,,,Denmark,https://www.scanboat.com/en/boat-market/boats/motorsailer-lm-24---solgt--sold--verkauft-17466334
-scanboat,17274394,Brenderup 1800 KG - 22 Fod,Boattrailer,,2026,4420,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-brenderup-1800-kg---22-fod-17274394
-scanboat,17274391,Brenderup 1000 KG - 16 Fod,Boattrailer,,2026,2550,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-brenderup-1000-kg---16-fod-17274391
-scanboat,17482082,Variant 260B Edition m/Bremse m/Næsehjul,Boattrailer,,2025,1800,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-variant-260b-edition-mbremse-mnaesehjul-17482082
-scanboat,17507485,Variant 3502BB,Boattrailer,,2025,8220,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-variant-3502bb-17507485
-scanboat,17461969,Hallberg Rassy 342 - Solgt / Sold / Verkauft,Sailingboat,,2007,,,Denmark,https://www.scanboat.com/en/boat-market/boats/sailingboat-hallberg-rassy-342---solgt--sold--verkauft-17461969
-scanboat,17274408,Brenderup Asr X 2500 KG - 24 Fod,Boattrailer,,2026,6310,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-brenderup-asr-x-2500-kg---24-fod-17274408
-scanboat,17520947,Bali Catamarans Catsmart,Boat type not specified,,2025,374800,EUR,Croatia,https://www.scanboat.com/en/boat-market/boats/boat-type-not-specified-bali-catamarans-catsmart-17520947
 scanboat,17492728,Bennington L22 Quad Bench Saltwater,Boat type not specified,,2022,69000,EUR,The Netherlands,https://www.scanboat.com/en/boat-market/boats/boat-type-not-specified-bennington-l22-quad-bench-saltwater-17492728
 scanboat,17536429,Brenderup 1205Sub Limited Edition m/Netsider - Sol,Boattrailer,,2025,1880,EUR,Denmark,https://www.scanboat.com/en/boat-market/boats/boattrailer-brenderup-1205sub-limited-edition-mnetsider---solgt-ae-17536429

@@ -1,21 +1,137 @@
 source,id,title,category,loa,year,price,currency,location,url
+apolloduck,842801,Bruce Roberts Offshore 42,,12.00,1991,66000,EUR,New Zealand,https://yachts.apolloduck.com/boat/bruce-roberts-offshore-42-for-sale/842801
+apolloduck,828477,Jeanneau Sun Odyssey 409,,12.34,2011,135000,EUR,Greece,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-409-for-sale/828477
+apolloduck,817538,Sigma 33 Ood,,10.06,1979,9500,GBP,UK,https://yachts.apolloduck.com/boat/sigma-33-ood-for-sale/817538
+apolloduck,801552,Westerly Gk29,,8.89,1979,9750,EUR,Crosshaven Ireland,https://yachts.apolloduck.com/boat/westerly-gk29-for-sale/801552
+apolloduck,804389,Yamaha 33,,10.06,1981,12500,GBP,STRANGFORD LOUGH NORTHERN IRELAND UK,https://yachts.apolloduck.com/boat/yamaha-33-for-sale/804389
+apolloduck,832507,Hallberg Rassy 33 Mistral,,10.18,1976,6000,GBP,West Coast scotland UK,https://yachts.apolloduck.com/boat/hallberg-rassy-33-mistral-for-sale/832507
+apolloduck,832506,Westerly Fulmar,,9.75,1989,24500,GBP,Clyde UK,https://yachts.apolloduck.com/boat/westerly-fulmar-for-sale/832506
+apolloduck,842797,Cornish Crabbers Crabber 24,,8.91,,9950,GBP,"Gosport, Hampshire UK",https://yachts.apolloduck.com/boat/cornish-crabbers-crabber-24-for-sale/842797
+apolloduck,842795,Westerly Griffon,,7.92,1983,9950,GBP,"Southampton, Hampshire UK",https://yachts.apolloduck.com/boat/westerly-griffon-for-sale/842795
+apolloduck,842794,Sailing Yachts Cruising Yacht,,11.30,,67500,GBP,"Craobh Haven, Argyll and Bute UK",https://yachts.apolloduck.com/boat/sailing-yachts-cruising-yacht-for-sale/842794
+apolloduck,842793,Balt 818 Titanium,,8.48,2023,84950,GBP,"Reading, Berkshire UK",https://yachts.apolloduck.com/boat/balt-818-titanium-for-sale/842793
+apolloduck,842792,Zodiac Medline 580,,5.80,2022,38900,EUR,Dún Laoghaire Ireland,https://yachts.apolloduck.com/boat/zodiac-medline-580-for-sale/842792
+apolloduck,842786,Beneteau Oceanis 331,,10.35,2001,39000,GBP,Gosport UK,https://yachts.apolloduck.com/boat/beneteau-oceanis-331-for-sale/842786
+apolloduck,833011,Wing 25,,7.62,1965,4500,GBP,ashore Musselburgh UK,https://yachts.apolloduck.com/boat/wing-25-for-sale/833011
+apolloduck,813494,Bavaria Yachts C46,,14.91,,443255,GBP,"Southampton, Hampshire UK",https://yachts.apolloduck.com/boat/bavaria-yachts-c46-for-sale/813494
+apolloduck,830306,Woods Banshee,,10.65,1989,34000,GBP,"Vlycho, Lefkada Greece",https://yachts.apolloduck.com/boat/woods-banshee-for-sale/830306
+apolloduck,813861,Giles,,11.58,1974,89000,GBP,WicorMarine Yacht Haven UK,https://yachts.apolloduck.com/boat/giles-for-sale/813861
+apolloduck,840613,Hunter Boats Pilot 27,,8.23,1999,17500,GBP,UK,https://yachts.apolloduck.com/boat/hunter-boats-pilot-27-for-sale/840613
+apolloduck,792418,Albin Singoalla,,10.36,1971,9995,GBP,"Chatham, River Medway UK",https://yachts.apolloduck.com/boat/albin-singoalla-for-sale/792418
+apolloduck,792424,Jeanneau Sun Odyssey 380,,11.58,2025,233855,GBP,Jeanneau factory France,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-380-for-sale/792424
+apolloduck,792428,Beneteau First 30,,8.84,1980,9995,GBP,"Medway Yacht Club, Kent UK",https://yachts.apolloduck.com/boat/beneteau-first-30-for-sale/792428
+apolloduck,832548,Beneteau First 35,,10.78,1981,9950,GBP,"Portsmouth, Hampshire UK",https://yachts.apolloduck.com/boat/beneteau-first-35-for-sale/832548
+apolloduck,832547,Bavaria Yachts 42 Vision,,12.80,2013,225000,EUR,Club Nautico Calpe Spain,https://yachts.apolloduck.com/boat/bavaria-yachts-42-vision-for-sale/832547
+apolloduck,832546,Elan 333,,10.48,2000,59000,EUR,Malahide Ireland,https://yachts.apolloduck.com/boat/elan-333-for-sale/832546
+apolloduck,790314,Beneteau Oceanis 390,,11.68,1988,38000,EUR,Aegean Greece,https://yachts.apolloduck.com/boat/beneteau-oceanis-390-for-sale/790314
+apolloduck,804283,Elan Impression 434,,13.41,2006,129000,EUR,Contact De Valk Hindeloopen Greece,https://yachts.apolloduck.com/boat/elan-impression-434-for-sale/804283
+apolloduck,804284,Contest 45Cs,,13.70,2011,469000,EUR,Contact De Valk Hindeloopen Netherlands,https://yachts.apolloduck.com/boat/contest-45cs-for-sale/804284
+apolloduck,804282,Contest 43,,13.40,1992,164000,EUR,Contact De Valk Hamburg Greece,https://yachts.apolloduck.com/boat/contest-43-for-sale/804282
+apolloduck,688215,Sailing Yachts Cruising Yacht,,18.29,1980,395000,EUR,"Crosshaven, Cork Ireland",https://yachts.apolloduck.com/boat/sailing-yachts-cruising-yacht-for-sale/688215
+apolloduck,813824,Dockrell 27,,8.23,1990,5000,GBP,West Coast Scotland UK,https://yachts.apolloduck.com/boat/dockrell-27-for-sale/813824
+apolloduck,824547,Bruce Roberts Mauritius,,13.60,1976,29000,GBP,Newcastle upon Tyne UK,https://yachts.apolloduck.com/boat/bruce-roberts-mauritius-for-sale/824547
+apolloduck,835617,Colvic Watson 23,,7.01,,,,Chichester UK,https://yachts.apolloduck.com/boat/colvic-watson-23-for-sale/835617
+apolloduck,833802,Kadey Krogen 38,,11.65,1986,45000,GBP,"Aktio, Preveza Greece",https://yachts.apolloduck.com/boat/kadey-krogen-38-for-sale/833802
+apolloduck,792447,Hanse 400,,11.89,2011,115000,EUR,Westport Ireland,https://yachts.apolloduck.com/boat/hanse-400-for-sale/792447
+apolloduck,813832,Lagoon 42,,12.80,2019,410000,EUR,Contact De Valk Dalmatia Croatia,https://yachts.apolloduck.com/boat/lagoon-42-for-sale/813832
+apolloduck,813831,Lagoon 40,,11.74,2024,385000,EUR,Contact De Valk Multihull Croatia,https://yachts.apolloduck.com/boat/lagoon-40-for-sale/813831
+apolloduck,836319,Robertson And Caine Leopard 45,,13.72,2020,630000,EUR,Contact De Valk Multihull Greece,https://yachts.apolloduck.com/boat/robertson-and-caine-leopard-45-for-sale/836319
+apolloduck,792462,Sailing Yachts Cruising Yacht,,6.10,2005,9995,GBP,Swansea Marina UK,https://yachts.apolloduck.com/boat/sailing-yachts-cruising-yacht-for-sale/792462
+apolloduck,836318,Hallberg Rassy 36,,11.31,2003,169000,EUR,Contact De Valk Monnickendam Netherlands,https://yachts.apolloduck.com/boat/hallberg-rassy-36-for-sale/836318
+apolloduck,836315,Robertson And Caine Leopard 50,,15.24,2022,685000,USD,Saint Lucia,https://yachts.apolloduck.com/boat/robertson-and-caine-leopard-50-for-sale/836315
+apolloduck,792453,Lagoon 450,,13.72,2014,469000,EUR,Preveza Greece,https://yachts.apolloduck.com/boat/lagoon-450-for-sale/792453
+apolloduck,792458,Bavaria Yachts C57,,16.46,2020,399000,EUR,Corfu Greece,https://yachts.apolloduck.com/boat/bavaria-yachts-c57-for-sale/792458
+apolloduck,816464,Cornish Crabbers Shrimper 19,,6.71,2015,24500,GBP,Braunton UK,https://yachts.apolloduck.com/boat/cornish-crabbers-shrimper-19-for-sale/816464
+apolloduck,828452,Jeanneau Yacht 64,,20.20,2016,750000,GBP,"Lower Swanwick, Hampshire UK",https://yachts.apolloduck.com/boat/jeanneau-yacht-64-for-sale/828452
+apolloduck,832538,Beneteau Oceanis 423,,13.11,2006,69995,GBP,"Dover Marina, Kent UK",https://yachts.apolloduck.com/boat/beneteau-oceanis-423-for-sale/832538
+apolloduck,832532,Dufour 38 Classic,,11.64,1998,58000,EUR,Algarve Portugal,https://yachts.apolloduck.com/boat/dufour-38-classic-for-sale/832532
+apolloduck,837984,St Francis 50,,15.30,2009,675000,USD,Fiji Fiji,https://yachts.apolloduck.com/boat/st-francis-50-for-sale/837984
+apolloduck,832530,Beneteau First 285,,8.50,1989,16950,GBP,Suffolk Yacht Harbour UK,https://yachts.apolloduck.com/boat/beneteau-first-285-for-sale/832530
+apolloduck,840542,Hunter Boats Pilot 27,,9.00,1999,17500,GBP,UK,https://yachts.apolloduck.com/boat/hunter-boats-pilot-27-for-sale/840542
+apolloduck,832513,Elan 333,,10.48,2000,59000,EUR,Malahide Ireland,https://yachts.apolloduck.com/boat/elan-333-for-sale/832513
+apolloduck,832512,Robertson And Caine Leopard 43,,12.80,2027,580834,EUR,Saint-Raphaël France,https://yachts.apolloduck.com/boat/robertson-and-caine-leopard-43-for-sale/832512
+apolloduck,820912,Sunreef 60 Loft,,18.29,2016,1950000,USD,"REBAK MARINA, LANGKAWI Malaysia",https://yachts.apolloduck.com/boat/sunreef-60-loft-for-sale/820912
+apolloduck,840608,Cornish Crabbers Crabber 24,,8.60,2018,48500,GBP,Torquay UK,https://yachts.apolloduck.com/boat/cornish-crabbers-crabber-24-for-sale/840608
+apolloduck,807313,Jeanneau Attalia 32,,9.31,1984,10950,GBP,Davis Boatyard Poole UK,https://yachts.apolloduck.com/boat/jeanneau-attalia-32-for-sale/807313
+apolloduck,813833,Lagoon 42,,12.80,2019,410000,EUR,Contact De Valk Multihull Croatia,https://yachts.apolloduck.com/boat/lagoon-42-for-sale/813833
+apolloduck,813834,Elan Impression 50,,15.20,2018,210000,EUR,Contact De Valk Dalmatia Croatia,https://yachts.apolloduck.com/boat/elan-impression-50-for-sale/813834
+apolloduck,813830,Lagoon 40,,11.74,2024,385000,EUR,Contact De Valk Dalmatia Croatia,https://yachts.apolloduck.com/boat/lagoon-40-for-sale/813830
+apolloduck,820909,Sailing Yachts Classic Yacht,,14.41,2002,395000,USD,Falmouth Antigua And Barbuda,https://yachts.apolloduck.com/boat/sailing-yachts-classic-yacht-for-sale/820909
+apolloduck,784197,Westerly Windrush,,7.62,1968,2500,GBP,Bangor Ireland,https://yachts.apolloduck.com/boat/westerly-windrush-for-sale/784197
+apolloduck,839797,Kingfisher 26,,7.92,1972,3850,GBP,Ipswich UK,https://yachts.apolloduck.com/boat/kingfisher-26-for-sale/839797
+apolloduck,839788,Beneteau Oceanis 34 1,,10.67,2022,149999,GBP,Gosport UK,https://yachts.apolloduck.com/boat/beneteau-oceanis-34-1-for-sale/839788
+apolloduck,839793,Fisher 25,,7.69,1978,15950,GBP,Darthaven Marina UK,https://yachts.apolloduck.com/boat/fisher-25-for-sale/839793
+apolloduck,839785,Delphia 47,,14.48,2010,132000,GBP,Penarth Marina UK,https://yachts.apolloduck.com/boat/delphia-47-for-sale/839785
+apolloduck,753898,Catalina 34,,10.36,1989,30000,EUR,Preveza Greece,https://yachts.apolloduck.com/boat/catalina-34-for-sale/753898
+apolloduck,804196,Belliure 41,,12.00,1990,95000,EUR,Contact De Valk Barcelona Spain,https://yachts.apolloduck.com/boat/belliure-41-for-sale/804196
+apolloduck,804197,Hanse 531,,16.15,2003,179000,EUR,Contact De Valk A Coruña Spain,https://yachts.apolloduck.com/boat/hanse-531-for-sale/804197
+apolloduck,820855,Jeanneau Sun Odyssey 42I,,12.85,2010,114500,EUR,Menorca Spain,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-42i-for-sale/820855
+apolloduck,774253,Dehler 38,,11.80,1989,28400,GBP,North Yorkshire UK,https://yachts.apolloduck.com/boat/dehler-38-for-sale/774253
+apolloduck,828427,Jeanneau Sun Odyssey 50 Ds,,14.94,2009,157500,EUR,Kas Turkey,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-50-ds-for-sale/828427
+apolloduck,842777,Tamarisk 24,,7.00,1975,500,GBP,Beaulieu UK,https://yachts.apolloduck.com/boat/tamarisk-24-for-sale/842777
+apolloduck,840874,Caravela 22,,6.71,1986,3000,GBP,"Haslar Marina, Gosport UK",https://yachts.apolloduck.com/boat/caravela-22-for-sale/840874
+apolloduck,702630,Beneteau First 405,,12.40,1988,40000,EUR,Contact De Valk Corfu Greece,https://yachts.apolloduck.com/boat/beneteau-first-405-for-sale/702630
+apolloduck,820853,Sedna Yachts 26,,7.62,2018,29999,GBP,Keyhaven UK,https://yachts.apolloduck.com/boat/sedna-yachts-26-for-sale/820853
+apolloduck,842773,Pirate 17,,17.00,1991,2550,GBP,UK,https://yachts.apolloduck.com/boat/pirate-17-for-sale/842773
+apolloduck,820847,Contessa 32,,9.75,1977,24000,GBP,Suffolk Yacht Harbour UK,https://yachts.apolloduck.com/boat/contessa-32-for-sale/820847
+apolloduck,820852,Bavaria Yachts 30 Cruiser,,9.45,2005,34995,GBP,Hartlepool UK,https://yachts.apolloduck.com/boat/bavaria-yachts-30-cruiser-for-sale/820852
+apolloduck,657420,Cheverton 28,,8.53,1959,6950,GBP,"Pin Mill, nr. Ipswich UK",https://yachts.apolloduck.com/boat/cheverton-28-for-sale/657420
+apolloduck,784141,Jeanneau Sun Odyssey 490,,14.08,2019,260000,EUR,Contact De Valk Almeria Spain,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-490-for-sale/784141
+apolloduck,840526,Cornish Crabbers Shrimper 17,,5.18,1997,7500,GBP,Ewelme UK,https://yachts.apolloduck.com/boat/cornish-crabbers-shrimper-17-for-sale/840526
+apolloduck,840584,Macwester Malin,,9.75,1978,18000,GBP,Fosdyke UK,https://yachts.apolloduck.com/boat/macwester-malin-for-sale/840584
+apolloduck,836281,Jeanneau Tonic 23,,7.32,1990,5995,GBP,Derwent Water Marina UK,https://yachts.apolloduck.com/boat/jeanneau-tonic-23-for-sale/836281
+apolloduck,836284,Norfolk Oyster,,4.88,1992,5950,GBP,"rougham ,Bury St Edmunds UK",https://yachts.apolloduck.com/boat/norfolk-oyster-for-sale/836284
+apolloduck,828305,Alpa 42,,12.80,1978,69950,EUR,Lefkas / Nidri Greece,https://yachts.apolloduck.com/boat/alpa-42-for-sale/828305
+apolloduck,842743,Hawk 20,,6.00,1999,7500,GBP,Plymouth UK,https://yachts.apolloduck.com/boat/hawk-20-for-sale/842743
+apolloduck,842770,Colvic Ufo 34,,10.36,1983,7500,GBP,UK,https://yachts.apolloduck.com/boat/colvic-ufo-34-for-sale/842770
+apolloduck,804090,Wauquiez Amphitrite 43,,13.11,1983,85000,EUR,Preveza Greece,https://yachts.apolloduck.com/boat/wauquiez-amphitrite-43-for-sale/804090
+apolloduck,804089,Beneteau Oceanis 393,,11.89,2001,74500,EUR,Preveza Greece,https://yachts.apolloduck.com/boat/beneteau-oceanis-393-for-sale/804089
+apolloduck,804075,Beneteau Oceanis 40 1,,12.43,2021,175000,EUR,Contact De Valk Dalmatia Croatia,https://yachts.apolloduck.com/boat/beneteau-oceanis-40-1-for-sale/804075
+apolloduck,774158,Wauquiez 60Ps,,18.10,1992,450000,USD,Port Saint-Louis du Rhone in France Saint Lucia,https://yachts.apolloduck.com/boat/wauquiez-60ps-for-sale/774158
+apolloduck,813726,Sailing Yachts Classic Yacht,,12.12,1937,53500,EUR,Contact De Valk Hindeloopen France,https://yachts.apolloduck.com/boat/sailing-yachts-classic-yacht-for-sale/813726
+apolloduck,828398,Moody 346,,10.36,1988,34995,GBP,UK,https://yachts.apolloduck.com/boat/moody-346-for-sale/828398
+apolloduck,730286,Nicholson 303,,9.20,1979,9500,GBP,CO. ANTRIM AFLOAT UK,https://yachts.apolloduck.com/boat/nicholson-303-for-sale/730286
+apolloduck,821307,Jeanneau Sun Odyssey 34 2,,10.20,2001,35000,GBP,Lymington UK,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-34-2-for-sale/821307
+apolloduck,832463,Jeanneau 54,,16.16,2019,290000,EUR,Greece,https://yachts.apolloduck.com/boat/jeanneau-54-for-sale/832463
+apolloduck,838945,Baltic 38,,11.58,1982,69950,EUR,Lefkas Greece,https://yachts.apolloduck.com/boat/baltic-38-for-sale/838945
+apolloduck,842739,Moody 38 Cc,,11.43,1993,,,Gibraltar,https://yachts.apolloduck.com/boat/moody-38-cc-for-sale/842739
+apolloduck,832456,Egeyat,,13.41,2013,230000,EUR,"Leros, Greece Greece",https://yachts.apolloduck.com/boat/egeyat-for-sale/832456
+apolloduck,803998,Westerly Seahawk,,10.06,1988,35000,GBP,Troon Yacht Haven UK,https://yachts.apolloduck.com/boat/westerly-seahawk-for-sale/803998
+apolloduck,803999,Oyster Yachts 42,,12.80,1985,45000,GBP,Troon Yacht Haven UK,https://yachts.apolloduck.com/boat/oyster-yachts-42-for-sale/803999
+apolloduck,824454,Beneteau Oceanis 323,,10.00,2005,39950,GBP,South Coast UK,https://yachts.apolloduck.com/boat/beneteau-oceanis-323-for-sale/824454
+apolloduck,804004,Jeanneau Espace 1000,,10.06,1981,32500,GBP,Troon Yacht Haven UK,https://yachts.apolloduck.com/boat/jeanneau-espace-1000-for-sale/804004
+apolloduck,804006,Jeanneau Sun Odyssey 49 Ds,,14.94,2005,148000,GBP,Troon Yacht Haven UK,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-49-ds-for-sale/804006
+apolloduck,804009,Nauticat 33,,10.06,1982,58500,GBP,Troon Yacht Haven UK,https://yachts.apolloduck.com/boat/nauticat-33-for-sale/804009
+apolloduck,836269,Hunter Marine Legend 31,,9.40,2006,32950,GBP,"Poole, Dorset UK",https://yachts.apolloduck.com/boat/hunter-marine-legend-31-for-sale/836269
+apolloduck,836268,Vancouver 34,,10.44,1992,54950,GBP,"Ardglass, Down UK",https://yachts.apolloduck.com/boat/vancouver-34-for-sale/836268
+apolloduck,836266,Sigma 33,,9.91,1983,10000,GBP,Blyth UK,https://yachts.apolloduck.com/boat/sigma-33-for-sale/836266
+apolloduck,804020,Dehler 43Cws,,13.11,1993,72000,GBP,Troon Yacht Haven UK,https://yachts.apolloduck.com/boat/dehler-43cws-for-sale/804020
+apolloduck,784111,Colvic Ufo 31,,9.41,1981,9500,GBP,Poole UK,https://yachts.apolloduck.com/boat/colvic-ufo-31-for-sale/784111
+apolloduck,784103,Jeanneau Sun Odyssey 350,,10.40,2025,249900,EUR,Dún Laoghaire Ireland,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-350-for-sale/784103
+apolloduck,831072,North Sea Craft Samphire 23,,7.00,1977,5000,GBP,Granton Marina UK,https://yachts.apolloduck.com/boat/north-sea-craft-samphire-23-for-sale/831072
+apolloduck,820771,Lagoon 560,,17.07,2017,1200000,EUR,Portugal Portugal,https://yachts.apolloduck.com/boat/lagoon-560-for-sale/820771
+apolloduck,820768,Robertson And Caine Leopard 40,,12.19,2016,349900,USD,St George Grenada,https://yachts.apolloduck.com/boat/robertson-and-caine-leopard-40-for-sale/820768
+apolloduck,828338,Character Boats Coastal Whammel,,6.47,1998,5950,GBP,"Neyland, Pembrokeshire UK",https://yachts.apolloduck.com/boat/character-boats-coastal-whammel-for-sale/828338
+apolloduck,840490,Beneteau First 285,,8.30,1990,13000,GBP,St Just in Roseland UK,https://yachts.apolloduck.com/boat/beneteau-first-285-for-sale/840490
+apolloduck,840491,Hunter Marine Legend 36,,10.97,2004,40000,GBP,Torpoint UK,https://yachts.apolloduck.com/boat/hunter-marine-legend-36-for-sale/840491
+apolloduck,784094,Jeanneau Sun Odyssey 490,,14.80,2019,260000,EUR,Contact De Valk Almeria Spain,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-490-for-sale/784094
+apolloduck,828337,Morgan Yachts 501,,15.40,1984,135000,GBP,North Lincs UK,https://yachts.apolloduck.com/boat/morgan-yachts-501-for-sale/828337
 apolloduck,784089,Bavaria Yachts 55 Cruiser,,16.75,2010,350000,EUR,Contact De Valk Dalmatia Croatia,https://yachts.apolloduck.com/boat/bavaria-yachts-55-cruiser-for-sale/784089
-apolloduck,838794,Parker Boats 21,,6.40,1984,6000,GBP,UK,https://yachts.apolloduck.com/boat/parker-boats-21-for-sale/838794
+apolloduck,838794,Parker Boats 21,,6.40,1984,5500,GBP,Ipswich UK,https://yachts.apolloduck.com/boat/parker-boats-21-for-sale/838794
 apolloduck,842696,Dufour 35 Classic,,10.70,1998,30750,GBP,Essex UK,https://yachts.apolloduck.com/boat/dufour-35-classic-for-sale/842696
-apolloduck,841928,Dufour,,12.80,2008,109500,EUR,"Leros Marina, Lakki - ashore Greece",https://yachts.apolloduck.com/boat/dufour-for-sale/841928
-apolloduck,841927,Bavaria Yachts,,14.40,2005,84950,EUR,"Licata, Sicily — afloat Italy",https://yachts.apolloduck.com/boat/bavaria-yachts-for-sale/841927
+apolloduck,841928,Dufour 425 Grand Large,,12.80,2008,109500,EUR,"Leros Marina, Lakki - ashore Greece",https://yachts.apolloduck.com/boat/dufour-425-grand-large-for-sale/841928
+apolloduck,841927,Bavaria Yachts 46 Cruiser,,14.40,2005,84950,EUR,"Licata, Sicily — afloat Italy",https://yachts.apolloduck.com/boat/bavaria-yachts-46-cruiser-for-sale/841927
 apolloduck,841923,Kalik 44,,13.41,1984,79500,EUR,"Orei, Evia – ashore Greece",https://yachts.apolloduck.com/boat/kalik-44-for-sale/841923
 apolloduck,832448,Bavaria Yachts 46 Cruiser,,14.27,2016,150000,EUR,FETHIYE Turkey,https://yachts.apolloduck.com/boat/bavaria-yachts-46-cruiser-for-sale/832448
 apolloduck,836264,Hunter Boats Channel 27,,7.95,2003,25000,GBP,Burnham Yacht Harbour UK,https://yachts.apolloduck.com/boat/hunter-boats-channel-27-for-sale/836264
 apolloduck,836260,Sailing Yachts Motor Sailer,,11.95,2015,198000,EUR,Contact De Valk Corfu Greece,https://yachts.apolloduck.com/boat/sailing-yachts-motor-sailer-for-sale/836260
+apolloduck,842731,Drascombe Coaster,,6.00,1991,16500,EUR,Portbail sur Mer France,https://yachts.apolloduck.com/boat/drascombe-coaster-for-sale/842731
 apolloduck,836261,Jeanneau Sun Odyssey 349,,9.98,2016,133000,EUR,Contact De Valk Corfu Greece,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-349-for-sale/836261
 apolloduck,832328,Nicholson 31,,9.14,1982,34500,EUR,Kalamata or Athens Greece,https://yachts.apolloduck.com/boat/nicholson-31-for-sale/832328
-apolloduck,840526,Cornish Crabbers Shrimper 17,,5.18,1997,7500,GBP,Ewelme UK,https://yachts.apolloduck.com/boat/cornish-crabbers-shrimper-17-for-sale/840526
 apolloduck,824470,Cornish Crabbers Crabber 26,,7.92,2012,49999,GBP,"Wareham, Dorset UK",https://yachts.apolloduck.com/boat/cornish-crabbers-crabber-26-for-sale/824470
 apolloduck,830487,Jeanneau Sun 2500,,7.62,2005,14900,EUR,Lough Derg Ireland,https://yachts.apolloduck.com/boat/jeanneau-sun-2500-for-sale/830487
-apolloduck,817421,Humphrey H22,,6.71,2001,7900,GBP,Plymouth UK,https://yachts.apolloduck.com/boat/humphrey-h22-for-sale/817421
+apolloduck,817421,Humphrey H22,,6.71,2002,7900,GBP,Plymouth UK,https://yachts.apolloduck.com/boat/humphrey-h22-for-sale/817421
 apolloduck,824467,Moody S31,,9.68,1997,37500,GBP,Suffolk Yacht Harbour IP10 0LN UK,https://yachts.apolloduck.com/boat/moody-s31-for-sale/824467
-apolloduck,821307,Jeanneau Sun Odyssey 34 2,,10.20,2001,35000,GBP,Lymington UK,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-34-2-for-sale/821307
 apolloduck,839740,Dragonfly 28 Touring,,9.00,2020,149950,GBP,Solent UK,https://yachts.apolloduck.com/boat/dragonfly-28-touring-for-sale/839740
 apolloduck,837504,Jeanneau Sun Odyssey 29 2,,8.80,2007,34950,EUR,Ireland,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-29-2-for-sale/837504
 apolloduck,824462,Nauticat 38,,11.80,1994,85000,EUR,Contact De Valk Corfu Greece,https://yachts.apolloduck.com/boat/nauticat-38-for-sale/824462
@@ -43,14 +159,12 @@ apolloduck,828350,Sailing Yachts Cruising Yacht,,12.95,2002,95000,EUR,Contact De
 apolloduck,842705,Amel Super Maramu,,15.97,1999,225000,EUR,Contact De Valk Almeria Spain,https://yachts.apolloduck.com/boat/amel-super-maramu-for-sale/842705
 apolloduck,842704,Bavaria Yachts 37 Cruiser,,11.81,2023,189000,EUR,Contact De Valk Costa del Sol Spain,https://yachts.apolloduck.com/boat/bavaria-yachts-37-cruiser-for-sale/842704
 apolloduck,710729,Sailing Yachts Cruising Yacht,,14.90,1997,199000,EUR,Contact De Valk Portugal Portugal,https://yachts.apolloduck.com/boat/sailing-yachts-cruising-yacht-for-sale/710729
-apolloduck,831072,North Sea Craft Samphire 23,,7.00,1977,5000,GBP,Granton Marina UK,https://yachts.apolloduck.com/boat/north-sea-craft-samphire-23-for-sale/831072
 apolloduck,828348,Excess 11,,11.33,2024,350000,GBP,Kos Greece,https://yachts.apolloduck.com/boat/excess-11-for-sale/828348
 apolloduck,792154,Salona 40,,11.99,2006,95000,EUR,Contact De Valk Almeria Spain,https://yachts.apolloduck.com/boat/salona-40-for-sale/792154
 apolloduck,839719,Bavaria Yachts 30 Cruiser,,9.45,2006,34950,GBP,"Swanwick Marina, Hampshire UK",https://yachts.apolloduck.com/boat/bavaria-yachts-30-cruiser-for-sale/839719
 apolloduck,748387,Sigma 38,,11.58,1989,35950,GBP,Eastbourne UK,https://yachts.apolloduck.com/boat/sigma-38-for-sale/748387
 apolloduck,839711,Bavaria Yachts 36 Cruiser,,11.28,2002,42500,GBP,"Medway Yacht Club, Kent UK",https://yachts.apolloduck.com/boat/bavaria-yachts-36-cruiser-for-sale/839711
 apolloduck,839710,Nauticat 33,,10.06,1996,69995,GBP,Lymington UK,https://yachts.apolloduck.com/boat/nauticat-33-for-sale/839710
-apolloduck,840490,Beneteau First 285,,8.30,1990,13000,GBP,St Just in Roseland UK,https://yachts.apolloduck.com/boat/beneteau-first-285-for-sale/840490
 apolloduck,839709,Jeanneau Sun Odyssey 32,,9.45,2002,39000,EUR,Dun Laoghaire Ireland,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-32-for-sale/839709
 apolloduck,839708,Beneteau Oceanis 30 1,,9.53,2020,105000,GBP,Newcastle Upon Tyne UK,https://yachts.apolloduck.com/boat/beneteau-oceanis-30-1-for-sale/839708
 apolloduck,839707,Dufour 34 Performance,,10.60,2005,54995,GBP,Hartlepool UK,https://yachts.apolloduck.com/boat/dufour-34-performance-for-sale/839707
@@ -59,7 +173,6 @@ apolloduck,770405,Passport 40,,12.19,1981,64000,USD,Cathlamet USA,https://yachts
 apolloduck,839703,Bavaria Yachts 46 Vision,,14.00,2013,190000,GBP,Walton on the Naze UK,https://yachts.apolloduck.com/boat/bavaria-yachts-46-vision-for-sale/839703
 apolloduck,839704,De Kloet Midget 26,,8.05,1985,28000,GBP,Suffolk Yacht Harbour UK,https://yachts.apolloduck.com/boat/de-kloet-midget-26-for-sale/839704
 apolloduck,839705,Beneteau First 36S7,,10.90,1996,24995,GBP,Suffolk Yacht Harbour UK,https://yachts.apolloduck.com/boat/beneteau-first-36s7-for-sale/839705
-apolloduck,840491,Hunter Marine Legend 36,,10.97,2004,40000,GBP,Torpoint UK,https://yachts.apolloduck.com/boat/hunter-marine-legend-36-for-sale/840491
 apolloduck,714087,Koopmans 38,,11.58,1976,47500,GBP,UK,https://yachts.apolloduck.com/boat/koopmans-38-for-sale/714087
 apolloduck,727531,Rydgeway Marine Pandora 700,,7.01,1978,2950,GBP,Newtownards Ireland,https://yachts.apolloduck.com/boat/rydgeway-marine-pandora-700-for-sale/727531
 apolloduck,704742,Hallberg Rassy 29,,8.90,1982,17500,USD,St.Lucia Saint Lucia,https://yachts.apolloduck.com/boat/hallberg-rassy-29-for-sale/704742
@@ -75,7 +188,6 @@ apolloduck,813637,Jeanneau Sun Odyssey 40 Ds,,11.75,1998,79500,EUR,Cyprus Turkey
 apolloduck,796371,Saffier 26 Se,,7.92,2018,64950,GBP,"Lower Swanwick, Hampshire UK",https://yachts.apolloduck.com/boat/saffier-26-se-for-sale/796371
 apolloduck,803839,Bavaria Yachts 51 Cruiser,,14.94,2014,165750,EUR,"Preveza, Greece Greece",https://yachts.apolloduck.com/boat/bavaria-yachts-51-cruiser-for-sale/803839
 apolloduck,803838,Jeanneau Sun Odyssey 32,,9.45,2003,39950,GBP,Milford Marina UK,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-32-for-sale/803838
-apolloduck,840483,Westerly Konsort,,9.00,,10000,GBP,UK,https://yachts.apolloduck.com/boat/westerly-konsort-for-sale/840483
 apolloduck,820619,Moody 30,,9.14,1978,16995,GBP,Brixham UK,https://yachts.apolloduck.com/boat/moody-30-for-sale/820619
 apolloduck,811146,Dufour 2800,,8.60,1980,9500,EUR,Galway Ireland,https://yachts.apolloduck.com/boat/dufour-2800-for-sale/811146
 apolloduck,820617,Sweden Yachts 42,,12.80,2005,225000,GBP,Plymouth UK,https://yachts.apolloduck.com/boat/sweden-yachts-42-for-sale/820617
@@ -288,7 +400,6 @@ apolloduck,791387,Jeanneau Sun Odyssey 29 2,,8.80,1998,26950,GBP,"Milford Haven,
 apolloduck,791386,Delphia 29,,8.60,2005,22000,GBP,"Neyland, Pembrokeshire UK",https://yachts.apolloduck.com/boat/delphia-29-for-sale/791386
 apolloduck,791385,Westerly Storm,,10.11,1989,23950,GBP,"Pembroke Dock, Pembrokeshire UK",https://yachts.apolloduck.com/boat/westerly-storm-for-sale/791385
 apolloduck,813204,Sadler 34,,10.60,1990,29000,GBP,"Burton, Pembrokeshire UK",https://yachts.apolloduck.com/boat/sadler-34-for-sale/813204
-apolloduck,820173,Sadler 29,,8.53,1984,8950,GBP,North Wales UK,https://yachts.apolloduck.com/boat/sadler-29-for-sale/820173
 apolloduck,795115,Fisher 30 Northeaster,,9.14,1977,25000,GBP,STRANGFORD LOUGH NORTHERN IRELAND UK,https://yachts.apolloduck.com/boat/fisher-30-northeaster-for-sale/795115
 apolloduck,803105,Concord 47 5 Ds,,14.45,1999,425000,EUR,Contact De Valk Monnickendam Panama,https://yachts.apolloduck.com/boat/concord-47-5-ds-for-sale/803105
 apolloduck,813199,Bavaria Yachts 46 Cruiser,,13.89,2023,238000,EUR,Split Croatia,https://yachts.apolloduck.com/boat/bavaria-yachts-46-cruiser-for-sale/813199
@@ -319,8 +430,8 @@ apolloduck,679319,Albin Vega 27,,8.23,,1000,GBP,North Down Ireland,https://yacht
 apolloduck,820647,Sailing Yachts Day Sailer,,7.30,,4950,GBP,Beccles UK,https://yachts.apolloduck.com/boat/sailing-yachts-day-sailer-for-sale/820647
 apolloduck,679273,Sailing Yachts Cruising Yacht,,9.75,1977,24995,GBP,UK,https://yachts.apolloduck.com/boat/sailing-yachts-cruising-yacht-for-sale/679273
 apolloduck,813137,Jeanneau Sunshine 36,,11.10,1984,15000,GBP,Suffolk Yacht Harbour UK,https://yachts.apolloduck.com/boat/jeanneau-sunshine-36-for-sale/813137
-apolloduck,837554,Hunter Boats Impala,,8.53,1982,11950,GBP,UK,https://yachts.apolloduck.com/boat/hunter-boats-impala-for-sale/837554
 apolloduck,813141,Jeanneau Arcadia 29,,8.84,1984,14000,GBP,"Chatham Marina, Kent UK",https://yachts.apolloduck.com/boat/jeanneau-arcadia-29-for-sale/813141
+apolloduck,837554,Hunter Boats Impala,,8.53,1982,11950,GBP,UK,https://yachts.apolloduck.com/boat/hunter-boats-impala-for-sale/837554
 apolloduck,828389,Contessa 32,,9.50,1975,13000,GBP,Oban UK,https://yachts.apolloduck.com/boat/contessa-32-for-sale/828389
 apolloduck,824146,Bruce Roberts Roberts 434,,13.11,1995,59000,EUR,Licata Italy,https://yachts.apolloduck.com/boat/bruce-roberts-roberts-434-for-sale/824146
 apolloduck,820097,Moody 36 Cc,,10.67,1997,79500,GBP,Birdham Pool UK,https://yachts.apolloduck.com/boat/moody-36-cc-for-sale/820097
@@ -495,7 +606,7 @@ apolloduck,819558,Moody 30,,9.14,1977,18500,GBP,Deganwy Marina UK,https://yachts
 apolloduck,802593,Bavaria Yachts 38 Ocean,,11.90,1999,82000,EUR,Greece,https://yachts.apolloduck.com/boat/bavaria-yachts-38-ocean-for-sale/802593
 apolloduck,812841,Jeanneau Sun Odyssey 43,,13.21,2001,93000,EUR,Portugal Portugal,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-43-for-sale/812841
 apolloduck,839187,Tyler Yachts Victory 40,,12.20,1974,74950,GBP,"Nr Fowey, Cornwall UK",https://yachts.apolloduck.com/boat/tyler-yachts-victory-40-for-sale/839187
-apolloduck,812838,Sailing Yachts Cruising Yacht,,20.00,1984,279000,EUR,Contact De Valk Monnickendam Netherlands,https://yachts.apolloduck.com/boat/sailing-yachts-cruising-yacht-for-sale/812838
+apolloduck,812838,Sailing Yachts Cruising Yacht,,20.00,1984,249000,EUR,Contact De Valk Monnickendam Netherlands,https://yachts.apolloduck.com/boat/sailing-yachts-cruising-yacht-for-sale/812838
 apolloduck,802556,Beneteau First 32S5,,9.91,1987,25000,GBP,West Coast Scotland UK,https://yachts.apolloduck.com/boat/beneteau-first-32s5-for-sale/802556
 apolloduck,783114,Beneteau First 28,,8.53,1982,9950,EUR,"Crosshaven, Cork Ireland",https://yachts.apolloduck.com/boat/beneteau-first-28-for-sale/783114
 apolloduck,802578,Jeanneau Sun Odyssey 415,,12.95,2026,329014,GBP,"Lower Swanwick, Hampshire France",https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-415-for-sale/802578
@@ -553,7 +664,6 @@ apolloduck,842325,Hunter Boats Sonata,,6.88,1980,3700,GBP,WPNSA Portland UK,http
 apolloduck,819310,Jeanneau Sun Odyssey 43 Ds,,13.21,2005,125000,EUR,Greece,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-43-ds-for-sale/819310
 apolloduck,842330,Moody 346,,10.36,1989,39950,GBP,Largs Marina UK,https://yachts.apolloduck.com/boat/moody-346-for-sale/842330
 apolloduck,831973,De Visser Raider 35,,10.70,1973,29000,GBP,Weymouth UK,https://yachts.apolloduck.com/boat/de-visser-raider-35-for-sale/831973
-apolloduck,839998,Contessa 28,,8.50,1978,7950,GBP,Lymington UK,https://yachts.apolloduck.com/boat/contessa-28-for-sale/839998
 apolloduck,831969,Beneteau Sense 51,,15.95,2018,349000,EUR,Contact De Valk Thuishaven Netherlands,https://yachts.apolloduck.com/boat/beneteau-sense-51-for-sale/831969
 apolloduck,812684,Elan Impression 50,,14.83,2019,295000,EUR,Algarve Portugal,https://yachts.apolloduck.com/boat/elan-impression-50-for-sale/812684
 apolloduck,812674,Sailing Yachts Cruiser Racer,,11.50,1968,89000,EUR,Contact De Valk Kiel Germany,https://yachts.apolloduck.com/boat/sailing-yachts-cruiser-racer-for-sale/812674
@@ -600,7 +710,7 @@ apolloduck,841104,Cornish Crabbers Shrimper 19,,19.00,1999,16000,GBP,Mylor UK,ht
 apolloduck,842269,Morgan Yachts 462,,13.71,1982,95000,EUR,Santa Cruz de La Palma Spain,https://yachts.apolloduck.com/boat/morgan-yachts-462-for-sale/842269
 apolloduck,842267,Beneteau Oceanis 393,,11.62,2004,99000,EUR,Arrecife Spain,https://yachts.apolloduck.com/boat/beneteau-oceanis-393-for-sale/842267
 apolloduck,842265,Tyler Yachts Slipper 42,,13.32,1980,30000,EUR,Puerto Calero Spain,https://yachts.apolloduck.com/boat/tyler-yachts-slipper-42-for-sale/842265
-apolloduck,842262,Beneteau Oceanis 323,,9.72,2006,62000,EUR,Contact De Valk Palma Spain,https://yachts.apolloduck.com/boat/beneteau-oceanis-323-for-sale/842262
+apolloduck,842262,Beneteau Oceanis 323,,9.72,2006,61000,EUR,Contact De Valk Palma Spain,https://yachts.apolloduck.com/boat/beneteau-oceanis-323-for-sale/842262
 apolloduck,842266,Beneteau Oceanis 393,,11.62,2005,88000,EUR,Puerto Calero Spain,https://yachts.apolloduck.com/boat/beneteau-oceanis-393-for-sale/842266
 apolloduck,831909,Beneteau Oceanis 55,,16.76,2017,375000,EUR,"Athens, Greece Greece",https://yachts.apolloduck.com/boat/beneteau-oceanis-55-for-sale/831909
 apolloduck,827820,Bavaria Yachts 30 Cruiser,,9.47,2006,41950,GBP,"Portsmouth, Hampshire UK",https://yachts.apolloduck.com/boat/bavaria-yachts-30-cruiser-for-sale/827820
@@ -625,8 +735,8 @@ apolloduck,831873,Dufour 39,,11.98,1988,59000,EUR,Royan France,https://yachts.ap
 apolloduck,839078,Jeanneau Sun Odyssey 509,,14.94,2015,135000,EUR,Tenerife Spain,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-509-for-sale/839078
 apolloduck,835648,Dufour 360 Grand Large,,10.73,2020,115000,EUR,Contact De Valk Sint Annaland Netherlands,https://yachts.apolloduck.com/boat/dufour-360-grand-large-for-sale/835648
 apolloduck,831862,Dufour 405 Grand Large,,11.90,2012,110000,GBP,Marseille France,https://yachts.apolloduck.com/boat/dufour-405-grand-large-for-sale/831862
-apolloduck,839899,Bavaria Yachts 38 Ocean,,11.58,1998,99750,USD,North Sound Marina Antigua And Barbuda,https://yachts.apolloduck.com/boat/bavaria-yachts-38-ocean-for-sale/839899
 apolloduck,745807,Beneteau First 40 7,,11.83,2000,65000,GBP,Isle of Wight UK,https://yachts.apolloduck.com/boat/beneteau-first-40-7-for-sale/745807
+apolloduck,839899,Bavaria Yachts 38 Ocean,,11.58,1998,99750,USD,North Sound Marina Antigua And Barbuda,https://yachts.apolloduck.com/boat/bavaria-yachts-38-ocean-for-sale/839899
 apolloduck,837293,Seamaster 925,,9.14,1977,8499,GBP,UK,https://yachts.apolloduck.com/boat/seamaster-925-for-sale/837293
 apolloduck,819195,Bavaria Yachts 31 Cruiser,,9.76,2008,49950,GBP,Salcombe UK,https://yachts.apolloduck.com/boat/bavaria-yachts-31-cruiser-for-sale/819195
 apolloduck,819191,Jeanneau Sun Fast 3600,,10.97,2015,109950,GBP,"Pwllheli, WLS UK",https://yachts.apolloduck.com/boat/jeanneau-sun-fast-3600-for-sale/819191
@@ -710,12 +820,11 @@ apolloduck,827658,Hallberg Rassy 45,,14.28,1993,249000,EUR,Contact De Valk Hinde
 apolloduck,842195,Rival 41 Ac,,12.19,1986,55000,USD,Antigua And Barbuda,https://yachts.apolloduck.com/boat/rival-41-ac-for-sale/842195
 apolloduck,106147,Colin Archer 46,,14.02,1934,74000,EUR,Stavanger Norway,https://yachts.apolloduck.com/boat/colin-archer-46-for-sale/106147
 apolloduck,838984,Jeanneau Sun Odyssey 39I,,11.86,2009,77000,EUR,Greece,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-39i-for-sale/838984
-apolloduck,842191,Sailing Yachts Day Sailer,,4.88,1995,4000,GBP,UK,https://yachts.apolloduck.com/boat/sailing-yachts-day-sailer-for-sale/842191
+apolloduck,842191,Pjs Boats Westray 16,,4.88,1995,4000,GBP,UK,https://yachts.apolloduck.com/boat/pjs-boats-westray-16-for-sale/842191
 apolloduck,842184,Colvic Ufo 27,,8.00,1980,3000,EUR,Ireland,https://yachts.apolloduck.com/boat/colvic-ufo-27-for-sale/842184
 apolloduck,842185,Fortuna 9,,9.90,1999,22800,EUR,Spain,https://yachts.apolloduck.com/boat/fortuna-9-for-sale/842185
 apolloduck,842188,Gib Sea 31,,9.50,1982,15000,EUR,Greece,https://yachts.apolloduck.com/boat/gib-sea-31-for-sale/842188
 apolloduck,637201,Nicholson 32,,9.75,1969,19995,GBP,UK,https://yachts.apolloduck.com/boat/nicholson-32-for-sale/637201
-apolloduck,819010,Westerly Konsort,,8.80,1980,7950,GBP,Essex UK,https://yachts.apolloduck.com/boat/westerly-konsort-for-sale/819010
 apolloduck,831778,Beneteau Oceanis 54,,16.69,2011,249000,EUR,Contact De Valk Loosdrecht Netherlands,https://yachts.apolloduck.com/boat/beneteau-oceanis-54-for-sale/831778
 apolloduck,839815,Beneteau First 305,,9.14,1989,16500,GBP,Poole UK,https://yachts.apolloduck.com/boat/beneteau-first-305-for-sale/839815
 apolloduck,842179,Lagoon 450 F,,13.96,2012,495000,EUR,Patras Greece,https://yachts.apolloduck.com/boat/lagoon-450-f-for-sale/842179
@@ -766,7 +875,7 @@ apolloduck,779292,Hanse 470,,14.25,2010,139950,GBP,Burnham Yacht Harbour UK,http
 apolloduck,835475,Westerly Konsort,,8.79,1981,16995,GBP,Burnham Yacht Harbour UK,https://yachts.apolloduck.com/boat/westerly-konsort-for-sale/835475
 apolloduck,823725,Jeanneau Espace 1100,,11.50,1988,49000,EUR,Arzon France,https://yachts.apolloduck.com/boat/jeanneau-espace-1100-for-sale/823725
 apolloduck,842125,Sailing Yachts Cruising Yacht,,12.10,1973,100000,EUR,Contact De Valk Sweden Sweden,https://yachts.apolloduck.com/boat/sailing-yachts-cruising-yacht-for-sale/842125
-apolloduck,842124,Hanse 371,,11.25,2004,94500,EUR,Contact De Valk Dalmatia Croatia,https://yachts.apolloduck.com/boat/hanse-371-for-sale/842124
+apolloduck,842124,Hanse 371,,11.25,2004,25000,EUR,Contact De Valk Dalmatia Croatia,https://yachts.apolloduck.com/boat/hanse-371-for-sale/842124
 apolloduck,823723,Beneteau Oceanis 48,,14.33,2013,205000,EUR,Bodrum Turkey,https://yachts.apolloduck.com/boat/beneteau-oceanis-48-for-sale/823723
 apolloduck,831692,Jeanneau Sun 2000,,6.64,2002,9950,GBP,Lancashire UK,https://yachts.apolloduck.com/boat/jeanneau-sun-2000-for-sale/831692
 apolloduck,783225,Adams 44,,13.50,1987,30000,GBP,North Fambridge UK,https://yachts.apolloduck.com/boat/adams-44-for-sale/783225
@@ -984,7 +1093,6 @@ apolloduck,818488,Excess 14,,13.94,2024,598000,EUR,Saint Lucia,https://yachts.ap
 apolloduck,830291,Bavaria Yachts C50,,15.43,2024,487950,EUR,Palma - Mallorca Spain,https://yachts.apolloduck.com/boat/bavaria-yachts-c50-for-sale/830291
 apolloduck,841987,Oyster Yachts 26,,7.98,1980,2500,GBP,Ipswich UK,https://yachts.apolloduck.com/boat/oyster-yachts-26-for-sale/841987
 apolloduck,831521,Hunter Boats Duette,,6.71,1987,3000,GBP,North Wales UK,https://yachts.apolloduck.com/boat/hunter-boats-duette-for-sale/831521
-apolloduck,801108,Bavaria Yachts 39 Cruiser,,12.14,2006,49500,GBP,River Itchen UK,https://yachts.apolloduck.com/boat/bavaria-yachts-39-cruiser-for-sale/801108
 apolloduck,734413,Morgan Yachts 32,,9.69,1981,19950,GBP,"Neyland Marina, Pembrokeshire UK",https://yachts.apolloduck.com/boat/morgan-yachts-32-for-sale/734413
 apolloduck,827280,Hallberg Rassy 342,,10.32,2006,85000,GBP,Gosport UK,https://yachts.apolloduck.com/boat/hallberg-rassy-342-for-sale/827280
 apolloduck,827282,Starlight 35,,11.00,2001,67000,GBP,Neyland UK,https://yachts.apolloduck.com/boat/starlight-35-for-sale/827282
@@ -1047,7 +1155,7 @@ apolloduck,826410,Jeanneau Sun Odyssey 419,,12.19,2018,119500,EUR,Lefkas Greece,
 apolloduck,752104,Sailing Yachts Motor Sailer,,14.85,1996,249000,EUR,Contact De Valk Thuishaven Netherlands,https://yachts.apolloduck.com/boat/sailing-yachts-motor-sailer-for-sale/752104
 apolloduck,489416,Sailing Yachts,,15.00,1887,49000,EUR,Netherlands Netherlands,https://yachts.apolloduck.com/boat/sailing-yachts-for-sale/489416
 apolloduck,835070,Moody 27,,8.43,1982,9750,GBP,Port Bannatyne UK,https://yachts.apolloduck.com/boat/moody-27-for-sale/835070
-apolloduck,781899,Domp Kruiser 1030,,10.30,1992,25000,GBP,Ardrossan UK,https://yachts.apolloduck.com/boat/domp-kruiser-1030-for-sale/781899
+apolloduck,781899,Domp Kruiser 1030,,10.30,1992,12500,GBP,Ardrossan UK,https://yachts.apolloduck.com/boat/domp-kruiser-1030-for-sale/781899
 apolloduck,818359,Beneteau Oceanis 281,,8.70,1995,32000,EUR,Piriac sur mer France,https://yachts.apolloduck.com/boat/beneteau-oceanis-281-for-sale/818359
 apolloduck,834477,Bavaria Yachts 320 Sportline,,9.75,1992,22500,GBP,UK,https://yachts.apolloduck.com/boat/bavaria-yachts-320-sportline-for-sale/834477
 apolloduck,744464,Van De Stadt 42,,13.11,1988,44950,GBP,Eastbourne UK,https://yachts.apolloduck.com/boat/van-de-stadt-42-for-sale/744464
@@ -1102,7 +1210,6 @@ apolloduck,831386,Oyster Yachts 56,,17.21,2002,525000,GBP,Portsmouth UK,https://
 apolloduck,799830,Gulfstar 47 Sailmaster,,14.33,1980,50000,USD,Gulf Shores USA,https://yachts.apolloduck.com/boat/gulfstar-47-sailmaster-for-sale/799830
 apolloduck,831375,Fountaine Pajot Astrea 42,,12.58,2020,365000,EUR,Greece,https://yachts.apolloduck.com/boat/fountaine-pajot-astrea-42-for-sale/831375
 apolloduck,818253,Moody 425 Cc,,13.72,1990,57500,GBP,"Leros, Greece Greece",https://yachts.apolloduck.com/boat/moody-425-cc-for-sale/818253
-apolloduck,827177,Hanse 508,,15.55,2021,390000,EUR,Contact De Valk Antibes Italy,https://yachts.apolloduck.com/boat/hanse-508-for-sale/827177
 apolloduck,818210,Moody 36 Cc,,11.00,1980,29000,GBP,Clyde UK,https://yachts.apolloduck.com/boat/moody-36-cc-for-sale/818210
 apolloduck,818211,Beneteau Oceanis 45,,13.94,2018,189000,GBP,Clyde UK,https://yachts.apolloduck.com/boat/beneteau-oceanis-45-for-sale/818211
 apolloduck,831312,Gib Sea 90,,9.05,1984,9000,GBP,Gibraltar Gibraltar,https://yachts.apolloduck.com/boat/gib-sea-90-for-sale/831312
@@ -1231,7 +1338,6 @@ apolloduck,841765,Westerly Oceanquest,,10.48,1998,54950,GBP,"Portsmouth, Hampshi
 apolloduck,841761,Moody 31,,9.14,1984,22500,GBP,"Chatham Marina, Chatham Kent UK",https://yachts.apolloduck.com/boat/moody-31-for-sale/841761
 apolloduck,841759,Jeanneau Sun Fast 3300,,10.00,2021,195000,EUR,Scheveningen Netherlands,https://yachts.apolloduck.com/boat/jeanneau-sun-fast-3300-for-sale/841759
 apolloduck,841754,Seamaster 815,,8.15,1978,4950,GBP,Suffolk Yacht Harbour UK,https://yachts.apolloduck.com/boat/seamaster-815-for-sale/841754
-apolloduck,841753,Beneteau Oceanis 31,,9.66,2010,53500,GBP,Suffolk Yacht Harbour UK,https://yachts.apolloduck.com/boat/beneteau-oceanis-31-for-sale/841753
 apolloduck,810825,Beneteau 57,,17.80,2003,279500,EUR,Contact De Valk Antibes France,https://yachts.apolloduck.com/boat/beneteau-57-for-sale/810825
 apolloduck,837245,Ruffian 23,,7.00,,500,GBP,UK,https://yachts.apolloduck.com/boat/ruffian-23-for-sale/837245
 apolloduck,751943,Klaassen 1900,,18.97,1964,550000,EUR,Contact De Valk Antibes Italy,https://yachts.apolloduck.com/boat/klaassen-1900-for-sale/751943
@@ -1274,8 +1380,8 @@ apolloduck,838365,Sailing Yachts Cruising Yacht,,11.50,1974,34950,GBP,West Coast
 apolloduck,834818,Robertson And Caine Leopard 42,,12.50,2022,429000,USD,Saint Lucia,https://yachts.apolloduck.com/boat/robertson-and-caine-leopard-42-for-sale/834818
 apolloduck,838397,Moody 333,,10.06,1982,22500,GBP,Noss Marina UK,https://yachts.apolloduck.com/boat/moody-333-for-sale/838397
 apolloduck,841723,Seamaster 925,,9.14,1981,7000,GBP,Argyll UK,https://yachts.apolloduck.com/boat/seamaster-925-for-sale/841723
-apolloduck,770611,Jeanneau Sun Fast 37,,11.28,2002,45000,GBP,UK,https://yachts.apolloduck.com/boat/jeanneau-sun-fast-37-for-sale/770611
 apolloduck,836599,Cornish Crabbers Shrimper 19,,5.79,2014,16000,GBP,Mylor UK,https://yachts.apolloduck.com/boat/cornish-crabbers-shrimper-19-for-sale/836599
+apolloduck,770611,Jeanneau Sun Fast 37,,11.28,2002,45000,GBP,UK,https://yachts.apolloduck.com/boat/jeanneau-sun-fast-37-for-sale/770611
 apolloduck,838396,Jeanneau Sun Odyssey 455,,14.63,2026,438914,GBP,United Kingdom France,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-455-for-sale/838396
 apolloduck,838394,Jeanneau Sun Odyssey 415,,12.80,2026,333853,GBP,United Kingdom France,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-415-for-sale/838394
 apolloduck,838409,Hunter Boats Horizon 23232,,7.00,1989,5000,GBP,Ipswich UK,https://yachts.apolloduck.com/boat/hunter-boats-horizon-23232-for-sale/838409
@@ -1291,7 +1397,7 @@ apolloduck,800023,Sailing Yachts Cruising Yacht,,19.13,1962,490000,EUR,Contact D
 apolloduck,831165,Lm 27,,8.23,1981,16000,GBP,Burnham Yacht Harbour UK,https://yachts.apolloduck.com/boat/lm-27-for-sale/831165
 apolloduck,810719,Bavaria Yachts C45,,14.43,2019,199950,EUR,Sivota Greece,https://yachts.apolloduck.com/boat/bavaria-yachts-c45-for-sale/810719
 apolloduck,785750,Ron Holland 14 Tonner,,7.70,1977,5000,EUR,Ballydehob Ireland,https://yachts.apolloduck.com/boat/ron-holland-14-tonner-for-sale/785750
-apolloduck,810712,Puffin 50,,16.00,1999,395000,EUR,Contact De Valk Hindeloopen Netherlands,https://yachts.apolloduck.com/boat/puffin-50-for-sale/810712
+apolloduck,810712,Puffin 50,,16.00,1999,349000,EUR,Contact De Valk Hindeloopen Netherlands,https://yachts.apolloduck.com/boat/puffin-50-for-sale/810712
 apolloduck,825178,Sailcraft Comanche,,9.75,1980,27500,GBP,Near maldon UK,https://yachts.apolloduck.com/boat/sailcraft-comanche-for-sale/825178
 apolloduck,781437,Sailing Yachts Cruising Yacht,,15.10,1973,89000,EUR,Contact De Valk Hindeloopen Netherlands,https://yachts.apolloduck.com/boat/sailing-yachts-cruising-yacht-for-sale/781437
 apolloduck,817900,Kelsall Kss 58,,17.68,2009,360000,EUR,Barcelona Spain,https://yachts.apolloduck.com/boat/kelsall-kss-58-for-sale/817900
@@ -1547,8 +1653,8 @@ apolloduck,834552,Jeanneau Sun Odyssey 40 3,,12.20,2005,84950,GBP,"Yarmouth, ENG
 apolloduck,834546,Bavaria Yachts 51 Cruiser,,15.00,2015,149950,GBP,"Lymington, Hampshire UK",https://yachts.apolloduck.com/boat/bavaria-yachts-51-cruiser-for-sale/834546
 apolloduck,817395,Bali Catamarans Bali 4 6,,14.54,2023,745000,EUR,Athens Greece,https://yachts.apolloduck.com/boat/bali-catamarans-bali-4-6-for-sale/817395
 apolloduck,817352,Lagoon 450 F,,13.96,2015,430000,EUR,Turkey,https://yachts.apolloduck.com/boat/lagoon-450-f-for-sale/817352
-apolloduck,822886,Sailing Yachts Cruising Yacht,,12.75,1973,95000,EUR,Contact De Valk Sint Annaland Netherlands,https://yachts.apolloduck.com/boat/sailing-yachts-cruising-yacht-for-sale/822886
 apolloduck,838943,Jeanneau Sunrise 34,,10.54,1984,19950,EUR,Ireland,https://yachts.apolloduck.com/boat/jeanneau-sunrise-34-for-sale/838943
+apolloduck,822886,Sailing Yachts Cruising Yacht,,12.75,1973,95000,EUR,Contact De Valk Sint Annaland Netherlands,https://yachts.apolloduck.com/boat/sailing-yachts-cruising-yacht-for-sale/822886
 apolloduck,822885,Dufour 445 Grand Large,,13.50,2011,179000,EUR,Contact De Valk Sint Annaland Netherlands,https://yachts.apolloduck.com/boat/dufour-445-grand-large-for-sale/822885
 apolloduck,817351,Robertson And Caine Leopard 44,,12.98,2015,384000,EUR,Athens Greece,https://yachts.apolloduck.com/boat/robertson-and-caine-leopard-44-for-sale/817351
 apolloduck,816991,Bali Catamarans Bali 4 1,,12.12,2020,383000,EUR,Athens Greece,https://yachts.apolloduck.com/boat/bali-catamarans-bali-4-1-for-sale/816991
@@ -1610,7 +1716,7 @@ apolloduck,838092,Knysna 440,,13.41,2007,249000,EUR,Albania Albania,https://yach
 apolloduck,830928,Lagoon 46,,14.50,2020,575000,USD,Panama,https://yachts.apolloduck.com/boat/lagoon-46-for-sale/830928
 apolloduck,830924,Robertson And Caine Leopard 40,,11.89,2020,299000,EUR,Uturoa French Polynesia,https://yachts.apolloduck.com/boat/robertson-and-caine-leopard-40-for-sale/830924
 apolloduck,822749,Sadler 29,,8.67,1981,11000,GBP,River Itchen UK,https://yachts.apolloduck.com/boat/sadler-29-for-sale/822749
-apolloduck,809961,Cheverton 40,,13.70,1984,129500,GBP,"Lochgilphead, Argyll and Bute UK",https://yachts.apolloduck.com/boat/cheverton-40-for-sale/809961
+apolloduck,809961,Cheverton 40,,13.70,1984,94500,GBP,"Lochgilphead, Argyll and Bute UK",https://yachts.apolloduck.com/boat/cheverton-40-for-sale/809961
 apolloduck,817398,Beneteau First 32S5,,9.90,1990,26500,EUR,Lorient France,https://yachts.apolloduck.com/boat/beneteau-first-32s5-for-sale/817398
 apolloduck,822771,Beneteau Oceanis 321,,9.96,1999,45995,USD,St.Lucia Saint Lucia,https://yachts.apolloduck.com/boat/beneteau-oceanis-321-for-sale/822771
 apolloduck,809981,Moody 336,,10.21,1990,34500,GBP,"Rhu, Argyll and Bute UK",https://yachts.apolloduck.com/boat/moody-336-for-sale/809981
@@ -1643,7 +1749,6 @@ apolloduck,833765,Aventura Catamarans 37,,10.93,2022,239000,EUR,Spain,https://ya
 apolloduck,833326,Dufour Dufour 460,,13.85,2018,168000,EUR,Croatia,https://yachts.apolloduck.com/boat/dufour-dufour-460-for-sale/833326
 apolloduck,833212,Jeanneau Sun Odyssey 440,,13.39,2024,278000,EUR,Croatia,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-440-for-sale/833212
 apolloduck,841468,Hunter Boats Hb31,,9.25,1984,35000,GBP,Blyth UK,https://yachts.apolloduck.com/boat/hunter-boats-hb31-for-sale/841468
-apolloduck,834420,Westerly Merlin,,8.25,1985,9995,GBP,Essex UK,https://yachts.apolloduck.com/boat/westerly-merlin-for-sale/834420
 apolloduck,834421,Beneteau First 210,,6.40,1997,8250,GBP,Port Navas UK,https://yachts.apolloduck.com/boat/beneteau-first-210-for-sale/834421
 apolloduck,809871,Excess 14,,13.72,2024,539000,EUR,Cruising Croatia Croatia,https://yachts.apolloduck.com/boat/excess-14-for-sale/809871
 apolloduck,834437,Westerly Ocean 33,,10.06,1998,39950,GBP,Chichester Marina UK,https://yachts.apolloduck.com/boat/westerly-ocean-33-for-sale/834437
@@ -1731,8 +1836,8 @@ apolloduck,834365,Westerly W33,,10.14,1979,14950,GBP,Ipswich UK,https://yachts.a
 apolloduck,834361,Tamarisk 24,,7.32,1982,12500,GBP,Ipswich UK,https://yachts.apolloduck.com/boat/tamarisk-24-for-sale/834361
 apolloduck,834362,Colvic Ufo 34,,10.16,1976,10995,GBP,Ipswich UK,https://yachts.apolloduck.com/boat/colvic-ufo-34-for-sale/834362
 apolloduck,798668,Hallberg Rassy 31,,9.40,1979,19995,GBP,Portsmouth UK,https://yachts.apolloduck.com/boat/hallberg-rassy-31-for-sale/798668
-apolloduck,834371,Beneteau Oceanis 34,,10.34,2010,67500,GBP,Ipswich UK,https://yachts.apolloduck.com/boat/beneteau-oceanis-34-for-sale/834371
 apolloduck,784630,Hunter Marine 326,,9.75,2002,39900,USD,Green Cove Springs USA,https://yachts.apolloduck.com/boat/hunter-marine-326-for-sale/784630
+apolloduck,834371,Beneteau Oceanis 34,,10.34,2010,67500,GBP,Ipswich UK,https://yachts.apolloduck.com/boat/beneteau-oceanis-34-for-sale/834371
 apolloduck,834370,Beneteau Oceanis 34 1,,10.77,2026,255000,GBP,Ipswich UK,https://yachts.apolloduck.com/boat/beneteau-oceanis-34-1-for-sale/834370
 apolloduck,826551,Sailing Yachts Cruising Yacht,,13.76,1967,119500,EUR,Contact De Valk Thuishaven Netherlands,https://yachts.apolloduck.com/boat/sailing-yachts-cruising-yacht-for-sale/826551
 apolloduck,826548,David Thomas Challenge 67,,20.42,1991,350000,GBP,Lymington UK,https://yachts.apolloduck.com/boat/david-thomas-challenge-67-for-sale/826548
@@ -1811,8 +1916,8 @@ apolloduck,834259,Gib Sea 282,,8.41,1988,16500,GBP,Liverpool Marina UK,https://y
 apolloduck,838683,Sailing Yachts Cruising Yacht,,15.00,2008,79000,EUR,Alghero Italy,https://yachts.apolloduck.com/boat/sailing-yachts-cruising-yacht-for-sale/838683
 apolloduck,809331,Lagoon 46,,13.99,2023,675000,EUR,Mallorca Spain,https://yachts.apolloduck.com/boat/lagoon-46-for-sale/809331
 apolloduck,809329,Lagoon 42,,12.80,2020,370000,EUR,Mallorca Spain,https://yachts.apolloduck.com/boat/lagoon-42-for-sale/809329
-apolloduck,836057,Beneteau Oceanis 343,,10.82,2006,52500,GBP,Windermere UK,https://yachts.apolloduck.com/boat/beneteau-oceanis-343-for-sale/836057
 apolloduck,836064,Westerly Oceanquest,,10.67,1999,42500,GBP,UK,https://yachts.apolloduck.com/boat/westerly-oceanquest-for-sale/836064
+apolloduck,836057,Beneteau Oceanis 343,,10.82,2006,52500,GBP,Windermere UK,https://yachts.apolloduck.com/boat/beneteau-oceanis-343-for-sale/836057
 apolloduck,833111,Soubise Plaisance Azuli F40,,11.40,1986,125000,GBP,Plymouth UK,https://yachts.apolloduck.com/boat/soubise-plaisance-azuli-f40-for-sale/833111
 apolloduck,787377,Westerly Griffon,,7.92,1981,5950,GBP,Burnham Yacht Harbour UK,https://yachts.apolloduck.com/boat/westerly-griffon-for-sale/787377
 apolloduck,822583,Rm Yachts Rm 1350,,13.61,2012,183000,EUR,Portugal Portugal,https://yachts.apolloduck.com/boat/rm-yachts-rm-1350-for-sale/822583
@@ -2020,7 +2125,6 @@ apolloduck,767891,Moody 33 S,,10.06,1980,21995,GBP,Cardiff UK,https://yachts.apo
 apolloduck,837723,Nauticat 33,,10.08,1981,55000,GBP,"Gosport, Hampshire UK",https://yachts.apolloduck.com/boat/nauticat-33-for-sale/837723
 apolloduck,831407,Beneteau Oceanis 411,,12.50,1998,59950,GBP,Dartmouth on pontoon in river until April 2027 UK,https://yachts.apolloduck.com/boat/beneteau-oceanis-411-for-sale/831407
 apolloduck,837718,Pogo 40,,12.18,2007,185000,EUR,Contact De Valk Hindeloopen Netherlands,https://yachts.apolloduck.com/boat/pogo-40-for-sale/837718
-apolloduck,837717,Swan 42,,12.80,1985,99500,EUR,Contact De Valk Palma Spain,https://yachts.apolloduck.com/boat/swan-42-for-sale/837717
 apolloduck,826250,Wauquiez Centurion 32,,9.75,1972,9000,GBP,Falmouth UK,https://yachts.apolloduck.com/boat/wauquiez-centurion-32-for-sale/826250
 apolloduck,779288,Halmatic Talisman 50,,15.24,1985,99950,GBP,Essex UK,https://yachts.apolloduck.com/boat/halmatic-talisman-50-for-sale/779288
 apolloduck,821305,Colvic Watson 28,,8.53,1980,,,UK,https://yachts.apolloduck.com/boat/colvic-watson-28-for-sale/821305
@@ -2130,7 +2234,7 @@ apolloduck,841035,Swan 38,,11.66,1975,69950,GBP,"Portland, Dorset UK",https://ya
 apolloduck,841033,International 505,,9.14,2005,56000,GBP,Southampton UK,https://yachts.apolloduck.com/boat/international-505-for-sale/841033
 apolloduck,841032,Jeanneau Sun Dream 28,,8.84,1988,10995,GBP,Largs UK,https://yachts.apolloduck.com/boat/jeanneau-sun-dream-28-for-sale/841032
 apolloduck,833912,Beneteau Oceanis 411,,12.50,2003,99500,EUR,Barcelona Spain,https://yachts.apolloduck.com/boat/beneteau-oceanis-411-for-sale/833912
-apolloduck,833890,Lagoon 39,,11.74,2017,254500,EUR,Contact De Valk Multihull France,https://yachts.apolloduck.com/boat/lagoon-39-for-sale/833890
+apolloduck,833890,Lagoon 39,,11.74,2017,235000,EUR,Contact De Valk Multihull France,https://yachts.apolloduck.com/boat/lagoon-39-for-sale/833890
 apolloduck,833897,Beneteau First 285,,8.30,1989,13000,GBP,Suffolk Yacht Harbour UK,https://yachts.apolloduck.com/boat/beneteau-first-285-for-sale/833897
 apolloduck,833914,Westerly Centaur,,7.62,1975,5250,GBP,"Gillingham Marina, Kent UK",https://yachts.apolloduck.com/boat/westerly-centaur-for-sale/833914
 apolloduck,832618,Jeanneau Sun Odyssey 37,,10.95,2006,70000,EUR,Greece,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-37-for-sale/832618
@@ -2322,7 +2426,6 @@ apolloduck,829977,Lagoon 42,,12.80,2020,449000,EUR,Greystones Ireland,https://ya
 apolloduck,816596,Hallberg Rassy 312 Mkii,,9.40,1988,45900,EUR,Contact De Valk Kiel Germany,https://yachts.apolloduck.com/boat/hallberg-rassy-312-mkii-for-sale/816596
 apolloduck,816604,Sailing Yachts Gulet,,31.09,2009,1800000,EUR,Bodrum Turkey,https://yachts.apolloduck.com/boat/sailing-yachts-gulet-for-sale/816604
 apolloduck,807415,Seal 28,,8.23,1982,2000,GBP,Exeter UK,https://yachts.apolloduck.com/boat/seal-28-for-sale/807415
-apolloduck,840874,Caravela 22,,6.71,1986,3000,GBP,"Haslar Marina, Gosport UK",https://yachts.apolloduck.com/boat/caravela-22-for-sale/840874
 apolloduck,778511,Bavaria Yachts 36 Cruiser,,11.30,2003,60000,GBP,Samos Greece,https://yachts.apolloduck.com/boat/bavaria-yachts-36-cruiser-for-sale/778511
 apolloduck,796461,Westerly Tempest,,9.14,1988,17500,GBP,North Wales UK,https://yachts.apolloduck.com/boat/westerly-tempest-for-sale/796461
 apolloduck,778510,Elizabethan 29,,8.80,1964,2700,GBP,Brightlingsea UK,https://yachts.apolloduck.com/boat/elizabethan-29-for-sale/778510
@@ -2477,7 +2580,6 @@ apolloduck,822024,Hanse 370,,10.97,2008,89000,EUR,Barcelona Spain,https://yachts
 apolloduck,840696,Westerly J24,,5.00,1980,1000,GBP,Plymouth UK,https://yachts.apolloduck.com/boat/westerly-j24-for-sale/840696
 apolloduck,807272,Sailing Yachts Cruising Yacht,,9.60,1985,35000,EUR,Spain,https://yachts.apolloduck.com/boat/sailing-yachts-cruising-yacht-for-sale/807272
 apolloduck,820920,Sailing Yachts Day Sailer,,5.79,,3500,GBP,Poole UK,https://yachts.apolloduck.com/boat/sailing-yachts-day-sailer-for-sale/820920
-apolloduck,760984,Cornish Crabbers Shrimper 19,,7.00,2012,24995,GBP,UK,https://yachts.apolloduck.com/boat/cornish-crabbers-shrimper-19-for-sale/760984
 apolloduck,838623,Achilles 24,,7.32,1974,2900,GBP,Restronguet Creek UK,https://yachts.apolloduck.com/boat/achilles-24-for-sale/838623
 apolloduck,830340,Robert Tucker Sarum 28,,9.00,1977,11500,GBP,Swale Marina UK,https://yachts.apolloduck.com/boat/robert-tucker-sarum-28-for-sale/830340
 apolloduck,829758,Lagoon 450 F,,13.96,2019,535000,EUR,Greece,https://yachts.apolloduck.com/boat/lagoon-450-f-for-sale/829758
@@ -2550,23 +2652,18 @@ apolloduck,756205,Omega 28,,8.53,1979,7500,GBP,Dover UK,https://yachts.apolloduc
 apolloduck,807153,Lagoon 450 F,,13.96,2019,420000,EUR,Contact De Valk Dalmatia Croatia,https://yachts.apolloduck.com/boat/lagoon-450-f-for-sale/807153
 apolloduck,837251,Jeanneau Sun Odyssey 40,,12.19,2001,69995,GBP,Hayling Island UK,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-40-for-sale/837251
 apolloduck,816226,Halcyon 27,,8.23,1975,9950,GBP,Plymouth UK,https://yachts.apolloduck.com/boat/halcyon-27-for-sale/816226
-apolloduck,801552,Westerly Gk29,,8.89,1979,9750,EUR,Crosshaven Ireland,https://yachts.apolloduck.com/boat/westerly-gk29-for-sale/801552
 apolloduck,837246,Robber 3E,,7.50,1977,2500,GBP,UK,https://yachts.apolloduck.com/boat/robber-3e-for-sale/837246
 apolloduck,749572,Jeanneau Yacht 55,,16.76,2025,696866,GBP,Les Herbiers France,https://yachts.apolloduck.com/boat/jeanneau-yacht-55-for-sale/749572
 apolloduck,766278,Sailing Yachts Racing Yacht,,11.28,1939,206000,EUR,Antibes France,https://yachts.apolloduck.com/boat/sailing-yachts-racing-yacht-for-sale/766278
 apolloduck,766277,Sailing Yachts Racing Yacht,,10.97,1931,182780,EUR,Antibes France,https://yachts.apolloduck.com/boat/sailing-yachts-racing-yacht-for-sale/766277
-apolloduck,840613,Hunter Boats Pilot 27,,8.23,1999,17500,GBP,UK,https://yachts.apolloduck.com/boat/hunter-boats-pilot-27-for-sale/840613
 apolloduck,840620,Westerly Merlin,,8.53,1985,13500,GBP,UK,https://yachts.apolloduck.com/boat/westerly-merlin-for-sale/840620
 apolloduck,829058,Bavaria Yachts 42 Cruiser,,12.80,2006,84750,EUR,Lefkas Greece,https://yachts.apolloduck.com/boat/bavaria-yachts-42-cruiser-for-sale/829058
 apolloduck,616743,Moody 38 Cc,,11.28,1992,99750,GBP,UK,https://yachts.apolloduck.com/boat/moody-38-cc-for-sale/616743
 apolloduck,837233,Beneteau Oceanis 36 Cc,,11.10,2002,52000,EUR,LEROS Greece,https://yachts.apolloduck.com/boat/beneteau-oceanis-36-cc-for-sale/837233
 apolloduck,755770,Jeanneau Sun Odyssey 490,,14.42,2023,259000,EUR,Croatia,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-490-for-sale/755770
-apolloduck,833802,Kadey Krogen 38,,11.65,1986,45000,GBP,"Aktio, Preveza Greece",https://yachts.apolloduck.com/boat/kadey-krogen-38-for-sale/833802
 apolloduck,766214,Bavaria Yachts 38 Cruiser,,12.30,2003,65000,EUR,MARMARIS Turkey,https://yachts.apolloduck.com/boat/bavaria-yachts-38-cruiser-for-sale/766214
 apolloduck,766213,Sailing Yachts Racing Yacht,,8.84,1938,16500,EUR,"Kinsale, Cork Ireland",https://yachts.apolloduck.com/boat/sailing-yachts-racing-yacht-for-sale/766213
 apolloduck,837573,Hanse 470,,14.33,2010,195000,EUR,Lefkas Greece,https://yachts.apolloduck.com/boat/hanse-470-for-sale/837573
-apolloduck,840542,Hunter Boats Pilot 27,,9.00,1999,17500,GBP,UK,https://yachts.apolloduck.com/boat/hunter-boats-pilot-27-for-sale/840542
-apolloduck,840608,Cornish Crabbers Crabber 24,,8.60,2018,48500,GBP,Torquay UK,https://yachts.apolloduck.com/boat/cornish-crabbers-crabber-24-for-sale/840608
 apolloduck,645792,Bavaria Yachts 36 Cruiser,,11.28,2002,39950,GBP,Corfu Greece,https://yachts.apolloduck.com/boat/bavaria-yachts-36-cruiser-for-sale/645792
 apolloduck,725979,Westerly Cirrus,,6.70,1972,4250,GBP,Arisaig UK,https://yachts.apolloduck.com/boat/westerly-cirrus-for-sale/725979
 apolloduck,837223,Trident Marine Voyager 38,,11.58,1984,34950,GBP,"Bangor, Down UK",https://yachts.apolloduck.com/boat/trident-marine-voyager-38-for-sale/837223
@@ -2575,25 +2672,18 @@ apolloduck,837215,Bianca 107,,10.70,1987,69800,EUR,Contact De Valk Hamburg Germa
 apolloduck,840601,Beneteau Oceanis 40 1,,12.87,2023,260000,EUR,Greece,https://yachts.apolloduck.com/boat/beneteau-oceanis-40-1-for-sale/840601
 apolloduck,837214,Salona 40,,11.99,2006,95000,EUR,Contact De Valk Istria Croatia,https://yachts.apolloduck.com/boat/salona-40-for-sale/837214
 apolloduck,777601,Hanse 470E,,14.19,2008,218000,EUR,Contact De Valk Hamburg Germany,https://yachts.apolloduck.com/boat/hanse-470e-for-sale/777601
-apolloduck,835295,Bavaria Yachts 44 Cruiser,,13.60,2003,64950,GBP,Greece,https://yachts.apolloduck.com/boat/bavaria-yachts-44-cruiser-for-sale/835295
 apolloduck,833406,Oyster Yachts 41,,11.89,1983,47500,GBP,Dartmouth UK,https://yachts.apolloduck.com/boat/oyster-yachts-41-for-sale/833406
 apolloduck,833402,Jeanneau Sun Odyssey 349,,10.06,2015,99000,EUR,"Crosshaven, Cork Ireland",https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-349-for-sale/833402
 apolloduck,833401,Halmatic 30,,8.99,1988,14995,GBP,Conwy Marina UK,https://yachts.apolloduck.com/boat/halmatic-30-for-sale/833401
-apolloduck,817538,Sigma 33 Ood,,10.06,1979,9500,GBP,UK,https://yachts.apolloduck.com/boat/sigma-33-ood-for-sale/817538
 apolloduck,833399,Bavaria Yachts 40 Cruiser,,12.23,2001,72000,EUR,Portugal Portugal,https://yachts.apolloduck.com/boat/bavaria-yachts-40-cruiser-for-sale/833399
 apolloduck,777554,Banjer 37,,11.14,1970,69500,EUR,Elburg Netherlands,https://yachts.apolloduck.com/boat/banjer-37-for-sale/777554
-apolloduck,833011,Wing 25,,7.62,1965,4500,GBP,ashore Musselburgh UK,https://yachts.apolloduck.com/boat/wing-25-for-sale/833011
-apolloduck,830306,Woods Banshee,,10.65,1989,34000,GBP,"Vlycho, Lefkada Greece",https://yachts.apolloduck.com/boat/woods-banshee-for-sale/830306
 apolloduck,816167,Hunter Marine Legend 380,,11.18,2006,99500,EUR,Contact De Valk Antibes Italy,https://yachts.apolloduck.com/boat/hunter-marine-legend-380-for-sale/816167
 apolloduck,816168,Elan,,14.10,2022,349900,EUR,Contact De Valk Istria Croatia,https://yachts.apolloduck.com/boat/elan-for-sale/816168
 apolloduck,829573,Hunter Marine 36,,10.97,2006,49995,USD,St.Lucia Saint Lucia,https://yachts.apolloduck.com/boat/hunter-marine-36-for-sale/829573
-apolloduck,790314,Beneteau Oceanis 390,,11.68,1988,38000,EUR,Aegean Greece,https://yachts.apolloduck.com/boat/beneteau-oceanis-390-for-sale/790314
 apolloduck,829572,Vancouver 34,,10.40,2004,69995,GBP,Gosport UK,https://yachts.apolloduck.com/boat/vancouver-34-for-sale/829572
-apolloduck,840584,Macwester Malin,,9.75,1978,18000,GBP,Fosdyke UK,https://yachts.apolloduck.com/boat/macwester-malin-for-sale/840584
 apolloduck,840583,Sailing Yachts Classic Yacht,,18.80,1975,24900,EUR,Salaspils Latvia,https://yachts.apolloduck.com/boat/sailing-yachts-classic-yacht-for-sale/840583
 apolloduck,816175,Sigma 33,,9.91,1983,9000,GBP,Ardrossan UK,https://yachts.apolloduck.com/boat/sigma-33-for-sale/816175
 apolloduck,758508,Macwester 27,,7.69,1971,1500,GBP,LN11 7SN UK,https://yachts.apolloduck.com/boat/macwester-27-for-sale/758508
-apolloduck,835617,Colvic Watson 23,,7.01,,,,Chichester UK,https://yachts.apolloduck.com/boat/colvic-watson-23-for-sale/835617
 apolloduck,840578,Bavaria Yachts 40 Cruiser,,12.48,2001,64950,GBP,"Portland, Dorset UK",https://yachts.apolloduck.com/boat/bavaria-yachts-40-cruiser-for-sale/840578
 apolloduck,840581,Beneteau Oceanis 281,,8.70,1998,22500,GBP,"Portland, Dorset UK",https://yachts.apolloduck.com/boat/beneteau-oceanis-281-for-sale/840581
 apolloduck,840575,Bavaria Yachts 30 Cruiser,,9.50,2006,29950,GBP,"Weymouth, Dorset UK",https://yachts.apolloduck.com/boat/bavaria-yachts-30-cruiser-for-sale/840575
@@ -2605,8 +2695,6 @@ apolloduck,840564,Twister 28,,8.23,1964,27500,GBP,Troon Yacht Haven UK,https://y
 apolloduck,840563,Hunter Boats Impala,,8.56,1982,8500,GBP,"Bangor, Down UK",https://yachts.apolloduck.com/boat/hunter-boats-impala-for-sale/840563
 apolloduck,839608,Jeanneau Sun Odyssey 43,,13.21,2002,98000,EUR,Locmiquelic France,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-43-for-sale/839608
 apolloduck,833392,Hanse 418,,12.50,2022,199950,GBP,"Hamble-le-Rice, Hampshire UK",https://yachts.apolloduck.com/boat/hanse-418-for-sale/833392
-apolloduck,795274,Westerly Storm,,10.11,1986,9950,GBP,Newhaven UK,https://yachts.apolloduck.com/boat/westerly-storm-for-sale/795274
-apolloduck,837984,St Francis 50,,15.30,2009,675000,USD,Fiji Fiji,https://yachts.apolloduck.com/boat/st-francis-50-for-sale/837984
 apolloduck,818693,Beneteau Oceanis 373,,11.00,2005,79000,EUR,Greece,https://yachts.apolloduck.com/boat/beneteau-oceanis-373-for-sale/818693
 apolloduck,785688,Bali Catamarans Bali 4 2,,12.85,2024,479000,EUR,Croatia,https://yachts.apolloduck.com/boat/bali-catamarans-bali-4-2-for-sale/785688
 apolloduck,785687,Lagoon 42,,12.80,2024,449000,EUR,Croatia,https://yachts.apolloduck.com/boat/lagoon-42-for-sale/785687
@@ -2626,7 +2714,6 @@ apolloduck,815820,Bavaria Yachts 50 Cruiser,,15.40,2008,110000,EUR,Saronic Greec
 apolloduck,815870,Jeanneau Sun Odyssey 509,,15.38,2012,168000,EUR,Athens Greece,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-509-for-sale/815870
 apolloduck,816051,Alfamarine 51,,15.41,2004,145000,EUR,Chalkida Greece,https://yachts.apolloduck.com/boat/alfamarine-51-for-sale/816051
 apolloduck,816056,Beneteau Oceanis 51 1,,15.94,2023,488000,EUR,Athens Greece,https://yachts.apolloduck.com/boat/beneteau-oceanis-51-1-for-sale/816056
-apolloduck,835230,Moody 333,,10.00,1983,26750,GBP,Inverness UK,https://yachts.apolloduck.com/boat/moody-333-for-sale/835230
 apolloduck,815807,Beneteau Sense 50,,14.98,2014,260000,EUR,Lavrion Greece,https://yachts.apolloduck.com/boat/beneteau-sense-50-for-sale/815807
 apolloduck,815821,Bavaria Yachts C50,,14.99,2020,298000,EUR,Athens Greece,https://yachts.apolloduck.com/boat/bavaria-yachts-c50-for-sale/815821
 apolloduck,816052,Beneteau Oceanis 51 1,,15.94,2019,405000,EUR,Athens Greece,https://yachts.apolloduck.com/boat/beneteau-oceanis-51-1-for-sale/816052
@@ -2634,7 +2721,6 @@ apolloduck,815866,Beneteau Cyclades 50 5,,15.70,2008,127000,EUR,Salamina Greece,
 apolloduck,816053,Beneteau Oceanis 51 1,,14.97,2018,300000,EUR,Athens Greece,https://yachts.apolloduck.com/boat/beneteau-oceanis-51-1-for-sale/816053
 apolloduck,815812,Bavaria Yachts 50 Cruiser,,15.40,2006,112000,EUR,Athens Greece,https://yachts.apolloduck.com/boat/bavaria-yachts-50-cruiser-for-sale/815812
 apolloduck,794657,Fountaine Pajot Athena 38,,11.61,2005,,,Greece,https://yachts.apolloduck.com/boat/fountaine-pajot-athena-38-for-sale/794657
-apolloduck,840523,Jeanneau Sun 2000,,6.20,2002,8000,GBP,Crawley Down UK,https://yachts.apolloduck.com/boat/jeanneau-sun-2000-for-sale/840523
 apolloduck,503696,Bavaria Yachts 51 Cruiser,,15.59,2015,175000,EUR,"Middle Dalmatia, Croatia Croatia",https://yachts.apolloduck.com/boat/bavaria-yachts-51-cruiser-for-sale/503696
 apolloduck,689691,Sailing Yachts Cruising Yacht,,22.86,2012,595000,EUR,Greece UK,https://yachts.apolloduck.com/boat/sailing-yachts-cruising-yacht-for-sale/689691
 apolloduck,833365,Sailing Yachts Cruising Yacht,,5.79,,250,GBP,Kingswinford UK,https://yachts.apolloduck.com/boat/sailing-yachts-cruising-yacht-for-sale/833365
@@ -2654,7 +2740,6 @@ apolloduck,795089,Beneteau Oceanis 45,,13.94,2015,179995,GBP,"Pwllheli, WLS UK",
 apolloduck,816031,Beneteau Oceanis 60,,18.24,2016,495000,EUR,Palma de Mallorca Spain,https://yachts.apolloduck.com/boat/beneteau-oceanis-60-for-sale/816031
 apolloduck,833296,Beneteau Oceanis 311,,9.85,1999,33500,GBP,Essex UK,https://yachts.apolloduck.com/boat/beneteau-oceanis-311-for-sale/833296
 apolloduck,833313,Victoria Frances 26,,7.90,1988,14500,GBP,"Pwllheli, Gwynedd UK",https://yachts.apolloduck.com/boat/victoria-frances-26-for-sale/833313
-apolloduck,840351,1720,,9.00,,8000,EUR,Ireland,https://yachts.apolloduck.com/boat/1720-for-sale/840351
 apolloduck,837062,Sailing Yachts Cruising Yacht,,6.10,1984,7500,GBP,UK,https://yachts.apolloduck.com/boat/sailing-yachts-cruising-yacht-for-sale/837062
 apolloduck,833309,Cornish Crabbers Shrimper 19,,,2016,24950,GBP,"Boats.co.uk HQ, Essex Marina UK",https://yachts.apolloduck.com/boat/cornish-crabbers-shrimper-19-for-sale/833309
 apolloduck,795072,Victoire 1270,,12.70,2002,159000,EUR,Contact De Valk Monnickendam Netherlands,https://yachts.apolloduck.com/boat/victoire-1270-for-sale/795072
@@ -2679,7 +2764,6 @@ apolloduck,840471,Moody 41 Ds,,12.52,2022,618900,EUR,Contact De Valk Istria Ital
 apolloduck,829510,Jeanneau Sun Odyssey 440,,12.50,2020,155000,EUR,Piraeus Greece,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-440-for-sale/829510
 apolloduck,793999,Sailing Yachts Classic Yacht,,17.00,1992,,,Greece,https://yachts.apolloduck.com/boat/sailing-yachts-classic-yacht-for-sale/793999
 apolloduck,777122,Dehler 38 Cws,,11.58,1988,39995,GBP,Port Bannatyne UK,https://yachts.apolloduck.com/boat/dehler-38-cws-for-sale/777122
-apolloduck,840465,Jeanneau Sun Fast 32,,9.75,1999,28000,GBP,UK,https://yachts.apolloduck.com/boat/jeanneau-sun-fast-32-for-sale/840465
 apolloduck,838554,Shamrock 30,,9.14,1980,8500,EUR,Ireland,https://yachts.apolloduck.com/boat/shamrock-30-for-sale/838554
 apolloduck,824629,Catalina 320,,9.75,2006,69999,USD,Willis USA,https://yachts.apolloduck.com/boat/catalina-320-for-sale/824629
 apolloduck,837084,Hallberg Rassy 352,,10.54,1989,65000,GBP,James Watt Dock Marina UK,https://yachts.apolloduck.com/boat/hallberg-rassy-352-for-sale/837084
@@ -2804,14 +2888,12 @@ apolloduck,840343,Beneteau First 31 7,,9.61,2000,35500,GBP,"Weymouth, Dorset UK"
 apolloduck,840340,Beneteau First 31 7,,9.61,1999,32000,GBP,Ipswich UK,https://yachts.apolloduck.com/boat/beneteau-first-31-7-for-sale/840340
 apolloduck,840339,Frances 26,,7.92,1989,17000,GBP,Ipswich UK,https://yachts.apolloduck.com/boat/frances-26-for-sale/840339
 apolloduck,840336,Beneteau Oceanis 36 Cc,,10.97,1999,47500,GBP,"Victory Moorings, Chatham UK",https://yachts.apolloduck.com/boat/beneteau-oceanis-36-cc-for-sale/840336
-apolloduck,840321,Beneteau Oceanis 343,,10.82,2007,42900,GBP,Portsmouth UK,https://yachts.apolloduck.com/boat/beneteau-oceanis-343-for-sale/840321
 apolloduck,833136,Beneteau Oceanis 58,,18.24,2012,375000,EUR,Didim Turkey,https://yachts.apolloduck.com/boat/beneteau-oceanis-58-for-sale/833136
 apolloduck,833131,Sunbeam 44,,13.41,1996,115000,EUR,BODRUM Turkey,https://yachts.apolloduck.com/boat/sunbeam-44-for-sale/833131
 apolloduck,806346,Dehler 43Cws,,13.30,1992,105000,EUR,Portugal Portugal,https://yachts.apolloduck.com/boat/dehler-43cws-for-sale/806346
 apolloduck,815476,Bavaria Yachts 46 Cruiser,,14.27,2019,200000,EUR,Greece,https://yachts.apolloduck.com/boat/bavaria-yachts-46-cruiser-for-sale/815476
 apolloduck,815699,Beneteau Oceanis 37,,11.11,2008,86000,EUR,Lavrio Greece,https://yachts.apolloduck.com/boat/beneteau-oceanis-37-for-sale/815699
 apolloduck,815461,Beneteau Oceanis 46,,14.90,2011,110000,EUR,Athens Greece,https://yachts.apolloduck.com/boat/beneteau-oceanis-46-for-sale/815461
-apolloduck,829270,X Yachts X 412,,12.80,1991,59950,GBP,Ardfern UK,https://yachts.apolloduck.com/boat/x-yachts-x-412-for-sale/829270
 apolloduck,765247,Royal Huisman,,15.90,1978,53500,EUR,Isle of Wight UK,https://yachts.apolloduck.com/boat/royal-huisman-for-sale/765247
 apolloduck,815356,Jeanneau Sun Odyssey 45,,13.75,2008,157000,EUR,Greece,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-45-for-sale/815356
 apolloduck,829268,Jeanneau Sun Odyssey 409,,12.34,2011,105000,EUR,Greece,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-409-for-sale/829268
@@ -2858,7 +2940,7 @@ apolloduck,815478,Meta 58,,17.68,1998,225000,USD,Rebak Marina Langkawi Malaysia,
 apolloduck,715418,Atlanta 25,,7.85,,5500,GBP,Cardiff UK,https://yachts.apolloduck.com/boat/atlanta-25-for-sale/715418
 apolloduck,832766,Sailing Yachts Classic Yacht,,5.49,1905,7750,GBP,STRANGFORD LOUGH NORTHERN IRELAND UK,https://yachts.apolloduck.com/boat/sailing-yachts-classic-yacht-for-sale/832766
 apolloduck,829213,Excess 11,,11.33,2024,310000,EUR,Marseille Greece,https://yachts.apolloduck.com/boat/excess-11-for-sale/829213
-apolloduck,824928,Moody Eclipse 33,,9.91,1989,42000,GBP,Birdham Pool Marina UK,https://yachts.apolloduck.com/boat/moody-eclipse-33-for-sale/824928
+apolloduck,824928,Moody Eclipse 33,,9.91,1989,36000,GBP,Birdham Pool Marina UK,https://yachts.apolloduck.com/boat/moody-eclipse-33-for-sale/824928
 apolloduck,821513,Beneteau First 45F5,,14.20,1990,45000,EUR,Greece,https://yachts.apolloduck.com/boat/beneteau-first-45f5-for-sale/821513
 apolloduck,806118,Hallberg Rassy 48,,14.49,2011,580000,EUR,MARMARIS Turkey,https://yachts.apolloduck.com/boat/hallberg-rassy-48-for-sale/806118
 apolloduck,806090,Elan Impression 43,,13.51,2023,230000,EUR,Contact De Valk Dalmatia Croatia,https://yachts.apolloduck.com/boat/elan-impression-43-for-sale/806090
@@ -2883,7 +2965,7 @@ apolloduck,805990,Hanse 531,,16.15,2004,190000,EUR,Dun Laoghaire Ireland,https:/
 apolloduck,748656,Nab 32,,9.70,1976,35000,EUR,Contact De Valk Corfu Greece,https://yachts.apolloduck.com/boat/nab-32-for-sale/748656
 apolloduck,785167,Jeanneau Sun Odyssey 440,,13.39,2019,180000,EUR,Contact De Valk Almeria Spain,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-440-for-sale/785167
 apolloduck,833044,Jeanneau Sun Odyssey 37,,10.88,2000,55000,GBP,Marmaris Turkey,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-37-for-sale/833044
-apolloduck,829047,Moody 38 Cc,,11.43,1996,79950,GBP,Gillingham UK,https://yachts.apolloduck.com/boat/moody-38-cc-for-sale/829047
+apolloduck,829047,Moody 38 Cc,,11.43,1996,69950,GBP,Gillingham UK,https://yachts.apolloduck.com/boat/moody-38-cc-for-sale/829047
 apolloduck,836082,Victoria 26,,8.00,1985,18000,EUR,Arrangement Ireland,https://yachts.apolloduck.com/boat/victoria-26-for-sale/836082
 apolloduck,833037,Sailing Yachts Catamaran,,12.10,2027,449615,EUR,Greystones Ireland,https://yachts.apolloduck.com/boat/sailing-yachts-catamaran-for-sale/833037
 apolloduck,765114,Sailing Yachts Classic Yacht,,16.65,1946,395000,EUR,Sønderborg Denmark,https://yachts.apolloduck.com/boat/sailing-yachts-classic-yacht-for-sale/765114
@@ -2900,9 +2982,9 @@ apolloduck,815525,Lagoon 440,,13.61,2007,310000,EUR,"Olbia, Sardinia Italy",http
 apolloduck,815524,Jeanneau 60,,18.26,2021,800000,EUR,Athens Greece,https://yachts.apolloduck.com/boat/jeanneau-60-for-sale/815524
 apolloduck,815541,Bavaria Yachts 32 Cruiser,,10.06,2004,39500,EUR,Preveza Greece,https://yachts.apolloduck.com/boat/bavaria-yachts-32-cruiser-for-sale/815541
 apolloduck,815526,Lagoon 55,,16.56,2023,1600000,EUR,Oren Turkey,https://yachts.apolloduck.com/boat/lagoon-55-for-sale/815526
-apolloduck,840273,Mirage Mirage 28,,8.64,1980,9000,GBP,"Portland, Dorset UK",https://yachts.apolloduck.com/boat/mirage-mirage-28-for-sale/840273
+apolloduck,840273,Mirage Mirage 28,,8.64,1980,5995,GBP,"Portland, Dorset UK",https://yachts.apolloduck.com/boat/mirage-mirage-28-for-sale/840273
 apolloduck,840275,Franchini 43 L,,13.20,2001,69950,GBP,"Portland, Dorset UK",https://yachts.apolloduck.com/boat/franchini-43-l-for-sale/840275
-apolloduck,840272,Beneteau Oceanis 331,,10.34,2000,52500,GBP,"Christchurch, Dorset UK",https://yachts.apolloduck.com/boat/beneteau-oceanis-331-for-sale/840272
+apolloduck,840272,Beneteau Oceanis 331,,10.34,2000,49950,GBP,"Christchurch, Dorset UK",https://yachts.apolloduck.com/boat/beneteau-oceanis-331-for-sale/840272
 apolloduck,840271,Hunter Marine Legend 336,,10.21,1995,29995,GBP,Poole Yacht Club UK,https://yachts.apolloduck.com/boat/hunter-marine-legend-336-for-sale/840271
 apolloduck,804210,Bavaria Yachts 38 Cruiser,,12.19,2003,74500,EUR,"Crosshaven, Cork Ireland",https://yachts.apolloduck.com/boat/bavaria-yachts-38-cruiser-for-sale/804210
 apolloduck,840264,Moody 31,,9.37,1984,23995,GBP,Hartlepool UK,https://yachts.apolloduck.com/boat/moody-31-for-sale/840264
@@ -2977,7 +3059,6 @@ apolloduck,815362,Gozzard 36,,12.80,1999,139000,EUR,"Leros, Greece Greece",https
 apolloduck,829029,Contessa 32,,9.75,1972,21000,GBP,Itchenor UK,https://yachts.apolloduck.com/boat/contessa-32-for-sale/829029
 apolloduck,754683,Pearson 33,,9.91,1986,24950,GBP,Plymouth UK,https://yachts.apolloduck.com/boat/pearson-33-for-sale/754683
 apolloduck,825232,Lagoon 42,,12.80,2017,469000,EUR,Contact De Valk Thuishaven Greece,https://yachts.apolloduck.com/boat/lagoon-42-for-sale/825232
-apolloduck,840186,Beneteau Oceanis 343,,10.82,2007,35000,GBP,Ipswich UK,https://yachts.apolloduck.com/boat/beneteau-oceanis-343-for-sale/840186
 apolloduck,840185,Hanse 458,,13.41,2021,260000,EUR,Izmir Yeni Foca Turkey,https://yachts.apolloduck.com/boat/hanse-458-for-sale/840185
 apolloduck,840183,Sunreef 70,,21.34,2024,5578283,EUR,Split Croatia,https://yachts.apolloduck.com/boat/sunreef-70-for-sale/840183
 apolloduck,840184,Malo 39,,12.19,2000,199000,EUR,"Crosshaven, Cork Ireland",https://yachts.apolloduck.com/boat/malo-39-for-sale/840184
@@ -3027,7 +3108,7 @@ apolloduck,784931,Lagoon 40,,11.73,2024,698000,EUR,Tortola British Virgin Island
 apolloduck,775921,Bavaria Yachts 37 Cruiser,,11.30,2013,98000,EUR,Contact De Valk Thuishaven Netherlands,https://yachts.apolloduck.com/boat/bavaria-yachts-37-cruiser-for-sale/775921
 apolloduck,784937,Fountaine Pajot Astrea 42,,12.58,2019,419000,EUR,Contact De Valk Multihull Spain,https://yachts.apolloduck.com/boat/fountaine-pajot-astrea-42-for-sale/784937
 apolloduck,784936,Fountaine Pajot Astrea 42,,12.58,2019,419000,EUR,Contact De Valk Almeria Spain,https://yachts.apolloduck.com/boat/fountaine-pajot-astrea-42-for-sale/784936
-apolloduck,836728,Beneteau First 32S5,,9.90,1990,26500,GBP,Ardrossan UK,https://yachts.apolloduck.com/boat/beneteau-first-32s5-for-sale/836728
+apolloduck,836728,Beneteau First 32S5,,9.90,1990,10000,GBP,Ardrossan UK,https://yachts.apolloduck.com/boat/beneteau-first-32s5-for-sale/836728
 apolloduck,836725,Beneteau First 35 7,,10.54,1994,36000,GBP,Ipswich UK,https://yachts.apolloduck.com/boat/beneteau-first-35-7-for-sale/836725
 apolloduck,836724,Vancouver 27,,8.23,1982,19950,GBP,Hamble UK,https://yachts.apolloduck.com/boat/vancouver-27-for-sale/836724
 apolloduck,768407,Jaguar 27,,8.18,1982,9250,GBP,Poole UK,https://yachts.apolloduck.com/boat/jaguar-27-for-sale/768407
@@ -3240,7 +3321,7 @@ apolloduck,814677,Downeaster 38,,12.80,1977,24995,GBP,Newcastle upon Tyne UK,htt
 apolloduck,814684,Sailing Yachts Day Sailer,,4.80,1930,8500,GBP,Wareham UK,https://yachts.apolloduck.com/boat/sailing-yachts-day-sailer-for-sale/814684
 apolloduck,814686,Gib Sea 43,,13.01,2001,69995,GBP,Ardrossan UK,https://yachts.apolloduck.com/boat/gib-sea-43-for-sale/814686
 apolloduck,821116,Buehler,,13.11,1989,,,"REBAK MARINA, LANGKAWI Malaysia",https://yachts.apolloduck.com/boat/buehler-for-sale/821116
-apolloduck,821113,Beneteau First 44,,14.15,2022,349000,EUR,Contact De Valk Dalmatia Croatia,https://yachts.apolloduck.com/boat/beneteau-first-44-for-sale/821113
+apolloduck,821113,Beneteau First 44,,14.15,2022,330000,EUR,Contact De Valk Dalmatia Croatia,https://yachts.apolloduck.com/boat/beneteau-first-44-for-sale/821113
 apolloduck,821112,Beneteau First 53,,17.16,2020,449000,EUR,Contact De Valk Dalmatia Croatia,https://yachts.apolloduck.com/boat/beneteau-first-53-for-sale/821112
 apolloduck,836450,Zuanelli 34,,10.36,1983,35000,EUR,Samos Greece,https://yachts.apolloduck.com/boat/zuanelli-34-for-sale/836450
 apolloduck,839854,Cornish Crabbers Crabber 24,,8.99,1978,17500,GBP,West Dereham UK,https://yachts.apolloduck.com/boat/cornish-crabbers-crabber-24-for-sale/839854
@@ -3315,89 +3396,6 @@ apolloduck,719952,Sailing Yachts Gulet,,31.00,1992,549000,EUR,Contact De Valk Hi
 apolloduck,813901,Sealine,,14.63,2012,329950,GBP,"Chertsey, ENG UK",https://yachts.apolloduck.com/boat/sealine-for-sale/813901
 apolloduck,824558,Privilege 495,,14.94,2007,449000,USD,Malaysia,https://yachts.apolloduck.com/boat/privilege-495-for-sale/824558
 apolloduck,836332,Westerly Oceanquest,,10.81,1998,49750,GBP,Ardrossan UK,https://yachts.apolloduck.com/boat/westerly-oceanquest-for-sale/836332
-apolloduck,828477,Jeanneau Sun Odyssey 409,,12.34,2011,135000,EUR,Greece,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-409-for-sale/828477
-apolloduck,804389,Yamaha 33,,10.06,1981,12500,GBP,STRANGFORD LOUGH NORTHERN IRELAND UK,https://yachts.apolloduck.com/boat/yamaha-33-for-sale/804389
-apolloduck,832507,Hallberg Rassy 33 Mistral,,10.18,1976,6000,GBP,West Coast scotland UK,https://yachts.apolloduck.com/boat/hallberg-rassy-33-mistral-for-sale/832507
-apolloduck,832506,Westerly Fulmar,,9.75,1989,24500,GBP,Clyde UK,https://yachts.apolloduck.com/boat/westerly-fulmar-for-sale/832506
-apolloduck,813494,Bavaria Yachts C46,,14.91,,443255,GBP,"Southampton, Hampshire UK",https://yachts.apolloduck.com/boat/bavaria-yachts-c46-for-sale/813494
-apolloduck,813861,Giles,,11.58,1974,89000,GBP,WicorMarine Yacht Haven UK,https://yachts.apolloduck.com/boat/giles-for-sale/813861
-apolloduck,792418,Albin Singoalla,,10.36,1971,9995,GBP,"Chatham, River Medway UK",https://yachts.apolloduck.com/boat/albin-singoalla-for-sale/792418
-apolloduck,792424,Jeanneau Sun Odyssey 380,,11.58,2025,233855,GBP,Jeanneau factory France,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-380-for-sale/792424
-apolloduck,792428,Beneteau First 30,,8.84,1980,9995,GBP,"Medway Yacht Club, Kent UK",https://yachts.apolloduck.com/boat/beneteau-first-30-for-sale/792428
-apolloduck,832548,Beneteau First 35,,10.78,1981,9950,GBP,"Portsmouth, Hampshire UK",https://yachts.apolloduck.com/boat/beneteau-first-35-for-sale/832548
-apolloduck,832547,Bavaria Yachts 42 Vision,,12.80,2013,225000,EUR,Club Nautico Calpe Spain,https://yachts.apolloduck.com/boat/bavaria-yachts-42-vision-for-sale/832547
-apolloduck,832546,Elan 333,,10.48,2000,59000,EUR,Malahide Ireland,https://yachts.apolloduck.com/boat/elan-333-for-sale/832546
-apolloduck,804283,Elan Impression 434,,13.41,2006,129000,EUR,Contact De Valk Hindeloopen Greece,https://yachts.apolloduck.com/boat/elan-impression-434-for-sale/804283
-apolloduck,804284,Contest 45Cs,,13.70,2011,469000,EUR,Contact De Valk Hindeloopen Netherlands,https://yachts.apolloduck.com/boat/contest-45cs-for-sale/804284
-apolloduck,804282,Contest 43,,13.40,1992,164000,EUR,Contact De Valk Hamburg Greece,https://yachts.apolloduck.com/boat/contest-43-for-sale/804282
-apolloduck,688215,Sailing Yachts Cruising Yacht,,18.29,1980,395000,EUR,"Crosshaven, Cork Ireland",https://yachts.apolloduck.com/boat/sailing-yachts-cruising-yacht-for-sale/688215
-apolloduck,813824,Dockrell 27,,8.23,1990,5000,GBP,West Coast Scotland UK,https://yachts.apolloduck.com/boat/dockrell-27-for-sale/813824
-apolloduck,824547,Bruce Roberts Mauritius,,13.60,1976,29000,GBP,Newcastle upon Tyne UK,https://yachts.apolloduck.com/boat/bruce-roberts-mauritius-for-sale/824547
-apolloduck,792447,Hanse 400,,11.89,2011,115000,EUR,Westport Ireland,https://yachts.apolloduck.com/boat/hanse-400-for-sale/792447
-apolloduck,813832,Lagoon 42,,12.80,2019,410000,EUR,Contact De Valk Dalmatia Croatia,https://yachts.apolloduck.com/boat/lagoon-42-for-sale/813832
-apolloduck,813831,Lagoon 40,,11.74,2024,385000,EUR,Contact De Valk Multihull Croatia,https://yachts.apolloduck.com/boat/lagoon-40-for-sale/813831
-apolloduck,836319,Robertson And Caine Leopard 45,,13.72,2020,630000,EUR,Contact De Valk Multihull Greece,https://yachts.apolloduck.com/boat/robertson-and-caine-leopard-45-for-sale/836319
-apolloduck,792462,Sailing Yachts Cruising Yacht,,6.10,2005,9995,GBP,Swansea Marina UK,https://yachts.apolloduck.com/boat/sailing-yachts-cruising-yacht-for-sale/792462
-apolloduck,836318,Hallberg Rassy 36,,11.31,2003,169000,EUR,Contact De Valk Monnickendam Netherlands,https://yachts.apolloduck.com/boat/hallberg-rassy-36-for-sale/836318
-apolloduck,836315,Robertson And Caine Leopard 50,,15.24,2022,685000,USD,Saint Lucia,https://yachts.apolloduck.com/boat/robertson-and-caine-leopard-50-for-sale/836315
-apolloduck,792453,Lagoon 450,,13.72,2014,469000,EUR,Preveza Greece,https://yachts.apolloduck.com/boat/lagoon-450-for-sale/792453
-apolloduck,792458,Bavaria Yachts C57,,16.46,2020,399000,EUR,Corfu Greece,https://yachts.apolloduck.com/boat/bavaria-yachts-c57-for-sale/792458
-apolloduck,828452,Jeanneau Yacht 64,,20.20,2016,750000,GBP,"Lower Swanwick, Hampshire UK",https://yachts.apolloduck.com/boat/jeanneau-yacht-64-for-sale/828452
-apolloduck,832538,Beneteau Oceanis 423,,13.11,2006,69995,GBP,"Dover Marina, Kent UK",https://yachts.apolloduck.com/boat/beneteau-oceanis-423-for-sale/832538
-apolloduck,832532,Dufour 38 Classic,,11.64,1998,58000,EUR,Algarve Portugal,https://yachts.apolloduck.com/boat/dufour-38-classic-for-sale/832532
-apolloduck,832530,Beneteau First 285,,8.50,1989,16950,GBP,Suffolk Yacht Harbour UK,https://yachts.apolloduck.com/boat/beneteau-first-285-for-sale/832530
-apolloduck,832513,Elan 333,,10.48,2000,59000,EUR,Malahide Ireland,https://yachts.apolloduck.com/boat/elan-333-for-sale/832513
-apolloduck,832512,Robertson And Caine Leopard 43,,12.80,2027,580834,EUR,Saint-Raphaël France,https://yachts.apolloduck.com/boat/robertson-and-caine-leopard-43-for-sale/832512
-apolloduck,820912,Sunreef 60 Loft,,18.29,2016,1950000,USD,"REBAK MARINA, LANGKAWI Malaysia",https://yachts.apolloduck.com/boat/sunreef-60-loft-for-sale/820912
-apolloduck,813833,Lagoon 42,,12.80,2019,410000,EUR,Contact De Valk Multihull Croatia,https://yachts.apolloduck.com/boat/lagoon-42-for-sale/813833
-apolloduck,813834,Elan Impression 50,,15.20,2018,210000,EUR,Contact De Valk Dalmatia Croatia,https://yachts.apolloduck.com/boat/elan-impression-50-for-sale/813834
-apolloduck,813830,Lagoon 40,,11.74,2024,385000,EUR,Contact De Valk Dalmatia Croatia,https://yachts.apolloduck.com/boat/lagoon-40-for-sale/813830
-apolloduck,820909,Sailing Yachts Classic Yacht,,14.41,2002,395000,USD,Falmouth Antigua And Barbuda,https://yachts.apolloduck.com/boat/sailing-yachts-classic-yacht-for-sale/820909
-apolloduck,784197,Westerly Windrush,,7.62,1968,2500,GBP,Bangor Ireland,https://yachts.apolloduck.com/boat/westerly-windrush-for-sale/784197
-apolloduck,839797,Kingfisher 26,,7.92,1972,3850,GBP,Ipswich UK,https://yachts.apolloduck.com/boat/kingfisher-26-for-sale/839797
-apolloduck,839788,Beneteau Oceanis 34 1,,10.67,2022,149999,GBP,Gosport UK,https://yachts.apolloduck.com/boat/beneteau-oceanis-34-1-for-sale/839788
-apolloduck,839793,Fisher 25,,7.69,1978,15950,GBP,Darthaven Marina UK,https://yachts.apolloduck.com/boat/fisher-25-for-sale/839793
-apolloduck,839785,Delphia 47,,14.48,2010,132000,GBP,Penarth Marina UK,https://yachts.apolloduck.com/boat/delphia-47-for-sale/839785
-apolloduck,753898,Catalina 34,,10.36,1989,30000,EUR,Preveza Greece,https://yachts.apolloduck.com/boat/catalina-34-for-sale/753898
-apolloduck,804196,Belliure 41,,12.00,1990,95000,EUR,Contact De Valk Barcelona Spain,https://yachts.apolloduck.com/boat/belliure-41-for-sale/804196
-apolloduck,804197,Hanse 531,,16.15,2003,179000,EUR,Contact De Valk A Coruña Spain,https://yachts.apolloduck.com/boat/hanse-531-for-sale/804197
-apolloduck,820855,Jeanneau Sun Odyssey 42I,,12.85,2010,114500,EUR,Menorca Spain,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-42i-for-sale/820855
-apolloduck,774253,Dehler 38,,11.80,1989,28400,GBP,North Yorkshire UK,https://yachts.apolloduck.com/boat/dehler-38-for-sale/774253
-apolloduck,828427,Jeanneau Sun Odyssey 50 Ds,,14.94,2009,157500,EUR,Kas Turkey,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-50-ds-for-sale/828427
-apolloduck,702630,Beneteau First 405,,12.40,1988,40000,EUR,Contact De Valk Corfu Greece,https://yachts.apolloduck.com/boat/beneteau-first-405-for-sale/702630
-apolloduck,820853,Sedna Yachts 26,,7.62,2018,29999,GBP,Keyhaven UK,https://yachts.apolloduck.com/boat/sedna-yachts-26-for-sale/820853
-apolloduck,820847,Contessa 32,,9.75,1977,24000,GBP,Suffolk Yacht Harbour UK,https://yachts.apolloduck.com/boat/contessa-32-for-sale/820847
-apolloduck,820852,Bavaria Yachts 30 Cruiser,,9.45,2005,34995,GBP,Hartlepool UK,https://yachts.apolloduck.com/boat/bavaria-yachts-30-cruiser-for-sale/820852
-apolloduck,657420,Cheverton 28,,8.53,1959,6950,GBP,"Pin Mill, nr. Ipswich UK",https://yachts.apolloduck.com/boat/cheverton-28-for-sale/657420
-apolloduck,784141,Jeanneau Sun Odyssey 490,,14.08,2019,260000,EUR,Contact De Valk Almeria Spain,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-490-for-sale/784141
-apolloduck,836281,Jeanneau Tonic 23,,7.32,1990,5995,GBP,Derwent Water Marina UK,https://yachts.apolloduck.com/boat/jeanneau-tonic-23-for-sale/836281
-apolloduck,836284,Norfolk Oyster,,4.88,1992,5950,GBP,"rougham ,Bury St Edmunds UK",https://yachts.apolloduck.com/boat/norfolk-oyster-for-sale/836284
-apolloduck,828305,Alpa 42,,12.80,1978,69950,EUR,Lefkas / Nidri Greece,https://yachts.apolloduck.com/boat/alpa-42-for-sale/828305
-apolloduck,804090,Wauquiez Amphitrite 43,,13.11,1983,85000,EUR,Preveza Greece,https://yachts.apolloduck.com/boat/wauquiez-amphitrite-43-for-sale/804090
-apolloduck,804089,Beneteau Oceanis 393,,11.89,2001,74500,EUR,Preveza Greece,https://yachts.apolloduck.com/boat/beneteau-oceanis-393-for-sale/804089
-apolloduck,804075,Beneteau Oceanis 40 1,,12.43,2021,175000,EUR,Contact De Valk Dalmatia Croatia,https://yachts.apolloduck.com/boat/beneteau-oceanis-40-1-for-sale/804075
-apolloduck,774158,Wauquiez 60Ps,,18.10,1992,450000,USD,Port Saint-Louis du Rhone in France Saint Lucia,https://yachts.apolloduck.com/boat/wauquiez-60ps-for-sale/774158
-apolloduck,813726,Sailing Yachts Classic Yacht,,12.12,1937,53500,EUR,Contact De Valk Hindeloopen France,https://yachts.apolloduck.com/boat/sailing-yachts-classic-yacht-for-sale/813726
-apolloduck,828398,Moody 346,,10.36,1988,34995,GBP,UK,https://yachts.apolloduck.com/boat/moody-346-for-sale/828398
-apolloduck,730286,Nicholson 303,,9.20,1979,9500,GBP,CO. ANTRIM AFLOAT UK,https://yachts.apolloduck.com/boat/nicholson-303-for-sale/730286
-apolloduck,832463,Jeanneau 54,,16.16,2019,290000,EUR,Greece,https://yachts.apolloduck.com/boat/jeanneau-54-for-sale/832463
-apolloduck,832456,Egeyat,,13.41,2013,230000,EUR,"Leros, Greece Greece",https://yachts.apolloduck.com/boat/egeyat-for-sale/832456
-apolloduck,803998,Westerly Seahawk,,10.06,1988,35000,GBP,Troon Yacht Haven UK,https://yachts.apolloduck.com/boat/westerly-seahawk-for-sale/803998
-apolloduck,803999,Oyster Yachts 42,,12.80,1985,45000,GBP,Troon Yacht Haven UK,https://yachts.apolloduck.com/boat/oyster-yachts-42-for-sale/803999
-apolloduck,824454,Beneteau Oceanis 323,,10.00,2005,39950,GBP,South Coast UK,https://yachts.apolloduck.com/boat/beneteau-oceanis-323-for-sale/824454
-apolloduck,804004,Jeanneau Espace 1000,,10.06,1981,32500,GBP,Troon Yacht Haven UK,https://yachts.apolloduck.com/boat/jeanneau-espace-1000-for-sale/804004
-apolloduck,804006,Jeanneau Sun Odyssey 49 Ds,,14.94,2005,148000,GBP,Troon Yacht Haven UK,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-49-ds-for-sale/804006
-apolloduck,804009,Nauticat 33,,10.06,1982,58500,GBP,Troon Yacht Haven UK,https://yachts.apolloduck.com/boat/nauticat-33-for-sale/804009
-apolloduck,836269,Hunter Marine Legend 31,,9.40,2006,32950,GBP,"Poole, Dorset UK",https://yachts.apolloduck.com/boat/hunter-marine-legend-31-for-sale/836269
-apolloduck,836268,Vancouver 34,,10.44,1992,54950,GBP,"Ardglass, Down UK",https://yachts.apolloduck.com/boat/vancouver-34-for-sale/836268
-apolloduck,836266,Sigma 33,,9.91,1983,10000,GBP,Blyth UK,https://yachts.apolloduck.com/boat/sigma-33-for-sale/836266
-apolloduck,804020,Dehler 43Cws,,13.11,1993,72000,GBP,Troon Yacht Haven UK,https://yachts.apolloduck.com/boat/dehler-43cws-for-sale/804020
-apolloduck,784111,Colvic Ufo 31,,9.41,1981,9500,GBP,Poole UK,https://yachts.apolloduck.com/boat/colvic-ufo-31-for-sale/784111
-apolloduck,784103,Jeanneau Sun Odyssey 350,,10.40,2025,249900,EUR,Dún Laoghaire Ireland,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-350-for-sale/784103
-apolloduck,820771,Lagoon 560,,17.07,2017,1200000,EUR,Portugal Portugal,https://yachts.apolloduck.com/boat/lagoon-560-for-sale/820771
-apolloduck,820768,Robertson And Caine Leopard 40,,12.19,2016,349900,USD,St George Grenada,https://yachts.apolloduck.com/boat/robertson-and-caine-leopard-40-for-sale/820768
-apolloduck,828338,Character Boats Coastal Whammel,,6.47,1998,5950,GBP,"Neyland, Pembrokeshire UK",https://yachts.apolloduck.com/boat/character-boats-coastal-whammel-for-sale/828338
-apolloduck,784094,Jeanneau Sun Odyssey 490,,14.80,2019,260000,EUR,Contact De Valk Almeria Spain,https://yachts.apolloduck.com/boat/jeanneau-sun-odyssey-490-for-sale/784094
 apolloduck,823704,Morgan Yachts 452,,13.72,1978,39900,USD,Lottsburg USA,https://yachts.apolloduck.com/boat/morgan-yachts-452-for-sale/823704
 apolloduck,812665,Bristol 41 1,,12.50,1984,64900,USD,Corpus Christi USA,https://yachts.apolloduck.com/boat/bristol-41-1-for-sale/812665
 apolloduck,796629,Morgan Yachts 42,,12.80,1971,19999,USD,Honolulu USA,https://yachts.apolloduck.com/boat/morgan-yachts-42-for-sale/796629
